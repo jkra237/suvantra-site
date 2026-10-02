@@ -1,0 +1,377 @@
+# Suvantra — Vorlage fuer Uebersetzungen.
+# Erzeugt von werkzeuge/website/uebersetzung-bauen.js. Nicht von Hand aendern.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Suvantra\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:17
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:18
+msgid "This address does not exist."
+msgstr ""
+
+#: 404.php:20
+msgid "Back to the home page"
+msgstr ""
+
+#: functions.php:66
+msgid "Ink"
+msgstr ""
+
+#: functions.php:67
+msgid "Ink, quieter"
+msgstr ""
+
+#: functions.php:68
+msgid "Paper"
+msgstr ""
+
+#: functions.php:69
+msgid "Ground"
+msgstr ""
+
+#: functions.php:70
+msgid "Rule"
+msgstr ""
+
+#: functions.php:71 inc/design.php:83
+msgid "Company accent"
+msgstr ""
+
+#: functions.php:72 inc/design.php:92
+msgid "PureQuill accent"
+msgstr ""
+
+#: functions.php:95
+msgid "root"
+msgstr ""
+
+#: functions.php:97
+msgid "Main navigation — %1$s (%2$s)"
+msgstr ""
+
+#: functions.php:99
+msgid "Footer — %1$s (%2$s)"
+msgstr ""
+
+#: header.php:58
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "The settings of this theme. The links in the header and footer come from the menus under Appearance → Menus."
+msgstr ""
+
+#: inc/customizer.php:104
+msgid "Brand"
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Logo, site icon (the mark in the browser tab) and header image. WordPress otherwise spreads these three over two other sections; they sit together here because they are set together. They are the same settings, with the same cropper."
+msgstr ""
+
+#: inc/customizer.php:126
+msgid "Show header image"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Without an uploaded image nothing happens here — the pages then look exactly as they do now."
+msgstr ""
+
+#: inc/customizer.php:131
+msgid "On all pages"
+msgstr ""
+
+#: inc/customizer.php:132
+msgid "On the front pages only"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Product"
+msgstr ""
+
+#: inc/customizer.php:142
+msgid "Applies to every product page in every language. The page content uses the placeholders %STORE_URL% and %DOWNLOAD_URL% for them."
+msgstr ""
+
+#: inc/customizer.php:151
+msgid "Microsoft Store address"
+msgstr ""
+
+#: inc/customizer.php:152
+msgid "Once the app is published. While the field is empty the button leads nowhere."
+msgstr ""
+
+#: inc/customizer.php:164
+msgid "Direct download address"
+msgstr ""
+
+#: inc/customizer.php:165
+msgid "The installer alongside the Store. Placeholder in the page content: %DOWNLOAD_URL%."
+msgstr ""
+
+#: inc/customizer.php:174
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:177
+msgid "The logo is in the Brand section. The links come from the \"Main navigation\" menu of each language."
+msgstr ""
+
+#: inc/customizer.php:186
+msgid "Arrangement"
+msgstr ""
+
+#: inc/customizer.php:187
+msgid "Where the brand, the navigation and the language switch sit. On narrow devices the bar wraps anyway — every arrangement looks the same there."
+msgstr ""
+
+#: inc/customizer.php:191
+msgid "Brand left, navigation right"
+msgstr ""
+
+#: inc/customizer.php:192
+msgid "Brand left, navigation next to it"
+msgstr ""
+
+#: inc/customizer.php:193
+msgid "Brand centred, navigation below"
+msgstr ""
+
+#: inc/customizer.php:194
+msgid "Navigation left, brand right"
+msgstr ""
+
+#: inc/customizer.php:204
+msgid "Keep the header bar in view"
+msgstr ""
+
+#: inc/customizer.php:205
+msgid "It stays at the top while scrolling, slightly translucent. Off means it scrolls away with the content. On long legal texts keeping it is kinder, because the way back stays within reach."
+msgstr ""
+
+#: inc/customizer.php:216
+msgid "Header bar height"
+msgstr ""
+
+#: inc/customizer.php:217
+msgid "In pixels, 66 by default. Does not apply to the centred arrangement — that one follows its contents — nor to narrow devices."
+msgstr ""
+
+#: inc/customizer.php:229
+msgid "Rule below the header bar"
+msgstr ""
+
+#: inc/customizer.php:230
+msgid "Without it the sticky bar blurs into the content below as soon as both share a colour."
+msgstr ""
+
+#: inc/customizer.php:241
+msgid "Show the language switch"
+msgstr ""
+
+#: inc/customizer.php:242
+msgid "It points at the counterpart of the current page, not merely at the other front page. From three languages on it turns into a list by itself."
+msgstr ""
+
+#: inc/customizer.php:250
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:253
+msgid "Further links do not belong here but in the \"Footer\" menu of each language — there they can be sorted, nested and pointed outwards. Privacy and imprint are appended by the theme should they be missing from the menu."
+msgstr ""
+
+#: inc/customizer.php:262
+msgid "Append privacy and imprint automatically"
+msgstr ""
+
+#: inc/customizer.php:263
+msgid "They are appended only when no menu item points at those addresses — the comparison is by address, not by label, so you may name them as you like in the menu. Switch this off and the footer shows nothing but the menu: convenient while arranging things, and your own responsibility afterwards, because an imprint has to stay reachable."
+msgstr ""
+
+#: inc/customizer.php:274
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer.php:275
+msgid "Columns are worth it from roughly five links onwards. The top level menu items then become column headings and their children the links below."
+msgstr ""
+
+#: inc/customizer.php:279
+msgid "One row (few links)"
+msgstr ""
+
+#: inc/customizer.php:280
+msgid "Columns (menu with sub-items)"
+msgstr ""
+
+#: inc/customizer.php:292
+msgid "Line on the left (%s)"
+msgstr ""
+
+#: inc/customizer.php:293
+msgid "%YEAR% is replaced by the current year."
+msgstr ""
+
+#: inc/customizer.php:305
+msgid "Closing note (%s)"
+msgstr ""
+
+#: inc/customizer.php:306
+msgid "A second, quieter line below. Leaving it empty hides it."
+msgstr ""
+
+#: inc/customizer.php:318
+msgid "Contact address in the footer"
+msgstr ""
+
+#: inc/customizer.php:319
+msgid "Emitted as a mailto link, with the characters obfuscated."
+msgstr ""
+
+#: inc/customizer.php:330
+msgid "Show the contact address"
+msgstr ""
+
+#: inc/customizer.php:354
+msgid "Design"
+msgstr ""
+
+#: inc/customizer.php:357
+msgid "Font size, measure and dark mode. The colours are in the two sections below."
+msgstr ""
+
+#: inc/customizer.php:366
+msgid "Base font size"
+msgstr ""
+
+#: inc/customizer.php:367
+msgid "In pixels, 17 by default. Headings and lead paragraphs are calculated from it; on narrow devices it stays one pixel smaller automatically."
+msgstr ""
+
+#: inc/customizer.php:379
+msgid "Maximum page width"
+msgstr ""
+
+#: inc/customizer.php:380
+msgid "In pixels, 1180 by default. Affects header, footer and the sections — not the text column itself, which stays at 66 characters because longer lines read worse."
+msgstr ""
+
+#: inc/customizer.php:392
+msgid "Ship a dark mode"
+msgstr ""
+
+#: inc/customizer.php:393
+msgid "The site follows the operating system setting. A program with seventeen colour schemes should not advertise on a site that knows only one — switching this off is meant for an emergency rather than for taste."
+msgstr ""
+
+#: inc/customizer.php:401
+msgid "Colours — light mode"
+msgstr ""
+
+#: inc/customizer.php:401
+msgid "The default. A value left unchanged emits nothing at all."
+msgstr ""
+
+#: inc/customizer.php:402
+msgid "Colours — dark mode"
+msgstr ""
+
+#: inc/customizer.php:402
+msgid "Applies when the operating system is set to dark. The same colours a shade lighter will not do — on a dark ground every colour reads stronger."
+msgstr ""
+
+#: inc/customizer.php:410
+msgid "The text on coloured surfaces is not chosen but calculated from WCAG luminance — so the button label stays legible whatever colour sits beneath it."
+msgstr ""
+
+#: inc/customizer.php:431
+msgid "Head metadata and share image"
+msgstr ""
+
+#: inc/customizer.php:434
+msgid "canonical, hreflang and the Open Graph tags come from the theme, because only it recognises the language from the path. Title and description of individual pages live in the editor: the title as the page title, the description in the \"Excerpt\" field."
+msgstr ""
+
+#: inc/customizer.php:443
+msgid "Emit head metadata from the theme"
+msgstr ""
+
+#: inc/customizer.php:444
+msgid "Switch off only if the job should go back to a plugin. While the box is ticked the matching Yoast output is suppressed so that nothing sits in the head twice."
+msgstr ""
+
+#: inc/customizer.php:457
+msgid "Default description (%s)"
+msgstr ""
+
+#: inc/customizer.php:458
+msgid "Only for pages without an excerpt of their own. About 150 characters."
+msgstr ""
+
+#: inc/customizer.php:470
+msgid "Share image (%s)"
+msgstr ""
+
+#: inc/customizer.php:471
+msgid "1200×630. A fallback only — the page's featured image counts first, then the matching file in /assets/."
+msgstr ""
+
+#: inc/design.php:40
+msgid "Base surface"
+msgstr ""
+
+#: inc/design.php:41
+msgid "The background of the whole page."
+msgstr ""
+
+#: inc/design.php:47
+msgid "Offset surface"
+msgstr ""
+
+#: inc/design.php:48
+msgid "Whole sections and the footer lift off the page with it. The difference to the base surface may be small — it should not stand out, only divide."
+msgstr ""
+
+#: inc/design.php:54
+msgid "Button surface"
+msgstr ""
+
+#: inc/design.php:55
+msgid "The second, quiet button. The first one carries the accent."
+msgstr ""
+
+#: inc/design.php:61
+msgid "Text"
+msgstr ""
+
+#: inc/design.php:68
+msgid "Text, quieter"
+msgstr ""
+
+#: inc/design.php:69
+msgid "Lead paragraphs, captions, the footer."
+msgstr ""
+
+#: inc/design.php:75
+msgid "Lines and borders"
+msgstr ""
+
+#: inc/design.php:84
+msgid "First button, brand mark, focus ring. On a dark ground the same colour has to be lighter or it disappears."
+msgstr ""
+
+#: inc/design.php:93
+msgid "Applies to every page under /purequill/ and its translations."
+msgstr ""
+
+#: template-parts/footer-columns.php:45
+msgid "Legal"
+msgstr ""

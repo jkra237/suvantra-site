@@ -1,0 +1,55 @@
+<!-- wp:paragraph {"className":"klein"} -->
+<p class="klein">German law requires a provider identification (§ 5 DDG). The German version is the legally binding one — this page is a courtesy translation. <a href="/de/impressum/">Zur deutschen Fassung</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<!-- Dieselben Angaben wie in /impressum.html eintragen. Siehe die Kommentare dort. -->
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Provider</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Suvantra<br> &lt;owner’s full name, or company name with legal form&gt;<br> &lt;street and number&gt;<br> &lt;postcode and town&gt;<br> Germany</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Contact</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>E-mail: <a href="mailto:support@suvantra.eu">support@suvantra.eu</a><br> Phone: &lt;optional, but a second fast channel is required&gt;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">VAT</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>VAT identification number under § 27a UStG:<br> &lt;DE… — or remove this section if there is none&gt;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Responsible for the content</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>&lt;full name&gt;, address as above</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Dispute resolution</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The European Commission provides a platform for online dispute resolution: <a href="https://ec.europa.eu/consumers/odr/" rel="noopener">ec.europa.eu/consumers/odr</a>. We are neither willing nor obliged to take part in dispute resolution proceedings before a consumer arbitration board.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Liability for links</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>These pages link in a few places to external websites over whose content we have no influence. The respective provider is always responsible for them. At the time of linking, no legal violations were apparent.</p>
+<!-- /wp:paragraph -->

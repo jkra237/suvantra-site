@@ -1,0 +1,400 @@
+================================================================
+PureQuill Writer — Store-Texte, Feld für Feld
+Stand 2026-09-13 · Quelle: Brandkit.dc.html, ergänzt
+================================================================
+
+Partner Center: Produkt › Store-Angebot › <Sprache>
+Die sieben Sprachen einzeln anlegen, jeweils dieselben Felder.
+
+Feldgrenzen (Partner Center):
+  Beschreibung        max. 10.000 Zeichen   Pflicht
+  Kurzbeschreibung    max.  1.000 Zeichen   optional, erscheint in der Suche
+  Produktfeatures     max. 20 Stück, je 200 Zeichen
+  Suchbegriffe        max.  7 Stück, je 30 Zeichen, zusammen max. 21 Wörter
+  Neuigkeiten         max. 1.500 Zeichen
+
+Alles unten liegt innerhalb der Grenzen (nachgemessen).
+
+================================================================
+GILT FÜR ALLE SPRACHEN GLEICH
+================================================================
+
+Kategorie                Produktivität
+Unterkategorie           Notizen & Textverarbeitung
+Märkte                   alle
+Produktsprachen          de-DE, en-US, fr-FR, es-ES, it-IT, pl-PL, pt-BR
+Preis                    <noch festzulegen: Einmalkauf oder kostenlos>
+
+Support-Kontakt          support@suvantra.eu
+Website                  https://suvantra.eu/
+Lizenzbedingungen        leer lassen → es gelten die Standard-Store-Bedingungen
+Copyright                © 2026 Thomas Jan Krajniewski, Suvantra
+
+Datenschutz-URL          deutsch:  https://suvantra.eu/purequill/datenschutz/
+                         alle übrigen Sprachen: https://suvantra.eu/en/purequill/privacy/
+
+Fragebogen zur Datenerhebung
+  → „Keine Erhebung personenbezogener Daten" ankreuzen.
+  Kein Konto, keine Anmeldung, keine Telemetrie, keine Absturzberichte,
+  kein Tracking, keine Werbekennung. Die einzige Netzverbindung ist der
+  einmalige Abruf des deutschen Wörterbuchs von suvantra.eu; dabei geht
+  wie bei jedem Seitenaufruf die IP-Adresse an den Server, sonst nichts.
+  Das ist keine Datenerhebung im Sinn des Fragebogens, steht aber in der
+  Datenschutzerklärung — deshalb ist es unten in jeder Sprache im
+  Beschreibungstext ausdrücklich benannt.
+
+Altersfreigabe (IARC)
+  Keine Gewalt, keine Käufe in der App, keine Nutzerkommunikation,
+  keine Standort- oder Datenweitergabe → in der Regel USK 0 / PEGI 3.
+
+Barrierefreiheit
+  Häkchen „getestet" erst setzen, nachdem du mit Sprachausgabe und
+  200 % Skalierung geprüft hast.
+
+
+################################################################
+DEUTSCH  (de-DE)
+################################################################
+
+--- Beschreibung ----------------------------------------------
+
+Ein Schreibprogramm, das offline arbeitet. Der Text bleibt auf dem Rechner, gesichert wird laufend und mit Versionsverlauf. Dazu die Werkzeuge, die beim Schreiben wirklich helfen: Schreibziel, Wortwiederholungen, Rechtschreibprüfung, Wortzählung, Textbereinigung und eine handschriftliche Signatur.
+
+Für alle, die lange Texte schreiben: Roman, Abschlussarbeit, Bericht, Tagebuch. Ältere Stände bleiben im Versionsverlauf erhalten, und gespeichert wird in Dateien, die du selbst behältst — kein Konto, keine Anmeldung, kein Abo.
+
+Hinweis: Sechs Wörterbücher liegen im Programm. Das deutsche wird aus Lizenzgründen beim ersten Aufruf einmalig von suvantra.eu geladen und bleibt danach auf dem Rechner.
+
+Diese Fassung von PureQuill Writer ist kostenlos und bleibt kostenlos. Kein Testzeitraum, kein Ablaufdatum, keine Funktion hinter einer Bezahlschranke.
+
+Wenn sie dir hilft, helfen uns zwei Dinge zurück: eine Bewertung hier im Store und ein Hinweis an jemanden, der schreibt. Eine kostenpflichtige Pro-Fassung ist als eigenes Programm geplant — diese hier bleibt, wie sie ist. Suvantra findest du unter suvantra.eu.
+
+--- Kurzbeschreibung ------------------------------------------
+
+Ein Schreibprogramm, das offline arbeitet: dein Text bleibt auf dem Rechner, wird laufend gesichert und behält seinen Versionsverlauf.
+
+--- Produktfeatures (je eine Zeile) ---------------------------
+
+Vollständig offline — kein Konto, keine Cloud, kein Abo
+Autosave mit Zwischenständen und Versionsverlauf
+Schreibziel, Wortzählung und Wortwiederholungen in einer Leiste
+Rechtschreibprüfung mit eigenem Wörterbuch: Deutsch, Englisch, Französisch, Spanisch, Italienisch, Polnisch, Portugiesisch
+Oberfläche und Hilfe vollständig in denselben sieben Sprachen
+Notizzettel und Glossar neben dem Text, jeweils eigene Ansicht
+Text bereinigen: doppelte Leerzeichen, leere Absätze, Zeilenenden
+Siebzehn Farbschemata, Fokusmodus, Leseansicht, Druckvorschau
+Öffnen: DOCX, ODT, RTF, HTML, Markdown, Text
+Speichern als: DOCX, EPUB, PDF, HTML, Markdown, Text
+
+--- Suchbegriffe ----------------------------------------------
+
+Schreibprogramm
+Textverarbeitung offline
+Autor Software
+Wortzählung
+Wortwiederholungen
+Rechtschreibprüfung
+Manuskript
+
+--- Neuigkeiten in dieser Version (1.0.0) ---------------------
+
+Erste Veröffentlichung im Microsoft Store. Schreibziel und Wortwiederholungen in einer Leiste, Rechtschreibprüfung in sieben Sprachen (Deutsch, Englisch, Französisch, Spanisch, Italienisch, Polnisch, Portugiesisch), Oberfläche und Hilfe in denselben sieben, siebzehn Farbschemata, Öffnen von DOCX, ODT, RTF, HTML, Markdown und Text, Speichern als DOCX, EPUB, PDF, HTML, Markdown und Text.
+
+--- Bildschirmfotos -------------------------------------------
+
+brand/store/screenshot-1-schreibansicht.png
+brand/store/screenshot-2-wortwiederholungen.png
+brand/store/screenshot-3-farbschemata.png
+brand/store/screenshot-4-rechtschreibpruefung.png
+(1366×768, deutsche Oberfläche)
+
+
+################################################################
+ENGLISH  (en-US)
+################################################################
+
+--- Description -----------------------------------------------
+
+A word processor that works offline. Your text stays on your machine, saved continuously and with a version history. Plus the tools writing actually needs: word goal, repeated words, spell check, word count, text clean-up and a handwritten signature.
+
+For anyone writing at length: a novel, a thesis, a report, a journal. Earlier states stay in the version history, and everything is stored in files you keep — no account, no sign-in, no subscription.
+
+Note: six dictionaries ship with the app. The German one is downloaded once from suvantra.eu on first use, for licensing reasons, and stays on your machine afterwards.
+
+This version of PureQuill Writer is free, and it stays free. No trial period, no expiry, no feature held back behind a payment.
+
+If it helps you, two things help us back: a review here in the Store, and telling someone who writes. A paid Pro edition is planned as a separate app — this one stays as it is. Suvantra is at suvantra.eu.
+
+--- Short description -----------------------------------------
+
+A word processor that works offline: your text stays on your machine, saved continuously, with a full version history.
+
+--- Product features ------------------------------------------
+
+Fully offline — no account, no cloud, no subscription
+Autosave with checkpoints and version history
+Word goal, word count and repeated words in one panel
+Spell check with its own dictionaries: English, German, French, Spanish, Italian, Polish, Portuguese
+Interface and help fully translated into the same seven languages
+Sticky notes and a glossary beside the text, each in its own view
+Text clean-up: double spaces, empty paragraphs, line endings
+Seventeen colour schemes, focus mode, reading view, print preview
+Open: DOCX, ODT, RTF, HTML, Markdown, text
+Save as: DOCX, EPUB, PDF, HTML, Markdown, text
+
+--- Search terms ----------------------------------------------
+
+word processor
+offline writing app
+distraction free writer
+word count
+repeated words
+spell check
+manuscript
+
+--- What's new in this version (1.0.0) ------------------------
+
+First release on the Microsoft Store. Word goal and repeated words in one panel, spell check in seven languages (English, German, French, Spanish, Italian, Polish, Portuguese), interface and help in the same seven, seventeen colour schemes, opens DOCX, ODT, RTF, HTML, Markdown and text, saves as DOCX, EPUB, PDF, HTML, Markdown and text.
+
+--- Screenshots -----------------------------------------------
+
+en-US/ — dieselben vier Motive, englische Oberfläche, 1366×768
+
+
+################################################################
+FRANÇAIS  (fr-FR)
+################################################################
+
+--- Description -----------------------------------------------
+
+Un traitement de texte qui fonctionne hors ligne. Votre texte reste sur votre ordinateur, enregistré en continu et avec un historique des versions. Et les outils dont l'écriture a vraiment besoin : objectif d'écriture, répétitions, correction orthographique, comptage des mots, nettoyage du texte et une signature manuscrite.
+
+Pour celles et ceux qui écrivent longuement : un roman, un mémoire, un rapport, un journal. Les états antérieurs restent dans l'historique des versions, et tout est conservé dans des fichiers qui vous appartiennent — pas de compte, pas de connexion, pas d'abonnement.
+
+Remarque : six dictionnaires sont fournis avec l'application. Pour des raisons de licence, le dictionnaire allemand est téléchargé une seule fois depuis suvantra.eu lors de la première utilisation, puis il reste sur votre ordinateur.
+
+Cette version de PureQuill Writer est gratuite et le restera. Pas de période d'essai, pas de date d'expiration, aucune fonction réservée à un paiement.
+
+Si elle vous est utile, deux choses nous aident en retour : un avis ici dans le Store, et un mot à quelqu'un qui écrit. Une édition Pro payante est prévue sous forme d'application distincte — celle-ci reste telle quelle. Suvantra se trouve sur suvantra.eu.
+
+--- Description courte ----------------------------------------
+
+Un traitement de texte qui fonctionne hors ligne : votre texte reste sur votre ordinateur, enregistré en continu, avec un historique des versions.
+
+--- Fonctionnalités -------------------------------------------
+
+Entièrement hors ligne — pas de compte, pas de cloud, pas d'abonnement
+Enregistrement automatique avec points de reprise et historique des versions
+Objectif d'écriture, comptage des mots et répétitions dans un même panneau
+Correction orthographique avec ses propres dictionnaires : français, allemand, anglais, espagnol, italien, polonais, portugais
+Interface et aide entièrement traduites dans ces sept langues
+Pense-bêtes et glossaire à côté du texte, chacun dans sa propre vue
+Nettoyage du texte : doubles espaces, paragraphes vides, fins de ligne
+Dix-sept thèmes de couleurs, mode focus, vue lecture, aperçu avant impression
+Ouvrir : DOCX, ODT, RTF, HTML, Markdown, texte
+Enregistrer sous : DOCX, EPUB, PDF, HTML, Markdown, texte
+
+--- Termes de recherche ---------------------------------------
+
+traitement de texte
+écriture hors ligne
+compteur de mots
+répétitions
+correcteur orthographique
+manuscrit
+écrivain
+
+--- Nouveautés de cette version (1.0.0) -----------------------
+
+Première version publiée sur le Microsoft Store. Objectif d'écriture et répétitions dans un même panneau, correction orthographique en sept langues (français, allemand, anglais, espagnol, italien, polonais, portugais), interface et aide dans ces mêmes sept langues, dix-sept thèmes de couleurs, ouverture de DOCX, ODT, RTF, HTML, Markdown et texte, enregistrement en DOCX, EPUB, PDF, HTML, Markdown et texte.
+
+
+################################################################
+ESPAÑOL  (es-ES)
+################################################################
+
+--- Descripción -----------------------------------------------
+
+Un procesador de textos que funciona sin conexión. El texto se queda en tu equipo, con guardado continuo e historial de versiones. Y las herramientas que la escritura necesita de verdad: objetivo de escritura, repeticiones, corrección ortográfica, recuento de palabras, limpieza de texto y una firma manuscrita.
+
+Para quien escribe textos largos: una novela, un trabajo de fin de carrera, un informe, un diario. Los estados anteriores permanecen en el historial de versiones y todo queda en archivos que son tuyos: sin cuenta, sin registro, sin suscripción.
+
+Nota: seis diccionarios vienen incluidos en la aplicación. El alemán se descarga una sola vez desde suvantra.eu en el primer uso, por motivos de licencia, y después permanece en tu equipo.
+
+Esta versión de PureQuill Writer es gratuita y seguirá siéndolo. Sin periodo de prueba, sin fecha de caducidad, sin funciones detrás de un pago.
+
+Si te resulta útil, dos cosas nos ayudan a nosotros: una reseña aquí en la Store y contárselo a alguien que escriba. Está prevista una edición Pro de pago como aplicación aparte; esta se queda tal cual. Suvantra está en suvantra.eu.
+
+--- Descripción corta -----------------------------------------
+
+Un procesador de textos que funciona sin conexión: el texto se queda en tu equipo, con guardado continuo e historial de versiones.
+
+--- Características -------------------------------------------
+
+Totalmente sin conexión: sin cuenta, sin nube, sin suscripción
+Guardado automático con puntos de restauración e historial de versiones
+Objetivo de escritura, recuento de palabras y repeticiones en un mismo panel
+Corrección ortográfica con diccionarios propios: español, alemán, inglés, francés, italiano, polaco, portugués
+Interfaz y ayuda traducidas por completo a esos siete idiomas
+Notas adhesivas y glosario junto al texto, cada uno en su propia vista
+Limpieza de texto: espacios dobles, párrafos vacíos, saltos de línea
+Diecisiete esquemas de color, modo de concentración, vista de lectura, vista previa de impresión
+Abrir: DOCX, ODT, RTF, HTML, Markdown, texto
+Guardar como: DOCX, EPUB, PDF, HTML, Markdown, texto
+
+--- Términos de búsqueda --------------------------------------
+
+procesador de textos
+escritura sin conexión
+contador de palabras
+repeticiones
+corrector ortográfico
+manuscrito
+escritor
+
+--- Novedades de esta versión (1.0.0) -------------------------
+
+Primera versión publicada en Microsoft Store. Objetivo de escritura y repeticiones en un mismo panel, corrección ortográfica en siete idiomas (español, alemán, inglés, francés, italiano, polaco, portugués), interfaz y ayuda en esos mismos siete idiomas, diecisiete esquemas de color, apertura de DOCX, ODT, RTF, HTML, Markdown y texto, y guardado como DOCX, EPUB, PDF, HTML, Markdown y texto.
+
+
+################################################################
+ITALIANO  (it-IT)
+################################################################
+
+--- Descrizione -----------------------------------------------
+
+Un elaboratore di testi che funziona offline. Il testo resta sul tuo computer, con salvataggio continuo e cronologia delle versioni. E gli strumenti di cui la scrittura ha davvero bisogno: obiettivo di scrittura, ripetizioni, controllo ortografico, conteggio delle parole, pulizia del testo e una firma autografa.
+
+Per chi scrive testi lunghi: un romanzo, una tesi, una relazione, un diario. Gli stati precedenti restano nella cronologia delle versioni e tutto resta in file che sono tuoi: nessun account, nessuna registrazione, nessun abbonamento.
+
+Nota: sei dizionari sono inclusi nell'applicazione. Quello tedesco viene scaricato una sola volta da suvantra.eu al primo utilizzo, per motivi di licenza, e poi resta sul tuo computer.
+
+Questa versione di PureQuill Writer è gratuita e resta gratuita. Nessun periodo di prova, nessuna scadenza, nessuna funzione dietro un pagamento.
+
+Se ti è utile, due cose aiutano noi: una recensione qui nello Store e una parola a chi scrive. È prevista un'edizione Pro a pagamento come applicazione separata — questa resta com'è. Suvantra si trova su suvantra.eu.
+
+--- Descrizione breve -----------------------------------------
+
+Un elaboratore di testi che funziona offline: il testo resta sul tuo computer, con salvataggio continuo e cronologia delle versioni.
+
+--- Caratteristiche -------------------------------------------
+
+Completamente offline: nessun account, nessun cloud, nessun abbonamento
+Salvataggio automatico con punti di ripristino e cronologia delle versioni
+Obiettivo di scrittura, conteggio parole e ripetizioni in un unico pannello
+Controllo ortografico con dizionari propri: italiano, tedesco, inglese, francese, spagnolo, polacco, portoghese
+Interfaccia e guida tradotte integralmente in queste sette lingue
+Foglietti adesivi e glossario accanto al testo, ciascuno in una vista propria
+Pulizia del testo: spazi doppi, paragrafi vuoti, fine riga
+Diciassette schemi di colore, modalità concentrazione, vista lettura, anteprima di stampa
+Apri: DOCX, ODT, RTF, HTML, Markdown, testo
+Salva come: DOCX, EPUB, PDF, HTML, Markdown, testo
+
+--- Termini di ricerca ----------------------------------------
+
+elaboratore di testi
+scrittura offline
+conta parole
+ripetizioni
+correttore ortografico
+manoscritto
+scrittore
+
+--- Novità di questa versione (1.0.0) -------------------------
+
+Prima versione pubblicata su Microsoft Store. Obiettivo di scrittura e ripetizioni in un unico pannello, controllo ortografico in sette lingue (italiano, tedesco, inglese, francese, spagnolo, polacco, portoghese), interfaccia e guida nelle stesse sette lingue, diciassette schemi di colore, apertura di DOCX, ODT, RTF, HTML, Markdown e testo, salvataggio in DOCX, EPUB, PDF, HTML, Markdown e testo.
+
+
+################################################################
+POLSKI  (pl-PL)
+################################################################
+
+--- Opis ------------------------------------------------------
+
+Edytor tekstu, który działa offline. Tekst zostaje na twoim komputerze, zapisywany na bieżąco i z historią wersji. Do tego narzędzia, które naprawdę pomagają w pisaniu: cel pisania, powtórzenia słów, sprawdzanie pisowni, licznik słów, porządkowanie tekstu i odręczny podpis.
+
+Dla tych, którzy piszą długie teksty: powieść, pracę dyplomową, raport, dziennik. Wcześniejsze stany pozostają w historii wersji, a wszystko trafia do plików, które należą do ciebie — bez konta, bez logowania, bez abonamentu.
+
+Uwaga: sześć słowników jest dołączonych do programu. Niemiecki pobierany jest jednorazowo z suvantra.eu przy pierwszym użyciu, ze względów licencyjnych, i potem pozostaje na twoim komputerze.
+
+Ta wersja PureQuill Writer jest bezpłatna i taka pozostanie. Bez okresu próbnego, bez daty wygaśnięcia, bez funkcji ukrytych za opłatą.
+
+Jeśli ci pomaga, nam pomagają dwie rzeczy: opinia tutaj w Store i słowo do kogoś, kto pisze. Płatna edycja Pro jest planowana jako osobny program — ta pozostaje bez zmian. Suvantra znajdziesz na suvantra.eu.
+
+--- Krótki opis -----------------------------------------------
+
+Edytor tekstu, który działa offline: tekst zostaje na twoim komputerze, zapisywany na bieżąco, z historią wersji.
+
+--- Funkcje ---------------------------------------------------
+
+W pełni offline — bez konta, bez chmury, bez abonamentu
+Autozapis z punktami przywracania i historią wersji
+Cel pisania, licznik słów i powtórzenia w jednym panelu
+Sprawdzanie pisowni z własnymi słownikami: polski, niemiecki, angielski, francuski, hiszpański, włoski, portugalski
+Interfejs i pomoc w całości przetłumaczone na te siedem języków
+Karteczki i glosariusz obok tekstu, każde we własnym widoku
+Porządkowanie tekstu: podwójne spacje, puste akapity, końce wierszy
+Siedemnaście motywów kolorystycznych, tryb skupienia, widok czytania, podgląd wydruku
+Otwieranie: DOCX, ODT, RTF, HTML, Markdown, tekst
+Zapisywanie jako: DOCX, EPUB, PDF, HTML, Markdown, tekst
+
+--- Wyszukiwane hasła -----------------------------------------
+
+edytor tekstu
+pisanie offline
+licznik słów
+powtórzenia
+sprawdzanie pisowni
+manuskrypt
+pisarz
+
+--- Nowości w tej wersji (1.0.0) ------------------------------
+
+Pierwsze wydanie w Microsoft Store. Cel pisania i powtórzenia w jednym panelu, sprawdzanie pisowni w siedmiu językach (polski, niemiecki, angielski, francuski, hiszpański, włoski, portugalski), interfejs i pomoc w tych samych siedmiu językach, siedemnaście motywów kolorystycznych, otwieranie DOCX, ODT, RTF, HTML, Markdown i tekstu, zapisywanie jako DOCX, EPUB, PDF, HTML, Markdown i tekst.
+
+
+################################################################
+PORTUGUÊS (BRASIL)  (pt-BR)
+################################################################
+
+--- Descrição -------------------------------------------------
+
+Um processador de textos que funciona offline. O texto fica no seu computador, salvo continuamente e com histórico de versões. Além disso, as ferramentas de que a escrita realmente precisa: meta de escrita, repetições de palavras, verificação ortográfica, contagem de palavras, limpeza de texto e uma assinatura à mão.
+
+Para quem escreve textos longos: um romance, uma monografia, um relatório, um diário. Os estados anteriores ficam no histórico de versões e tudo permanece em arquivos que são seus — sem conta, sem login, sem assinatura.
+
+Observação: seis dicionários vêm junto com o aplicativo. O alemão é baixado uma única vez de suvantra.eu no primeiro uso, por motivos de licença, e depois fica no seu computador.
+
+Esta versão do PureQuill Writer é gratuita e continuará gratuita. Sem período de teste, sem data de expiração, sem recursos atrás de um pagamento.
+
+Se ela te ajuda, duas coisas nos ajudam de volta: uma avaliação aqui na Store e um aviso a alguém que escreve. Uma edição Pro paga está planejada como aplicativo separado — esta permanece como está. A Suvantra está em suvantra.eu.
+
+--- Descrição curta -------------------------------------------
+
+Um processador de textos que funciona offline: o texto fica no seu computador, salvo continuamente e com histórico de versões.
+
+--- Recursos --------------------------------------------------
+
+Totalmente offline — sem conta, sem nuvem, sem assinatura
+Salvamento automático com pontos de restauração e histórico de versões
+Meta de escrita, contagem de palavras e repetições em um único painel
+Verificação ortográfica com dicionários próprios: português, alemão, inglês, francês, espanhol, italiano, polonês
+Interface e ajuda totalmente traduzidas para esses sete idiomas
+Lembretes adesivos e glossário ao lado do texto, cada um em sua própria visualização
+Limpeza de texto: espaços duplos, parágrafos vazios, fins de linha
+Dezessete esquemas de cores, modo de foco, modo de leitura, visualização de impressão
+Abrir: DOCX, ODT, RTF, HTML, Markdown, texto
+Salvar como: DOCX, EPUB, PDF, HTML, Markdown, texto
+
+--- Termos de pesquisa ----------------------------------------
+
+processador de texto
+escrita offline
+contador de palavras
+repetições
+corretor ortográfico
+manuscrito
+escritor
+
+--- Novidades desta versão (1.0.0) ----------------------------
+
+Primeira versão publicada na Microsoft Store. Meta de escrita e repetições em um único painel, verificação ortográfica em sete idiomas (português, alemão, inglês, francês, espanhol, italiano, polonês), interface e ajuda nos mesmos sete idiomas, dezessete esquemas de cores, abertura de DOCX, ODT, RTF, HTML, Markdown e texto, e salvamento como DOCX, EPUB, PDF, HTML, Markdown e texto.

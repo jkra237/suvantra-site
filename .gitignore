@@ -1,0 +1,15 @@
+# Erzeugte Archive. Sie entstehen aus den Quellen daneben — `zip-bauen.ps1`
+# in cc test/werkzeuge/ baut sie neu. Sie hier mitzuführen hiesse, bei jeder
+# Theme-Aenderung ein 1,2-MB-Binaerpaket mitzuversionieren, dessen Inhalt
+# ohnehin schon im Repo steht.
+#
+# NICHT durch Compress-Archive ersetzen: das schreibt Backslashes in die
+# ZIP-Eintraege, und der WordPress-Installer meldet dann „Kein gueltiges Theme".
+_zip/
+
+# Windows- und Editorreste
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~

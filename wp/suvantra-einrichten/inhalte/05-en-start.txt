@@ -1,0 +1,70 @@
+<!-- wp:html -->
+<section class="wrap held">
+  <p class="augbraue">Suvantra</p>
+  <h1>Tools that work offline.</h1>
+  <p class="lead">
+    We build Windows programs that need no account, no server and no subscription.
+    What you write stays on your machine — not because we promise it, but because the
+    programs open no connection in the first place.
+  </p>
+  <div class="knopfreihe">
+    <a class="btn pri" href="/purequill/">See PureQuill Writer</a>
+    <a class="btn" href="https://jkra237.github.io/purequillwriter/">Try it without installing</a>
+  </div>
+</section>
+
+<section class="flaeche">
+  <div class="wrap">
+    <p class="augbraue">Programs</p>
+    <h2>One tool for one job.</h2>
+    <div class="karten">
+      <a class="karte" href="/purequill/">
+        <img class="kicon" src="/assets/pq-icon-256.png" alt="" width="56" height="56" decoding="async">
+        <h3>PureQuill Writer</h3>
+        <p>A word processor for long texts. Word goal, repeated words, spell check in
+           seven languages, seventeen colour schemes. Saves as DOCX, EPUB and PDF.</p>
+      </a>
+      <div class="karte">
+        <span class="bald">in progress</span>
+        <h3>PDF tool</h3>
+        <p>Reorder, merge, split and annotate pages — under the same rules: locally,
+           without uploading. No date, no waiting list.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dunkelband">
+  <div class="wrap">
+    <p class="augbraue">Principles</p>
+    <h2>What we decided.</h2>
+    <div class="saeulen">
+      <div class="saeule">
+        <span class="nr">01</span>
+        <h3>No account</h3>
+        <p>Nothing to sign up for, nothing to confirm, nothing to lose.</p>
+      </div>
+      <div class="saeule">
+        <span class="nr">02</span>
+        <h3>No server</h3>
+        <p>The programs send no data — not even usage statistics.</p>
+      </div>
+      <div class="saeule">
+        <span class="nr">03</span>
+        <h3>No subscription</h3>
+        <p>Buy once, keep it.</p>
+      </div>
+      <div class="saeule">
+        <span class="nr">04</span>
+        <h3>Your files stay yours</h3>
+        <p>Open formats, no lock-in to ours.</p>
+      </div>
+    </div>
+    <p class="klein" style="margin-top:44px;max-width:64ch">
+      This is not a marketing claim but something you can check: PureQuill Writer runs
+      in the browser without installing anything. If you want to know whether it sends
+      something, open the developer tools and look.
+    </p>
+  </div>
+</section>
+<!-- /wp:html -->
