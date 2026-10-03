@@ -101,11 +101,11 @@ Erste Veröffentlichung im Microsoft Store. Schreibziel und Wortwiederholungen i
 
 --- Bildschirmfotos -------------------------------------------
 
-brand/store/screenshot-1-schreibansicht.png
-brand/store/screenshot-2-wortwiederholungen.png
-brand/store/screenshot-3-farbschemata.png
-brand/store/screenshot-4-rechtschreibpruefung.png
-(1366×768, deutsche Oberfläche)
+de-DE/1-schreibansicht.png
+de-DE/2-wortwiederholungen.png
+de-DE/3-farbschemata.png
+de-DE/4-rechtschreibpruefung.png
+(1366×768, deutsche Oberfläche; neu aufgenommen 2026-10-03)
 
 
 ################################################################
@@ -157,7 +157,11 @@ First release on the Microsoft Store. Word goal and repeated words in one panel,
 
 --- Screenshots -----------------------------------------------
 
-en-US/ — dieselben vier Motive, englische Oberfläche, 1366×768
+en-US/ — dieselben vier Motive, englische Oberfläche, 1366×768.
+Ebenso je ein eigener Ordner fr-FR/, es-ES/, it-IT/, pt-BR/, pl-PL/ mit
+Oberfläche und Text in der jeweiligen Sprache (alle neu aufgenommen am
+2026-10-03, mit den Buchstaben der Werkzeugleiste je Sprache). Jedes
+Listing bekommt seine eigenen, nicht mehr die englischen.
 
 
 ################################################################
