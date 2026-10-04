@@ -1,0 +1,88 @@
+================================================================
+PureQuill Writer 1.1.0 — „Neuigkeiten in dieser Version“
+Partner Center: Store-Angebot › <Sprache> › Neuigkeiten in dieser Version
+Je Sprache den Block zwischen den Linien einfügen.
+================================================================
+
+DEUTSCH  (de-DE)
+----------------------------------------------------------------
+Version 1.1.0
+• Neu: Datei › Speichern (Strg+S) schreibt das Dokument in seine Word-Datei. Geöffnete .docx-Dateien werden direkt aktualisiert, beim Schließen fragt das Programm nach, wenn noch etwas nicht gespeichert ist.
+• Neue Dokumente beginnen wie in Word mit Calibri 11 und Zeilenabstand 1,15. Schrift, Größe und Abstände lassen sich direkt beim Anlegen wählen.
+• Neuer Bereich „Neue Dokumente“ in den Einstellungen, mit „Auf Word-Standard zurücksetzen“.
+• Word-, ODT- und RTF-Dateien öffnen in ihrer eigenen Schrift, Größe und mit ihren Abständen.
+• Der Zeilenabstand rechnet jetzt wie in Word.
+• Die Werkzeugleiste zeigt Fett, Kursiv und Unterstrichen mit den Buchstaben der jeweiligen Sprache.
+• Viele Korrekturen beim Word-Export, in der Rechtschreibprüfung und beim Öffnen von Dateien.
+
+
+ENGLISH  (en-US)
+----------------------------------------------------------------
+Version 1.1.0
+• New: File › Save (Ctrl+S) writes the document to its Word file. Opened .docx files are updated directly, and closing a document asks first if something hasn't been saved yet.
+• New documents start like in Word, with Calibri 11 and 1.15 line spacing. Font, size and spacing can be chosen right when you create a document.
+• New "New documents" section in Settings, with "Reset to Word defaults".
+• Word, ODT and RTF files open in their own font, size and spacing.
+• Line spacing is now calculated the way Word does it.
+• The toolbar shows Bold, Italic and Underline with the letters of your language.
+• Many fixes in Word export, spell checking and opening files.
+
+
+FRANÇAIS  (fr-FR)
+----------------------------------------------------------------
+Version 1.1.0
+• Nouveau : Fichier › Enregistrer (Ctrl+S) écrit le document dans son fichier Word. Les fichiers .docx ouverts sont mis à jour directement, et la fermeture d’un document demande confirmation s’il reste des modifications non enregistrées.
+• Les nouveaux documents commencent comme dans Word, en Calibri 11 avec un interligne de 1,15. Police, taille et espacements se choisissent dès la création.
+• Nouvelle section « Nouveaux documents » dans les paramètres, avec « Rétablir les valeurs de Word ».
+• Les fichiers Word, ODT et RTF s’ouvrent avec leur propre police, taille et espacements.
+• L’interligne se calcule désormais comme dans Word.
+• La barre d’outils affiche Gras, Italique et Souligné avec les lettres de votre langue.
+• De nombreuses corrections pour l’export Word, la vérification orthographique et l’ouverture de fichiers.
+
+
+ESPAÑOL  (es-ES)
+----------------------------------------------------------------
+Versión 1.1.0
+• Nuevo: Archivo › Guardar (Ctrl+S) escribe el documento en su archivo de Word. Los archivos .docx abiertos se actualizan directamente y, al cerrar un documento, el programa pregunta si queda algo sin guardar.
+• Los documentos nuevos empiezan como en Word, con Calibri 11 e interlineado 1,15. Fuente, tamaño y espaciado se eligen al crear el documento.
+• Nueva sección «Documentos nuevos» en la configuración, con «Restablecer los valores de Word».
+• Los archivos de Word, ODT y RTF se abren con su propia fuente, tamaño y espaciado.
+• El interlineado se calcula ahora como en Word.
+• La barra de herramientas muestra Negrita, Cursiva y Subrayado con las letras de tu idioma.
+• Muchas correcciones en la exportación a Word, la revisión ortográfica y la apertura de archivos.
+
+
+ITALIANO  (it-IT)
+----------------------------------------------------------------
+Versione 1.1.0
+• Novità: File › Salva (Ctrl+S) scrive il documento nel suo file Word. I file .docx aperti vengono aggiornati direttamente e, alla chiusura di un documento, il programma chiede se ci sono modifiche non salvate.
+• I nuovi documenti iniziano come in Word, con Calibri 11 e interlinea 1,15. Carattere, dimensione e spaziature si scelgono già alla creazione.
+• Nuova sezione «Nuovi documenti» nelle impostazioni, con «Ripristina i valori di Word».
+• I file Word, ODT e RTF si aprono con il proprio carattere, dimensione e spaziature.
+• L’interlinea ora si calcola come in Word.
+• La barra degli strumenti mostra Grassetto, Corsivo e Sottolineato con le lettere della tua lingua.
+• Molte correzioni nell’esportazione in Word, nel controllo ortografico e nell’apertura dei file.
+
+
+POLSKI  (pl-PL)
+----------------------------------------------------------------
+Wersja 1.1.0
+• Nowość: Plik › Zapisz (Ctrl+S) zapisuje dokument w jego pliku Word. Otwarte pliki .docx są aktualizowane bezpośrednio, a przy zamykaniu dokumentu program pyta, jeśli coś nie zostało zapisane.
+• Nowe dokumenty zaczynają się jak w Wordzie: Calibri 11 i interlinia 1,15. Czcionkę, rozmiar i odstępy wybierasz już przy tworzeniu dokumentu.
+• Nowa sekcja „Nowe dokumenty” w ustawieniach, z opcją „Przywróć ustawienia Worda”.
+• Pliki Word, ODT i RTF otwierają się z własną czcionką, rozmiarem i odstępami.
+• Interlinia jest teraz liczona tak jak w Wordzie.
+• Pasek narzędzi pokazuje pogrubienie, kursywę i podkreślenie literami Twojego języka.
+• Wiele poprawek w eksporcie do Worda, sprawdzaniu pisowni i otwieraniu plików.
+
+
+PORTUGUÊS (BRASIL)  (pt-BR)
+----------------------------------------------------------------
+Versão 1.1.0
+• Novo: Arquivo › Salvar (Ctrl+S) grava o documento no seu arquivo do Word. Arquivos .docx abertos são atualizados diretamente e, ao fechar um documento, o programa pergunta se ainda há algo sem salvar.
+• Novos documentos começam como no Word, com Calibri 11 e espaçamento entre linhas 1,15. Fonte, tamanho e espaçamentos podem ser escolhidos já ao criar o documento.
+• Nova seção "Novos documentos" nas configurações, com "Restaurar os padrões do Word".
+• Arquivos do Word, ODT e RTF abrem com sua própria fonte, tamanho e espaçamentos.
+• O espaçamento entre linhas agora é calculado como no Word.
+• A barra de ferramentas mostra Negrito, Itálico e Sublinhado com as letras do seu idioma.
+• Muitas correções na exportação para o Word, na verificação ortográfica e na abertura de arquivos.
