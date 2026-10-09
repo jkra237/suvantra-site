@@ -31,8 +31,11 @@ Website                  https://suvantra.eu/
 Lizenzbedingungen        leer lassen → es gelten die Standard-Store-Bedingungen
 Copyright                © 2026 Thomas Jan Krajniewski, Suvantra
 
-Datenschutz-URL          deutsch:  https://suvantra.eu/purequill/datenschutz/
-                         alle übrigen Sprachen: https://suvantra.eu/en/purequill/privacy/
+Datenschutz-URL          deutsch:  https://suvantra.eu/de/purequill/datenschutz/
+                         alle übrigen Sprachen: https://suvantra.eu/purequill/privacy/
+                         (Bis 2026-10 standen hier /purequill/datenschutz/ und
+                         /en/purequill/privacy/ — beide leiten per 301 weiter und
+                         müssen das tun, bis die Store-Angaben umgestellt sind.)
 
 Fragebogen zur Datenerhebung
   → „Keine Erhebung personenbezogener Daten" ankreuzen.

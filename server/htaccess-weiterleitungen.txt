@@ -1,0 +1,32 @@
+# Suvantra — dauerhafte Weiterleitungen fuer Altlasten
+#
+# Gehoert in die .htaccess im Wurzelverzeichnis der Domain (public_html/),
+# GANZ OBEN, vor "# BEGIN WordPress". WordPress schreibt nur seinen eigenen
+# Block zwischen BEGIN und END neu; dieser bleibt stehen.
+#
+# Warum: Diese Seiten stammen aus frueheren Aufbauten (englisch unter /en/,
+# ein frueher Startseiten-Entwurf, ein doppeltes Impressum, der WordPress-
+# Beispielbeitrag). Sie standen in der Sitemap, zeigten veraltete Aussagen
+# und — /en/imprint/ — Platzhalter statt einer Anschrift. 301 sagt Google,
+# dass die Seite dauerhaft umgezogen ist.
+#
+# /en/purequill/privacy/ ist die Datenschutz-URL im Microsoft Store fuer
+# alle nicht-deutschen Sprachen. Sie muss weiter funktionieren, bis die
+# Store-Angaben auf /purequill/privacy/ umgestellt sind.
+#
+# Die Autorenseite (/author/…) traegt einen aus der E-Mail-Adresse gebildeten
+# Namen; sie fuehrt zur Startseite, zusaetzlich in Yoast abschalten.
+
+# BEGIN Suvantra Weiterleitungen
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^en/?$ / [R=301,L]
+RewriteRule ^en/purequill/?$ /purequill/ [R=301,L]
+RewriteRule ^en/purequill/privacy/?$ /purequill/privacy/ [R=301,L]
+RewriteRule ^en/imprint/?$ /imprint/ [R=301,L]
+RewriteRule ^start-de/?$ /de/ [R=301,L]
+RewriteRule ^impressum/?$ /de/impressum/ [R=301,L]
+RewriteRule ^hello-world/?$ / [R=301,L]
+RewriteRule ^author/ / [R=301,L]
+</IfModule>
+# END Suvantra Weiterleitungen
