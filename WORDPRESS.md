@@ -312,6 +312,26 @@ Plugin, nicht das Theme.
 
 Ebenso prüfen: keine Cookies vor einer Anmeldung.
 
+## 8. Linux-Downloads
+
+Die Pakete liegen **nicht** in WordPress und nicht in der Mediathek, sondern
+als normale Dateien unter `/download/linux/` im Wurzelverzeichnis der Domain
+(neben `wp-config.php`, wie `assets/` und `app/`). So bleiben die Adressen
+stabil, und alles kommt vom eigenen Server — die Datenschutzzusage „nichts von
+fremden Servern“ gilt auch für den Download.
+
+Bei jeder neuen Version:
+
+1. In `purequillwriter/desktop/` bauen (siehe dortige README, Abschnitt Linux).
+   Die vier Pakete liegen danach in `desktop/release/linux/`.
+2. Prüfsummen erzeugen, im selben Ordner: `sha256sum *.deb *.AppImage > SHA256SUMS`
+3. Per FTP die vier Pakete **und** `SHA256SUMS` nach `/download/linux/`.
+4. Auf beiden Produktseiten Versionsnummer, Dateinamen und Größen im Abschnitt
+   `id="linux"` anpassen (die Dateinamen tragen die Version), dann die
+   Kette aus `werkzeuge/README.md` laufen lassen und die beiden Seiten in
+   WordPress ersetzen.
+5. Alte Pakete erst löschen, wenn die Seiten auf die neuen zeigen.
+
 ---
 
 ## Was noch fehlt
@@ -320,7 +340,6 @@ Ebenso prüfen: keine Cookies vor einer Anmeldung.
   steht als HTML-Kommentar, was je nach Rechtsform hineingehört.
 - **Zweiter Kontaktweg** neben der E-Mail (§ 5 DDG).
 - **USt-IdNr.** oder den Abschnitt streichen.
-- **Store-Link** auf beiden Produktseiten, im HTML mit `TODO` markiert.
 
 ## Nicht vergessen
 

@@ -8,9 +8,9 @@
     word goal, repeated words, spell check.
   </p>
   <div class="knopfreihe">
-    <!-- TODO: add the Store link once the app is published -->
-    <a class="btn pri" href="%STORE_URL%">On the Microsoft Store<small>For Windows 10 and 11</small></a>
-    <a class="btn" href="https://jkra237.github.io/purequillwriter/">Try it without installing<small>Runs in the browser</small></a>
+    <a class="btn pri" href="https://apps.microsoft.com/detail/9N7N656ZRJSZ">On the Microsoft Store<small>For Windows 10 and 11</small></a>
+    <a class="btn" href="#linux">For Linux<small>.deb and AppImage</small></a>
+    <a class="btn" href="/app/">Try it without installing<small>Runs in the browser</small></a>
   </div>
 </section>
 
@@ -97,15 +97,53 @@
   </div>
 </section>
 
-<section class="wrap eng">
+<section class="wrap eng download" id="linux">
+  <p class="augbraue">Linux</p>
+  <h2>Also for Linux.</h2>
+  <p>The same program as on Windows, with all seven dictionaries in the package.
+     Which file you need depends on your distribution — if in doubt, the first one.</p>
+  <ul class="pakete">
+    <li class="paket">
+      <div>
+        <h3>Ubuntu, Linux Mint, Debian</h3>
+        <p>.deb · 86 MB · adds an entry to the applications menu, opens .pqw files on double-click</p>
+      </div>
+      <div class="laden">
+        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.1.0-amd64.deb" download>Download</a>
+        <a class="arm" href="/download/linux/PureQuill-Writer-1.1.0-arm64.deb" download>ARM version (arm64)</a>
+      </div>
+    </li>
+    <li class="paket">
+      <div>
+        <h3>All other distributions</h3>
+        <p>AppImage · 108 MB · no installation: download, make executable, run</p>
+      </div>
+      <div class="laden">
+        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.1.0-x86_64.AppImage" download>Download</a>
+        <a class="arm" href="/download/linux/PureQuill-Writer-1.1.0-arm64.AppImage" download>ARM version (arm64)</a>
+      </div>
+    </li>
+  </ul>
+  <p class="klein" style="margin-top:22px">
+    Version 1.1.0. Make the AppImage executable before the first start — under
+    “Properties” in your file manager, or with <code>chmod +x PureQuill-Writer-1.1.0-x86_64.AppImage</code>.
+    <a href="/download/linux/SHA256SUMS">SHA‑256 checksums</a>
+  </p>
+</section>
+
+<section class="flaeche">
+  <div class="wrap eng">
   <h2>System requirements</h2>
   <p>Windows 10 (version 1809 or newer) and Windows 11, 64-bit. Around 400 MB on disk,
      most of it dictionaries. No internet connection needed — neither to set it up nor
      to work.</p>
+  <p>Linux: a current 64-bit distribution, x86-64 or ARM64, around 300 MB on disk.
+     Tested on Ubuntu.</p>
   <p class="klein">
     The browser version runs in Chrome, Edge and Firefox without installing anything.
     It is meant for trying the program out: headers and footers, margins and the print
     path are tools for a keyboard and a large screen, not for a phone.
   </p>
+  </div>
 </section>
 <!-- /wp:html -->

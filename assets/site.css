@@ -182,6 +182,27 @@ a.karte:hover{transform:translateY(-2px);box-shadow:var(--schatten-gross);border
   text-transform:uppercase;color:var(--ink-faint);
   border:1px solid var(--rule);border-radius:99px;padding:6px 11px;margin-bottom:16px}
 
+/* ---- Downloads (Linux) ----
+   Eine Zeile je Paket statt zweier Karten: die Wahl ist „welche Distribution“,
+   und die liest man von oben nach unten. ARM nur als Textlink — selten
+   gebraucht, soll aber auffindbar sein. scroll-margin, damit der Sprung vom
+   Knopf oben die Ueberschrift nicht unter die klebende Kopfleiste schiebt. */
+.download{scroll-margin-top:84px}
+.pakete{list-style:none;padding:0;margin:28px 0 0;border:1px solid var(--rule);
+  border-radius:var(--radius-lg);background:var(--paper);box-shadow:var(--schatten)}
+.paket{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;
+  gap:14px 28px;padding:20px 24px;border-top:1px solid var(--rule)}
+.paket:first-child{border-top:0}
+.paket>div:first-child{flex:1 1 300px;min-width:0}
+.paket h3{font-family:var(--ui);font-size:17px;font-weight:600;letter-spacing:0;margin:0 0 3px}
+.paket p{margin:0;font-size:14.5px;color:var(--ink-soft)}
+.paket .laden{display:flex;flex-direction:column;align-items:flex-end;gap:7px;flex:none}
+.paket .btn{padding:10px 22px;font-size:15px}
+.paket .arm{font-size:13.5px;color:var(--ink-soft)}
+.paket .arm:hover{color:var(--ink)}
+code{font:.88em/1.4 ui-monospace,"Cascadia Mono",Consolas,monospace;background:var(--chrome-2);
+  border:1px solid var(--rule);border-radius:5px;padding:1px 6px;overflow-wrap:anywhere}
+
 /* ---- Rechtstexte ---- */
 .recht{max-width:70ch;padding-top:clamp(48px,7vw,88px);padding-bottom:clamp(56px,8vw,96px)}
 /* Auf einer Rechtsseite ist die Ueberschrift kein Aushaengeschild — 64 px
@@ -208,6 +229,9 @@ footer .grow{flex:1}
   .top nav{order:3;width:100%;margin-left:0;gap:20px}
   .lang{margin-left:auto}
   .knopfreihe .btn{width:100%;text-align:center;align-items:center}
+  .paket{padding:18px}
+  .paket .laden{width:100%;align-items:stretch;text-align:center}
+  .paket .btn{align-items:center}
   .merkmale{gap:0}
 }
 

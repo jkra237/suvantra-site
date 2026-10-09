@@ -7,9 +7,9 @@
     Schreiben wirklich helfen — Schreibziel, Wortwiederholungen, Rechtschreibprüfung.
   </p>
   <div class="knopfreihe">
-    <!-- TODO Store-Link eintragen, sobald die App veroeffentlicht ist -->
-    <a class="btn pri" href="%STORE_URL%">Im Microsoft Store<small>Für Windows 10 und 11</small></a>
-    <a class="btn" href="https://jkra237.github.io/purequillwriter/">Ohne Installation ausprobieren<small>Läuft im Browser</small></a>
+    <a class="btn pri" href="https://apps.microsoft.com/detail/9N7N656ZRJSZ">Im Microsoft Store<small>Für Windows 10 und 11</small></a>
+    <a class="btn" href="#linux">Für Linux<small>.deb und AppImage</small></a>
+    <a class="btn" href="/app/">Ohne Installation ausprobieren<small>Läuft im Browser</small></a>
   </div>
 </section>
 
@@ -96,14 +96,52 @@
   </div>
 </section>
 
-<section class="wrap eng">
+<section class="wrap eng download" id="linux">
+  <p class="augbraue">Linux</p>
+  <h2>Auch für Linux.</h2>
+  <p>Dasselbe Programm wie unter Windows, mit allen sieben Wörterbüchern im Paket.
+     Welche Datei du brauchst, hängt von deiner Distribution ab — im Zweifel die erste.</p>
+  <ul class="pakete">
+    <li class="paket">
+      <div>
+        <h3>Ubuntu, Linux Mint, Debian</h3>
+        <p>.deb · 86 MB · mit Eintrag im Anwendungsmenü, öffnet .pqw-Dateien per Doppelklick</p>
+      </div>
+      <div class="laden">
+        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.1.0-amd64.deb" download>Herunterladen</a>
+        <a class="arm" href="/download/linux/PureQuill-Writer-1.1.0-arm64.deb" download>ARM-Fassung (arm64)</a>
+      </div>
+    </li>
+    <li class="paket">
+      <div>
+        <h3>Alle anderen Distributionen</h3>
+        <p>AppImage · 108 MB · ohne Installation: herunterladen, ausführbar machen, starten</p>
+      </div>
+      <div class="laden">
+        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.1.0-x86_64.AppImage" download>Herunterladen</a>
+        <a class="arm" href="/download/linux/PureQuill-Writer-1.1.0-arm64.AppImage" download>ARM-Fassung (arm64)</a>
+      </div>
+    </li>
+  </ul>
+  <p class="klein" style="margin-top:22px">
+    Version 1.1.0. Das AppImage vor dem ersten Start ausführbar machen — im Dateimanager
+    unter „Eigenschaften“ oder mit <code>chmod +x PureQuill-Writer-1.1.0-x86_64.AppImage</code>.
+    <a href="/download/linux/SHA256SUMS">SHA‑256-Prüfsummen</a>
+  </p>
+</section>
+
+<section class="flaeche">
+  <div class="wrap eng">
   <h2>Systemvoraussetzungen</h2>
   <p>Windows 10 (Version 1809 oder neuer) und Windows 11, 64 Bit. Rund 400 MB auf der
      Festplatte, das meiste davon Wörterbücher. Keine Internetverbindung nötig — weder
      beim Einrichten noch beim Arbeiten.</p>
+  <p>Linux: eine aktuelle 64-Bit-Distribution, x86-64 oder ARM64, rund 300 MB auf der
+     Festplatte. Getestet unter Ubuntu.</p>
   <p class="klein">
     Die Browserfassung läuft in Chrome, Edge und Firefox ohne Installation.
     Sie ist zum Ausprobieren gedacht: Kopf- und Fußzeilen, Ränder und der Druckweg
     sind Werkzeuge für Tastatur und großen Bildschirm, nicht fürs Handy.
   </p>
+  </div>
 </section>
