@@ -259,9 +259,10 @@ a.karte:hover{transform:translateY(-2px);box-shadow:var(--schatten-gross);border
 
 /* ---- Downloads (Linux) ----
    Eine Zeile je Paket statt zweier Karten: die Wahl ist „welche Distribution“,
-   und die liest man von oben nach unten. ARM nur als Textlink — selten
-   gebraucht, soll aber auffindbar sein. scroll-margin, damit der Sprung vom
-   Knopf oben die Ueberschrift nicht unter die klebende Kopfleiste schiebt. */
+   und die erkennt man am Namen, nicht am Paketformat — deshalb die Etiketten.
+   ARM nur als Textlink unter dem Kasten, ueber die Geraete erklaert.
+   scroll-margin, damit der Sprung vom Knopf oben die Ueberschrift nicht
+   unter die klebende Kopfleiste schiebt. */
 .download{scroll-margin-top:84px}
 .pakete{list-style:none;padding:0;margin:28px 0 0;border:1px solid var(--rule);
   border-radius:var(--radius-lg);background:var(--paper);box-shadow:var(--schatten)}
@@ -273,8 +274,12 @@ a.karte:hover{transform:translateY(-2px);box-shadow:var(--schatten-gross);border
 .paket p{margin:0;font-size:14.5px;color:var(--ink-soft)}
 .paket .laden{display:flex;flex-direction:column;align-items:flex-end;gap:7px;flex:none}
 .paket .btn{padding:10px 22px;font-size:15px}
-.paket .arm{font-size:13.5px;color:var(--ink-soft)}
-.paket .arm:hover{color:var(--ink)}
+.paket .chips{list-style:none;padding:0;margin:8px 0 9px;display:flex;flex-wrap:wrap;gap:6px}
+.paket .chips li{font-size:12.5px;line-height:1.3;border:1px solid var(--rule);background:var(--grund);
+  border-radius:99px;padding:3px 10px;color:var(--ink)}
+.tipp{display:block;max-width:none;margin:16px 0 22px;padding:14px 18px;font-size:15px;
+  border:1px solid var(--rule);border-left:4px solid var(--akzent);border-radius:0;background:var(--grund)}
+.tipp a{font-weight:600;color:var(--ink);text-decoration-color:var(--akzent);text-underline-offset:3px}
 code{font:.88em/1.4 ui-monospace,"Cascadia Mono",Consolas,monospace;background:var(--chrome-2);
   border:1px solid var(--rule);border-radius:5px;padding:1px 6px;overflow-wrap:anywhere}
 

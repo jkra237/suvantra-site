@@ -1,0 +1,22 @@
+# Linux-Pakete von PureQuill Writer.
+# Ohne diese Datei liefert der Server .deb und .AppImage als text/plain aus:
+# ein direkt geöffneter Link zeigt dann 100 MB Zeichensalat statt eines
+# Downloads, und der Server komprimiert die fertigen Pakete unterwegs noch
+# einmal (ohne Gewinn, und ohne Größenangabe für den Fortschrittsbalken).
+
+AddType application/vnd.debian.binary-package .deb
+AddType application/vnd.appimage .AppImage
+
+# Die Prüfsummendatei hat keine Endung — ohne ForceType schickt der Server
+# gar keinen Typ mit, und der Browser muss raten.
+<Files "SHA256SUMS">
+  ForceType "text/plain; charset=utf-8"
+</Files>
+
+<FilesMatch "\.(deb|AppImage)$">
+  <IfModule mod_headers.c>
+    Header set Content-Disposition "attachment"
+  </IfModule>
+  SetEnv no-gzip 1
+  SetEnv no-brotli 1
+</FilesMatch>

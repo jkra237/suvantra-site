@@ -326,6 +326,8 @@ Bei jeder neuen Version:
    Die vier Pakete liegen danach in `desktop/release/linux/`.
 2. Prüfsummen erzeugen, im selben Ordner: `sha256sum *.deb *.AppImage > SHA256SUMS`
 3. Per FTP die vier Pakete **und** `SHA256SUMS` nach `/download/linux/`.
+   Beim ersten Mal auch `download/linux/.htaccess` aus diesem Repo: ohne sie
+   liefert der Server die Pakete als `text/plain` aus (siehe Kommentar darin).
 4. Auf beiden Produktseiten Versionsnummer, Dateinamen und Größen im Abschnitt
    `id="linux"` anpassen (die Dateinamen tragen die Version), dann die
    Kette aus `werkzeuge/README.md` laufen lassen und die beiden Seiten in
