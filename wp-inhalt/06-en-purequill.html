@@ -1,15 +1,34 @@
 <section class="wrap held">
   <img class="held-icon" src="/assets/pq-icon-512.png" alt="" width="88" height="88" decoding="async">
+  <p class="pille">Free · Windows, Linux and browser</p>
   <h1>PureQuill Writer</h1>
   <p class="lead">
-    A word processor that works offline. Your text stays on your machine, saved
-    continuously and with a version history. Plus the tools writing actually needs —
-    word goal, repeated words, spell check.
+    The free word processor for long texts. It opens and saves Word files, lays your
+    text out on real pages and saves it as PDF or EPUB. No account, no subscription —
+    and everything is saved as you go, on your own computer.
   </p>
   <div class="knopfreihe">
-    <a class="btn pri" href="https://apps.microsoft.com/detail/9N7N656ZRJSZ">On the Microsoft Store<small>For Windows 10 and 11</small></a>
-    <a class="btn" href="#linux">For Linux<small>.deb and AppImage</small></a>
-    <a class="btn" href="/app/">Try it without installing<small>Runs in the browser</small></a>
+    <div class="storeweg">
+      <a class="store-badge" href="https://apps.microsoft.com/detail/9N7N656ZRJSZ">
+        <img class="sb-hell" src="/assets/ms-store-badge-en-dark.svg" alt="Download from the Microsoft Store" width="161" height="44">
+        <img class="sb-dunkel" src="/assets/ms-store-badge-en-light.svg" alt="Download from the Microsoft Store" width="161" height="44">
+      </a>
+      <small>Free · Windows 10 and 11</small>
+    </div>
+    <div class="storeweg">
+      <a class="weg-badge" href="#linux" style="width:205px">
+        <svg class="wb-icon" width="30" height="36" viewBox="-12 -16 24 34" aria-hidden="true" focusable="false"><g class="wb-rand"><ellipse cx="0" cy="5" rx="9" ry="11" fill="#191B1E"/><circle cx="0" cy="-7.5" r="6.5" fill="#191B1E"/></g><ellipse cx="0" cy="7" rx="5.4" ry="7.8" fill="#fff"/><ellipse cx="0" cy="-6.8" rx="4" ry="3.6" fill="#fff"/><circle cx="-1.7" cy="-8" r="1" fill="#191B1E"/><circle cx="1.7" cy="-8" r="1" fill="#191B1E"/><path d="M-2.4 -5.8 L2.4 -5.8 L0 -3.2 Z" fill="#F5B400"/><ellipse cx="-4.6" cy="15.6" rx="3.6" ry="1.8" fill="#F5B400"/><ellipse cx="4.6" cy="15.6" rx="3.6" ry="1.8" fill="#F5B400"/></svg>
+        <span class="wb-text"><small>Download for</small><b>Linux</b></span>
+      </a>
+      <small>.deb and AppImage</small>
+    </div>
+    <div class="storeweg">
+      <a class="weg-badge" href="/app/" style="width:205px">
+        <svg class="wb-icon" width="28" height="28" viewBox="-12 -12 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5"><circle r="10"/><ellipse rx="4.4" ry="10"/><path d="M-10 0h20M-8.6 -5h17.2M-8.6 5h17.2"/></svg>
+        <span class="wb-text"><small>No installation</small><b>In the browser</b></span>
+      </a>
+      <small>To try it out</small>
+    </div>
   </div>
 </section>
 
@@ -20,61 +39,99 @@
     </picture>
 </figure>
 
-<section class="wrap">
-  <p class="augbraue">Page layout</p>
-  <h2>The page as it will be printed.</h2>
-  <p class="lead">Not an endless flow of text but real pages in millimetres — with headers
-     and footers, page breaks and margins you drag on the ruler. What stands on the
-     screen stands on the paper.</p>
-</section>
-
 <section class="flaeche">
   <div class="wrap">
-    <p class="augbraue">Repeated words</p>
-    <h2>See what your editor will see.</h2>
-    <p class="lead">A panel beside the text shows which words are piling up, and it weighs
-       them: a word forty times across a novel is harmless, four times in one paragraph
-       is not. Inflected forms are grouped together, function words are left out.</p>
-    <figure class="schaubild">
-      <picture>
-      <source srcset="/assets/pq-en-wortwiederholungen.webp" type="image/webp">
-      <img src="/assets/pq-en-wortwiederholungen.png" alt="The repeated-words panel beside the text" width="1366" height="768" loading="lazy" decoding="async">
-    </picture>
-      <figcaption>Every row names the forms found and the closest gap between two occurrences. A click jumps to the spot.</figcaption>
-    </figure>
+    <p class="augbraue">Word files</p>
+    <h2>Opens and saves Word files.</h2>
+    <p class="lead">Word files come in with their fonts, spacing, footnotes, headers,
+       footers and images, and Save writes back to the same file. Finished work goes
+       out as PDF, as EPUB for e-readers, or as a Word file again.</p>
+    <div class="formatweg" role="img" aria-label="Open a Word file, write in PureQuill Writer, save as PDF, EPUB or Word file">
+      <div class="fw-gruppe"><span class="fw-dok"><b>DOCX</b><small>also ODT, RTF, Markdown</small></span></div>
+      <span class="fw-pfeil" aria-hidden="true">→</span>
+      <div class="fw-gruppe"><span class="fw-dok fw-mitte"><b>PureQuill Writer</b><small>write and lay out</small></span></div>
+      <span class="fw-pfeil" aria-hidden="true">→</span>
+      <div class="fw-gruppe"><span class="fw-dok"><b>PDF</b><small>for print</small></span><span class="fw-dok"><b>EPUB</b><small>for e-readers</small></span><span class="fw-dok"><b>DOCX</b><small>back to Word</small></span></div>
+    </div>
   </div>
 </section>
 
 <section class="wrap">
-  <p class="augbraue">Spelling</p>
-  <h2>Seven languages, all inside the program.</h2>
-  <p class="lead">Each with its own dictionary — nothing is fetched, nothing is sent to a
-     service. You walk through the findings one by one, with suggestions and a personal
-     dictionary for whatever the program does not know yet.</p>
+  <p class="augbraue">Autosave</p>
+  <h2>Saved while you write.</h2>
+  <p class="lead">You do not have to think about saving. Everything you write is saved as you
+     go — on your computer, not in a cloud, and without being online.</p>
+  <div class="saeulen" style="margin-top:30px">
+    <div class="saeule">
+      <h3>Continuously</h3>
+      <p>About a second after your last keystroke, the text is saved on your computer.</p>
+    </div>
+    <div class="saeule">
+      <h3>Checkpoints</h3>
+      <p>Every 30 seconds the program records a checkpoint. The last twelve can be restored from the version history.</p>
+    </div>
+    <div class="saeule">
+      <h3>Backup file</h3>
+      <p>If you like, it also writes the whole state to a file at regular intervals — for example into a folder that Dropbox or OneDrive keeps in sync.</p>
+    </div>
+  </div>
+</section>
+
+<section class="flaeche">
+  <div class="wrap">
+    <p class="augbraue">Page layout</p>
+    <h2>The page as it will be printed.</h2>
+    <p class="lead">Not an endless flow of text but real pages in millimetres — with headers
+       and footers, page breaks and margins you drag on the ruler. What stands on the
+       screen stands on the paper.</p>
+  </div>
+</section>
+
+<section class="wrap">
+  <p class="augbraue">Writing tools</p>
+  <h2>Tools for writers.</h2>
+  <p class="lead">A word goal shows how far you have come. A panel beside the text shows which
+     words are piling up, and it weighs them: a word forty times across a novel is
+     harmless, four times in one paragraph is not. Plus word count, sticky notes and
+     a glossary for names and terms.</p>
   <figure class="schaubild">
     <picture>
-      <source srcset="/assets/pq-en-rechtschreibung.webp" type="image/webp">
-      <img src="/assets/pq-en-rechtschreibung.png" alt="The spell check dialog with suggestions" width="1366" height="768" loading="lazy" decoding="async">
-    </picture>
-    <figcaption>English, German, French, Spanish, Italian, Polish and Portuguese — interface and help as well.</figcaption>
+    <source srcset="/assets/pq-en-wortwiederholungen.webp" type="image/webp">
+    <img src="/assets/pq-en-wortwiederholungen.png" alt="The repeated-words panel beside the text" width="1366" height="768" loading="lazy" decoding="async">
+  </picture>
+    <figcaption>Every row names the forms found and the closest gap between two occurrences. A click jumps to the spot.</figcaption>
   </figure>
 </section>
 
 <section class="flaeche">
   <div class="wrap">
-    <p class="augbraue">Colour schemes</p>
-    <h2>Seventeen ways to write the same thing.</h2>
-    <p class="lead">From the phosphor screen to the cloud word processor. The choice applies
-       to the whole program, light and dark, and it is a question of eyes rather than
-       fashion.</p>
+    <p class="augbraue">Spelling</p>
+    <h2>Seven languages, their own dictionaries.</h2>
+    <p class="lead">Each with its own dictionary, and nothing is sent to a service. You walk through the findings one by one, with suggestions and a personal
+       dictionary for whatever the program does not know yet.</p>
     <figure class="schaubild">
       <picture>
-      <source srcset="/assets/pq-en-farbschemata.webp" type="image/webp">
-      <img src="/assets/pq-en-farbschemata.png" alt="The colour scheme picker with preview tiles" width="1366" height="768" loading="lazy" decoding="async">
-    </picture>
-      <figcaption>Each tile shows the paper, chrome and accent of that scheme.</figcaption>
+        <source srcset="/assets/pq-en-rechtschreibung.webp" type="image/webp">
+        <img src="/assets/pq-en-rechtschreibung.png" alt="The spell check dialog with suggestions" width="1366" height="768" loading="lazy" decoding="async">
+      </picture>
+      <figcaption>English, German, French, Spanish, Italian, Polish and Portuguese — interface and help as well.</figcaption>
     </figure>
-  </div>
+    </div>
+</section>
+
+<section class="wrap">
+  <p class="augbraue">Colour schemes</p>
+  <h2>Seventeen ways to write the same thing.</h2>
+  <p class="lead">From the phosphor screen to the cloud word processor. The choice applies
+     to the whole program, light and dark, and it is a question of eyes rather than
+     fashion.</p>
+  <figure class="schaubild">
+    <picture>
+    <source srcset="/assets/pq-en-farbschemata.webp" type="image/webp">
+    <img src="/assets/pq-en-farbschemata.png" alt="The colour scheme picker with preview tiles" width="1366" height="768" loading="lazy" decoding="async">
+  </picture>
+    <figcaption>Each tile shows the paper, chrome and accent of that scheme.</figcaption>
+  </figure>
 </section>
 
 <section class="dunkelband">
@@ -82,14 +139,18 @@
     <p class="augbraue">Scope</p>
     <h2>What is in it.</h2>
     <ul class="merkmale" style="margin-top:34px">
-      <li>Fully offline — no account, no server, no subscription</li>
+      <li>Free — no account, no subscription, no ads</li>
+      <li>Opens and saves Word files with fonts, spacing, footnotes, headers, footers and images</li>
       <li>Autosave with checkpoints and version history</li>
-      <li>Word goal, word count and repeated words in one panel</li>
+      <li>Save your document as PDF, or as EPUB for e-readers</li>
+      <li>Real pages: margins on the ruler, headers and footers, page breaks, A4 and US Letter</li>
+      <li>Footnotes, tables, pictures, table of contents, handwritten signature</li>
       <li>Spell check with its own dictionaries in seven languages</li>
+      <li>Word goal, word count and repeated words in one panel</li>
+      <li>Your writing stays on your computer — no cloud, works without internet</li>
       <li>Sticky notes and a glossary beside the text, each in its own view</li>
       <li>Text clean-up: double spaces, empty paragraphs, line endings</li>
       <li>Seventeen colour schemes, focus mode, reading view, print preview</li>
-      <li>Footnotes, tables, pictures, table of contents, handwritten signature</li>
       <li>Open: DOCX, ODT, RTF, HTML, Markdown, text</li>
       <li>Save as: DOCX, EPUB, PDF, HTML, Markdown, text</li>
     </ul>
@@ -143,8 +204,8 @@
   <div class="wrap eng">
   <h2>System requirements</h2>
   <p>Windows 10 (version 1809 or newer) and Windows 11, 64-bit. Around 400 MB on disk,
-     most of it dictionaries. No internet connection needed — neither to set it up nor
-     to work.</p>
+     most of it dictionaries. No internet connection needed to work; only the Windows
+     version downloads the German dictionary once, on first use.</p>
   <p>Linux: a current 64-bit distribution, x86-64 or ARM64, around 300 MB on disk.
      Tested on Ubuntu.</p>
   <p class="klein">

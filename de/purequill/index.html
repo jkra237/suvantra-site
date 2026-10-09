@@ -68,16 +68,35 @@
 <main>
   <section class="wrap held">
     <img class="held-icon" src="/assets/pq-icon-512.png" alt="" width="88" height="88" decoding="async">
+    <p class="pille">Kostenlos · Windows, Linux und Browser</p>
     <h1>PureQuill Writer</h1>
     <p class="lead">
-      Ein Schreibprogramm, das offline arbeitet. Der Text bleibt auf dem Rechner,
-      gesichert wird laufend und mit Versionsverlauf. Dazu die Werkzeuge, die beim
-      Schreiben wirklich helfen — Schreibziel, Wortwiederholungen, Rechtschreibprüfung.
+      Das kostenlose Schreibprogramm für lange Texte. Es öffnet und speichert
+      Word-Dateien, legt den Text auf echte Seiten und speichert ihn als PDF oder EPUB.
+      Ohne Konto, ohne Abo — und gesichert wird laufend, auf deinem eigenen Rechner.
     </p>
     <div class="knopfreihe">
-      <a class="btn pri" href="https://apps.microsoft.com/detail/9N7N656ZRJSZ">Im Microsoft Store<small>Für Windows 10 und 11</small></a>
-      <a class="btn" href="#linux">Für Linux<small>.deb und AppImage</small></a>
-      <a class="btn" href="/app/">Ohne Installation ausprobieren<small>Läuft im Browser</small></a>
+      <div class="storeweg">
+        <a class="store-badge" href="https://apps.microsoft.com/detail/9N7N656ZRJSZ">
+          <img class="sb-hell" src="/assets/ms-store-badge-de-dark.svg" alt="Vom Microsoft Store herunterladen" width="183" height="44">
+          <img class="sb-dunkel" src="/assets/ms-store-badge-de-light.svg" alt="Vom Microsoft Store herunterladen" width="183" height="44">
+        </a>
+        <small>Kostenlos · Windows 10 und 11</small>
+      </div>
+      <div class="storeweg">
+        <a class="weg-badge" href="#linux" style="width:233px">
+          <svg class="wb-icon" width="30" height="36" viewBox="-12 -16 24 34" aria-hidden="true" focusable="false"><g class="wb-rand"><ellipse cx="0" cy="5" rx="9" ry="11" fill="#191B1E"/><circle cx="0" cy="-7.5" r="6.5" fill="#191B1E"/></g><ellipse cx="0" cy="7" rx="5.4" ry="7.8" fill="#fff"/><ellipse cx="0" cy="-6.8" rx="4" ry="3.6" fill="#fff"/><circle cx="-1.7" cy="-8" r="1" fill="#191B1E"/><circle cx="1.7" cy="-8" r="1" fill="#191B1E"/><path d="M-2.4 -5.8 L2.4 -5.8 L0 -3.2 Z" fill="#F5B400"/><ellipse cx="-4.6" cy="15.6" rx="3.6" ry="1.8" fill="#F5B400"/><ellipse cx="4.6" cy="15.6" rx="3.6" ry="1.8" fill="#F5B400"/></svg>
+          <span class="wb-text"><small>Herunterladen für</small><b>Linux</b></span>
+        </a>
+        <small>.deb und AppImage</small>
+      </div>
+      <div class="storeweg">
+        <a class="weg-badge" href="/app/" style="width:233px">
+          <svg class="wb-icon" width="28" height="28" viewBox="-12 -12 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5"><circle r="10"/><ellipse rx="4.4" ry="10"/><path d="M-10 0h20M-8.6 -5h17.2M-8.6 5h17.2"/></svg>
+          <span class="wb-text"><small>Ohne Installation</small><b>Im Browser</b></span>
+        </a>
+        <small>Zum Ausprobieren</small>
+      </div>
     </div>
   </section>
 
@@ -88,61 +107,100 @@
       </picture>
   </figure>
 
-  <section class="wrap">
-    <p class="augbraue">Satzspiegel</p>
-    <h2>Die Seite, wie sie gedruckt wird.</h2>
-    <p class="lead">Kein endloser Textfluss, sondern echte Seiten in Millimetermaßen — mit
-       Kopf- und Fußzeile, Seitenumbruch und Rändern, die du am Lineal ziehst. Was am
-       Bildschirm steht, steht später auf dem Papier.</p>
-  </section>
-
   <section class="flaeche">
     <div class="wrap">
-      <p class="augbraue">Wortwiederholungen</p>
-      <h2>Sehen, was der Lektor sehen wird.</h2>
-      <p class="lead">Eine Leiste neben dem Text zeigt, welche Wörter sich häufen — und zwar
-         gewichtet: ein Wort vierzigmal über einen Roman verteilt ist harmlos, viermal im
-         selben Absatz nicht. Beugungsformen fasst das Programm zusammen, Füllwörter lässt
-         es weg.</p>
-      <figure class="schaubild">
-        <picture>
-        <source srcset="/assets/pq-wortwiederholungen.webp" type="image/webp">
-        <img src="/assets/pq-wortwiederholungen.png" alt="Die Leiste mit Wortwiederholungen neben dem Text" width="1366" height="768" loading="lazy" decoding="async">
-      </picture>
-        <figcaption>Jede Zeile nennt die gefundenen Formen und den engsten Abstand zweier Vorkommen. Ein Klick springt an die Stelle.</figcaption>
-      </figure>
+      <p class="augbraue">Word-Dateien</p>
+      <h2>Word-Dateien öffnen und speichern.</h2>
+      <p class="lead">Word-Dateien kommen mit Schriften, Abständen, Fußnoten, Kopf- und
+         Fußzeilen und Bildern herein, und „Speichern“ schreibt in dieselbe Datei zurück.
+         Fertige Texte gehen als PDF, als EPUB für E-Reader oder wieder als Word-Datei hinaus.</p>
+      <div class="formatweg" role="img" aria-label="Word-Datei öffnen, in PureQuill Writer schreiben, als PDF, EPUB oder Word-Datei speichern">
+        <div class="fw-gruppe"><span class="fw-dok"><b>DOCX</b><small>auch ODT, RTF, Markdown</small></span></div>
+        <span class="fw-pfeil" aria-hidden="true">→</span>
+        <div class="fw-gruppe"><span class="fw-dok fw-mitte"><b>PureQuill Writer</b><small>schreiben und setzen</small></span></div>
+        <span class="fw-pfeil" aria-hidden="true">→</span>
+        <div class="fw-gruppe"><span class="fw-dok"><b>PDF</b><small>zum Drucken</small></span><span class="fw-dok"><b>EPUB</b><small>für E-Reader</small></span><span class="fw-dok"><b>DOCX</b><small>zurück an Word</small></span></div>
+      </div>
     </div>
   </section>
 
   <section class="wrap">
-    <p class="augbraue">Rechtschreibung</p>
-    <h2>Sieben Sprachen, alle im Programm.</h2>
-    <p class="lead">Jede mit ihrem eigenen Wörterbuch — nichts wird nachgeladen, nichts an
-       einen Dienst geschickt. Gefundene Stellen gehst du einzeln durch, mit Vorschlägen
-       und einem eigenen Wörterbuch für alles, was das Programm noch nicht kennt.</p>
+    <p class="augbraue">Sicherung</p>
+    <h2>Gesichert, während du schreibst.</h2>
+    <p class="lead">Du musst nicht ans Speichern denken. Alles, was du schreibst, wird laufend
+       gesichert — auf deinem Rechner, nicht in einer Cloud, und ohne dass du dafür
+       online sein musst.</p>
+    <div class="saeulen" style="margin-top:30px">
+      <div class="saeule">
+        <h3>Laufend</h3>
+        <p>Etwa eine Sekunde nach dem letzten Tastendruck liegt der Text gesichert auf deinem Rechner.</p>
+      </div>
+      <div class="saeule">
+        <h3>Zwischenstände</h3>
+        <p>Alle 30 Sekunden hält das Programm einen Zwischenstand fest. Die letzten zwölf holst du im Versionsverlauf zurück.</p>
+      </div>
+      <div class="saeule">
+        <h3>Sicherungsdatei</h3>
+        <p>Auf Wunsch schreibt es zusätzlich den ganzen Stand regelmäßig in eine Datei — gern in einen Ordner, den Dropbox oder OneDrive abgleicht.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="flaeche">
+    <div class="wrap">
+      <p class="augbraue">Satzspiegel</p>
+      <h2>Die Seite, wie sie gedruckt wird.</h2>
+      <p class="lead">Kein endloser Textfluss, sondern echte Seiten in Millimetermaßen — mit
+         Kopf- und Fußzeile, Seitenumbruch und Rändern, die du am Lineal ziehst. Was am
+         Bildschirm steht, steht später auf dem Papier.</p>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <p class="augbraue">Schreibwerkzeuge</p>
+    <h2>Werkzeuge für Schreibende.</h2>
+    <p class="lead">Ein Schreibziel zeigt dir, wie weit du bist. Eine Leiste neben dem Text
+       zeigt, welche Wörter sich häufen — gewichtet: ein Wort vierzigmal über einen
+       Roman verteilt ist harmlos, viermal im selben Absatz nicht. Dazu Wortzählung,
+       Notizzettel und ein Glossar für Namen und Begriffe.</p>
     <figure class="schaubild">
       <picture>
-        <source srcset="/assets/pq-rechtschreibung.webp" type="image/webp">
-        <img src="/assets/pq-rechtschreibung.png" alt="Der Dialog der Rechtschreibprüfung mit Vorschlägen" width="1366" height="768" loading="lazy" decoding="async">
-      </picture>
-      <figcaption>Deutsch, Englisch, Französisch, Spanisch, Italienisch, Polnisch und Portugiesisch — Oberfläche und Hilfe ebenso.</figcaption>
+      <source srcset="/assets/pq-wortwiederholungen.webp" type="image/webp">
+      <img src="/assets/pq-wortwiederholungen.png" alt="Die Leiste mit Wortwiederholungen neben dem Text" width="1366" height="768" loading="lazy" decoding="async">
+    </picture>
+      <figcaption>Jede Zeile nennt die gefundenen Formen und den engsten Abstand zweier Vorkommen. Ein Klick springt an die Stelle.</figcaption>
     </figure>
   </section>
 
   <section class="flaeche">
     <div class="wrap">
-      <p class="augbraue">Farbschemata</p>
-      <h2>Siebzehn Arten, dasselbe zu schreiben.</h2>
-      <p class="lead">Vom Röhrenbildschirm bis zur Cloud-Textverarbeitung. Die Wahl gilt für
-         das ganze Programm, hell wie dunkel, und ist eine Frage der Augen — nicht der Mode.</p>
+      <p class="augbraue">Rechtschreibung</p>
+      <h2>Sieben Sprachen, eigene Wörterbücher.</h2>
+      <p class="lead">Jede mit ihrem eigenen Wörterbuch, und nichts davon wird an einen
+         Dienst geschickt. Gefundene Stellen gehst du einzeln durch, mit Vorschlägen
+         und einem eigenen Wörterbuch für alles, was das Programm noch nicht kennt.</p>
       <figure class="schaubild">
         <picture>
-        <source srcset="/assets/pq-farbschemata.webp" type="image/webp">
-        <img src="/assets/pq-farbschemata.png" alt="Die Auswahl der Farbschemata mit Vorschaukacheln" width="1366" height="768" loading="lazy" decoding="async">
-      </picture>
-        <figcaption>Jede Kachel zeigt Papier, Leiste und Akzent des Schemas.</figcaption>
+          <source srcset="/assets/pq-rechtschreibung.webp" type="image/webp">
+          <img src="/assets/pq-rechtschreibung.png" alt="Der Dialog der Rechtschreibprüfung mit Vorschlägen" width="1366" height="768" loading="lazy" decoding="async">
+        </picture>
+        <figcaption>Deutsch, Englisch, Französisch, Spanisch, Italienisch, Polnisch und Portugiesisch — Oberfläche und Hilfe ebenso.</figcaption>
       </figure>
-    </div>
+      </div>
+  </section>
+
+  <section class="wrap">
+    <p class="augbraue">Farbschemata</p>
+    <h2>Siebzehn Arten, dasselbe zu schreiben.</h2>
+    <p class="lead">Vom Röhrenbildschirm bis zur Cloud-Textverarbeitung. Die Wahl gilt für
+       das ganze Programm, hell wie dunkel, und ist eine Frage der Augen — nicht der Mode.</p>
+    <figure class="schaubild">
+      <picture>
+      <source srcset="/assets/pq-farbschemata.webp" type="image/webp">
+      <img src="/assets/pq-farbschemata.png" alt="Die Auswahl der Farbschemata mit Vorschaukacheln" width="1366" height="768" loading="lazy" decoding="async">
+    </picture>
+      <figcaption>Jede Kachel zeigt Papier, Leiste und Akzent des Schemas.</figcaption>
+    </figure>
   </section>
 
   <section class="dunkelband">
@@ -150,14 +208,18 @@
       <p class="augbraue">Umfang</p>
       <h2>Was drin ist.</h2>
       <ul class="merkmale" style="margin-top:34px">
-        <li>Vollständig offline — kein Konto, kein Server, kein Abo</li>
+        <li>Kostenlos — kein Konto, kein Abo, keine Werbung</li>
+        <li>Öffnet und speichert Word-Dateien mit Schriften, Abständen, Fußnoten, Kopf- und Fußzeilen und Bildern</li>
         <li>Autosave mit Zwischenständen und Versionsverlauf</li>
-        <li>Schreibziel, Wortzählung und Wortwiederholungen in einer Leiste</li>
+        <li>Dokument als PDF speichern oder als EPUB für E-Reader</li>
+        <li>Echte Seiten: Ränder am Lineal, Kopf- und Fußzeile, Seitenumbruch, DIN A4 und US Letter</li>
+        <li>Fußnoten, Tabellen, Bilder, Inhaltsverzeichnis, handschriftliche Signatur</li>
         <li>Rechtschreibprüfung mit eigenem Wörterbuch in sieben Sprachen</li>
+        <li>Schreibziel, Wortzählung und Wortwiederholungen in einer Leiste</li>
+        <li>Deine Texte bleiben auf deinem Rechner — keine Cloud, auch ohne Internet</li>
         <li>Notizzettel und Glossar neben dem Text, jeweils eigene Ansicht</li>
         <li>Text bereinigen: doppelte Leerzeichen, leere Absätze, Zeilenenden</li>
         <li>Siebzehn Farbschemata, Fokusmodus, Leseansicht, Druckvorschau</li>
-        <li>Fußnoten, Tabellen, Bilder, Inhaltsverzeichnis, handschriftliche Signatur</li>
         <li>Öffnen: DOCX, ODT, RTF, HTML, Markdown, Text</li>
         <li>Speichern als: DOCX, EPUB, PDF, HTML, Markdown, Text</li>
       </ul>
@@ -211,8 +273,8 @@
     <div class="wrap eng">
     <h2>Systemvoraussetzungen</h2>
     <p>Windows 10 (Version 1809 oder neuer) und Windows 11, 64 Bit. Rund 400 MB auf der
-       Festplatte, das meiste davon Wörterbücher. Keine Internetverbindung nötig — weder
-       beim Einrichten noch beim Arbeiten.</p>
+       Festplatte, das meiste davon Wörterbücher. Zum Arbeiten keine Internetverbindung nötig;
+       nur die Windows-Fassung lädt beim ersten Gebrauch einmal das deutsche Wörterbuch.</p>
     <p>Linux: eine aktuelle 64-Bit-Distribution, x86-64 oder ARM64, rund 300 MB auf der
        Festplatte. Getestet unter Ubuntu.</p>
     <p class="klein">

@@ -182,6 +182,78 @@ a.karte:hover{transform:translateY(-2px);box-shadow:var(--schatten-gross);border
   text-transform:uppercase;color:var(--ink-faint);
   border:1px solid var(--rule);border-radius:99px;padding:6px 11px;margin-bottom:16px}
 
+/* ---- Startseite: Zirkelzeichnung hinter dem Kopftext ----
+   Saat des Lebens (sieben Kreise) im Zirkelkreis, dazu Zeichendreieck und
+   Lineal. Liegt in der rechten Haelfte hinter dem Text, der seine Lage
+   behaelt; nur Linien in der Textfarbe, darum auch im Dunkeln richtig. Am
+   Handy fehlt die rechte Haelfte, dort entfaellt die Zeichnung. */
+.held-start{position:relative}
+.held-start>:not(.held-deko){position:relative;z-index:1}
+.held-deko{position:absolute;z-index:0;right:0;top:50%;transform:translateY(-50%);
+  width:52%;height:auto;max-height:100%;pointer-events:none}
+.held-deko *{fill:none;stroke:var(--ink);stroke-width:1.3;opacity:.16;vector-effect:non-scaling-stroke}
+.held-deko .fein{opacity:.62}
+.held-deko .ak{stroke:var(--akzent);opacity:.5}
+@media (max-width:760px){.held-deko{display:none}}
+
+/* ---- Microsoft-Store-Badge ----
+   Die offiziellen Badge-Dateien von get.microsoft.com, unveraendert und lokal
+   unter /assets/ — die Skript-Fassung von Microsoft wuerde von fremden Servern
+   laden. Nur skaliert, nie umgefaerbt (Badge-Richtlinien). Die dunkle Fassung
+   gehoert auf helle Seiten, die helle in den Dunkelmodus; die Zusatzzeile
+   steht darunter, weil im Badge selbst nichts stehen darf. Sollte der
+   Dunkelmodus je im Customizer abgeschaltet werden (inc/design.php), muss
+   diese Weiche mit. */
+.storeweg{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:5px}
+.storeweg small{font-size:12.5px;color:var(--ink-soft);padding-left:2px}
+.store-badge{display:inline-block;line-height:0;border-radius:9px}
+.store-badge img{height:56px;width:auto;display:block}
+.store-badge .sb-dunkel{display:none}
+@media (prefers-color-scheme:dark){
+  .store-badge .sb-hell{display:none}
+  .store-badge .sb-dunkel{display:block}
+}
+/* Linux und Browser als Geschwister des Store-Badges: gleiche Groesse (die
+   Breite steht je Sprache am Element, wie das Badge selbst), gleiche Ecken
+   (4,5 von 44 Einheiten = 6 px bei 56 px), Symbol links, zwei Zeilen. Hell
+   statt dunkel, damit der Store die Hauptsache bleibt. Der Pinguin ist eine
+   eigene Zeichnung und behaelt seine Farben; im Dunkeln haelt ihn eine
+   feine Kontur zusammen, statt die Farben zu vertauschen. */
+.knopfreihe:has(.storeweg){align-items:flex-start}
+.weg-badge{display:flex;align-items:center;gap:12px;height:56px;padding:0 14px;
+  border-radius:6px;border:1px solid var(--rule);background:var(--chrome-2);
+  color:var(--ink);text-decoration:none;box-sizing:border-box}
+.weg-badge:hover{background:var(--chrome)}
+.wb-icon{flex:none}
+.wb-text{display:flex;flex-direction:column;line-height:1.1;min-width:0}
+.wb-text small{font-size:11.5px;color:var(--ink-soft)}
+.wb-text b{font:600 18px/1.15 var(--ui);letter-spacing:-.01em}
+.wb-rand{stroke:none}
+@media (prefers-color-scheme:dark){.wb-rand{stroke:var(--ink);stroke-width:1.1}}
+@media (max-width:560px){.storeweg{width:100%;align-items:center}}
+
+/* ---- Produktseite: „Kostenlos“ über dem Namen, Formatweg der Word-Dateien ----
+   Die Pille ist die einzige Stelle im Kopf, die das Wort kostenlos traegt;
+   bewusst Kontur statt Flaeche, damit sie neben dem Store-Knopf nicht wie ein
+   zweiter Knopf aussieht. Der Formatweg zeigt Ein- und Ausgang in einer Zeile
+   und stellt sich am Handy untereinander, die Pfeile drehen mit. */
+.pille{display:inline-block;margin:0 0 14px;padding:3px 12px;border:1px solid var(--akzent);
+  border-radius:99px;color:var(--akzent);font:600 13px/1.4 var(--ui);max-width:none}
+.formatweg{display:flex;align-items:center;gap:12px 14px;flex-wrap:wrap;margin-top:28px}
+.fw-gruppe{display:flex;gap:10px;flex-wrap:wrap}
+.fw-dok{display:flex;flex-direction:column;align-items:center;justify-content:center;
+  min-width:92px;padding:12px 16px;border:1px solid var(--rule);border-radius:var(--radius);
+  background:var(--paper);box-shadow:var(--schatten);text-align:center}
+.fw-dok b{font:600 15px/1.2 var(--ui)}
+.fw-dok small{font-size:12.5px;color:var(--ink-soft);margin-top:3px}
+.fw-mitte{border-color:var(--akzent)}
+.fw-pfeil{color:var(--akzent);font-size:22px;line-height:1}
+@media (max-width:560px){
+  .formatweg{flex-direction:column;align-items:stretch}
+  .fw-gruppe{justify-content:center}
+  .fw-pfeil{transform:rotate(90deg);align-self:center}
+}
+
 /* ---- Downloads (Linux) ----
    Eine Zeile je Paket statt zweier Karten: die Wahl ist „welche Distribution“,
    und die erkennt man am Namen, nicht am Paketformat — deshalb die Etiketten.
@@ -241,7 +313,7 @@ footer .grow{flex:1}
 }
 
 @media (prefers-reduced-motion:no-preference){
-  .btn,.karte,.top nav a,.lang,footer a{
+  .btn,.weg-badge,.karte,.top nav a,.lang,footer a{
     transition:background-color .16s ease, color .16s ease,
                transform .16s ease, box-shadow .16s ease, border-color .16s ease}
 }
