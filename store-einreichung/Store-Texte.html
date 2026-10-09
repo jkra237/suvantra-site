@@ -1,0 +1,443 @@
+<title>PureQuill Store-Texte</title>
+<style>
+/* Arbeitsblatt: oben die Sprachwahl, darunter Feld für Feld in der Reihenfolge des Partner Centers */
+:root{
+  --bg:#F7F6F3; --flaeche:#FFFFFF; --tinte:#1E2124; --leise:#5D6267; --linie:#E1DED7;
+  --akzent:#8C3B2E; --akzent-tint:#F4E9E6; --ok:#2F6B45;
+  --ui:"Segoe UI Variable Text","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --titel:Georgia,"Iowan Old Style","Times New Roman",serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#17191C; --flaeche:#1F2226; --tinte:#EDEBE6; --leise:#A6AAAF; --linie:#30343A;
+  --akzent:#D4705F; --akzent-tint:#3A2420; --ok:#7CC59A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#17191C; --flaeche:#1F2226; --tinte:#EDEBE6; --leise:#A6AAAF; --linie:#30343A;
+  --akzent:#D4705F; --akzent-tint:#3A2420; --ok:#7CC59A; color-scheme:dark}
+body{background:var(--bg);color:var(--tinte);font:15px/1.6 var(--ui);padding-inline:16px;padding-block:28px 64px}
+.wrap{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+h1{font:600 clamp(26px,4vw,34px)/1.15 var(--titel);margin:0;text-wrap:balance}
+h2{font:600 17px/1.3 var(--ui);margin:22px 0 0}
+.einl{color:var(--leise);margin:0;max-width:65ch}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding-block:10px;z-index:2;border-bottom:1px solid var(--linie)}
+.tab{font:600 14px var(--ui);padding:8px 16px;border-radius:99px;border:1px solid var(--linie);background:var(--flaeche);color:var(--tinte);cursor:pointer}
+.tab[aria-pressed="true"]{background:var(--akzent);border-color:var(--akzent);color:var(--flaeche)}
+.tab:focus-visible,.kopie:focus-visible{outline:2px solid var(--akzent);outline-offset:2px}
+.sprache{display:flex;flex-direction:column;gap:10px}
+.pfad{margin:6px 0 0;padding:10px 14px;background:var(--akzent-tint);border-radius:8px;font-size:14px}
+.hinweis{margin:0;color:var(--leise);max-width:68ch}
+.block{border:1px solid var(--linie);border-radius:10px;background:var(--flaeche);overflow:hidden}
+.kopf{display:flex;align-items:center;gap:12px;padding:8px 10px 8px 14px;border-bottom:1px solid var(--linie);flex-wrap:wrap}
+.wohin{font-weight:600;font-size:13.5px}
+.zahl{color:var(--leise);font-size:12.5px;font-variant-numeric:tabular-nums;margin-left:auto}
+.text{white-space:pre-wrap;padding:14px;margin:0;min-width:0;overflow-wrap:anywhere}
+.text.gross{max-height:none}
+.kopie{font:600 13px var(--ui);padding:6px 14px;border-radius:99px;border:1px solid var(--akzent);background:var(--flaeche);color:var(--akzent);cursor:pointer;flex:none}
+.kopie:hover{background:var(--akzent-tint)}
+.kopie.ok{border-color:var(--ok);color:var(--ok)}
+.liste{list-style:none;margin:0;padding:0;border:1px solid var(--linie);border-radius:10px;background:var(--flaeche)}
+.liste li{display:flex;align-items:center;gap:12px;padding:9px 10px 9px 12px;border-top:1px solid var(--linie)}
+.liste li:first-child{border-top:0}
+.nr{font-variant-numeric:tabular-nums;color:var(--leise);font-size:13px;width:2ch;text-align:right;flex:none}
+.text.klein{padding:0;flex:1}
+.fertig{margin:14px 0 0;padding:12px 14px;border:1px dashed var(--linie);border-radius:8px}
+@media (prefers-reduced-motion:no-preference){.tab,.kopie{transition:background-color .15s,color .15s,border-color .15s}}
+</style>
+<div class="wrap">
+  <h1>PureQuill Writer – Store-Texte</h1>
+  <p class="einl">Sprache wählen, dann Feld für Feld von oben nach unten: auf <b>Kopieren</b> klicken und im Partner Center in das genannte Feld einfügen (Strg+V). Stand 9. Oktober 2026.</p>
+  <nav class="tabs" aria-label="Sprache"><button type="button" class="tab" data-lang="de" aria-pressed="false">Deutsch</button><button type="button" class="tab" data-lang="en" aria-pressed="false">Englisch</button><button type="button" class="tab" data-lang="fr" aria-pressed="false">Französisch</button><button type="button" class="tab" data-lang="es" aria-pressed="false">Spanisch</button><button type="button" class="tab" data-lang="it" aria-pressed="false">Italienisch</button><button type="button" class="tab" data-lang="pl" aria-pressed="false">Polnisch</button><button type="button" class="tab" data-lang="pt" aria-pressed="false">Portugiesisch</button></nav>
+  <section class="sprache" data-lang="de" hidden>
+  <p class="pfad">Öffne: Partner Center › PureQuill Writer › Store-Angebote › <b>Deutsch (Deutschland)</b></p>
+  <h2>1 · Beschreibung</h2>
+  <p class="hinweis">Kopiere den ganzen Text in das Feld <b>Beschreibung</b>. Vorhandenen Text vorher löschen.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Beschreibung“</span><span class="zahl">1675 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t1">Kopieren</button></div>
+  <div class="text gross" id="t1" lang="de">PureQuill Writer ist ein kostenloses Schreibprogramm für lange Texte. Es öffnet und speichert Word-Dateien, legt den Text auf echte Seiten mit Rändern, Kopf- und Fußzeile und bringt Fußnoten, Inhaltsverzeichnis und eine Rechtschreibprüfung in sieben Sprachen mit. Ohne Konto, ohne Abo – und deine Texte bleiben auf deinem Rechner, auch ohne Internet.
+
+Für alle, die lange Texte schreiben: Roman, Abschlussarbeit, Bericht, Tagebuch. Was am Bildschirm steht, steht später genauso auf dem Papier. Word-Dateien kommen mit Schriften, Abständen, Fußnoten, Kopf- und Fußzeilen und Bildern herein, und „Speichern“ schreibt direkt in die geöffnete Datei zurück. Fertige Texte gehen als PDF, als EPUB für E-Reader oder wieder als Word-Datei hinaus.
+
+Dazu die Werkzeuge, die beim Schreiben wirklich helfen: ein Schreibziel, eine Leiste, die Wortwiederholungen zeigt, Wortzählung, Textbereinigung, Notizzettel und ein Glossar neben dem Text. Gesichert wird laufend und mit Versionsverlauf, frühere Stände sind jederzeit greifbar.
+
+Kein Konto, keine Anmeldung, keine Werbung, keine Telemetrie. Sechs Wörterbücher liegen im Programm; das deutsche wird aus Lizenzgründen beim ersten Gebrauch einmalig von suvantra.eu geladen und bleibt danach auf dem Rechner.
+
+Diese Fassung von PureQuill Writer ist kostenlos und bleibt kostenlos. Kein Testzeitraum, kein Ablaufdatum, keine Funktion hinter einer Bezahlschranke.
+
+Wenn sie dir hilft, helfen uns zwei Dinge zurück: eine Bewertung hier im Store und ein Hinweis an jemanden, der schreibt. Eine kostenpflichtige Pro-Fassung ist als eigenes Programm geplant — diese hier bleibt, wie sie ist. Alles zu PureQuill Writer findest du auf suvantra.eu.</div></div>
+  <h2>2 · Kurzbeschreibung</h2>
+  <p class="hinweis">Kopiere den Text in das Feld <b>Kurzbeschreibung</b>.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Kurzbeschreibung“</span><span class="zahl">187 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t2">Kopieren</button></div>
+  <div class="text" id="t2" lang="de">Kostenloses Schreibprogramm für lange Texte: öffnet und speichert Word-Dateien, mit echten Seiten, Fußnoten und Rechtschreibprüfung in sieben Sprachen. Ohne Konto, ohne Abo, auch offline.</div></div>
+  <h2>3 · Produktfeatures</h2>
+  <p class="hinweis">Jede Zeile kommt in ein <b>eigenes Feld</b>: Zeile 1 ins erste Feature-Feld, Zeile 2 ins zweite usw. Fehlen Felder, unten auf „Weitere Features hinzufügen“ klicken.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t3" lang="de">Kostenlos – kein Konto, kein Abo, keine Werbung</span>
+  <button type="button" class="kopie" data-ziel="t3" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t4" lang="de">Öffnet und speichert Word-Dateien (DOCX) mit Schriften, Abständen, Fußnoten, Kopf- und Fußzeilen und Bildern</span>
+  <button type="button" class="kopie" data-ziel="t4" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t5" lang="de">Autosave mit Zwischenständen und Versionsverlauf</span>
+  <button type="button" class="kopie" data-ziel="t5" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t6" lang="de">Dokument als PDF speichern oder als EPUB für E-Reader</span>
+  <button type="button" class="kopie" data-ziel="t6" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t7" lang="de">Echte Seiten: Ränder am Lineal, Kopf- und Fußzeile, Seitenumbruch, Formate wie DIN A4 und US Letter</span>
+  <button type="button" class="kopie" data-ziel="t7" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t8" lang="de">Fußnoten, Tabellen, Bilder, Inhaltsverzeichnis, handschriftliche Signatur</span>
+  <button type="button" class="kopie" data-ziel="t8" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t9" lang="de">Rechtschreibprüfung mit eigenem Wörterbuch: Deutsch, Englisch, Französisch, Spanisch, Italienisch, Polnisch, Portugiesisch</span>
+  <button type="button" class="kopie" data-ziel="t9" aria-label="Zeile 7 kopieren">Kopieren</button></li><li><span class="nr">8</span><span class="text klein" id="t10" lang="de">Schreibziel, Wortzählung und Wortwiederholungen in einer Leiste</span>
+  <button type="button" class="kopie" data-ziel="t10" aria-label="Zeile 8 kopieren">Kopieren</button></li><li><span class="nr">9</span><span class="text klein" id="t11" lang="de">Deine Texte bleiben auf deinem Rechner – keine Cloud, funktioniert auch ohne Internet</span>
+  <button type="button" class="kopie" data-ziel="t11" aria-label="Zeile 9 kopieren">Kopieren</button></li><li><span class="nr">10</span><span class="text klein" id="t12" lang="de">Notizzettel und Glossar neben dem Text, jeweils eigene Ansicht</span>
+  <button type="button" class="kopie" data-ziel="t12" aria-label="Zeile 10 kopieren">Kopieren</button></li><li><span class="nr">11</span><span class="text klein" id="t13" lang="de">Text bereinigen: doppelte Leerzeichen, leere Absätze, Zeilenenden</span>
+  <button type="button" class="kopie" data-ziel="t13" aria-label="Zeile 11 kopieren">Kopieren</button></li><li><span class="nr">12</span><span class="text klein" id="t14" lang="de">Siebzehn Farbschemata, Fokusmodus, Leseansicht, Druckvorschau</span>
+  <button type="button" class="kopie" data-ziel="t14" aria-label="Zeile 12 kopieren">Kopieren</button></li><li><span class="nr">13</span><span class="text klein" id="t15" lang="de">Oberfläche und Hilfe in sieben Sprachen: Deutsch, Englisch, Französisch, Spanisch, Italienisch, Polnisch, Portugiesisch</span>
+  <button type="button" class="kopie" data-ziel="t15" aria-label="Zeile 13 kopieren">Kopieren</button></li><li><span class="nr">14</span><span class="text klein" id="t16" lang="de">Öffnen: DOCX, ODT, RTF, HTML, Markdown, Text</span>
+  <button type="button" class="kopie" data-ziel="t16" aria-label="Zeile 14 kopieren">Kopieren</button></li><li><span class="nr">15</span><span class="text klein" id="t17" lang="de">Speichern als: DOCX, EPUB, PDF, HTML, Markdown, Text</span>
+  <button type="button" class="kopie" data-ziel="t17" aria-label="Zeile 15 kopieren">Kopieren</button></li></ol>
+  <h2>4 · Suchbegriffe</h2>
+  <p class="hinweis">Auch hier: jeder Begriff in ein <b>eigenes Feld</b> unter „Suchbegriffe“, alte Begriffe ersetzen.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t18" lang="de">Schreibprogramm</span>
+  <button type="button" class="kopie" data-ziel="t18" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t19" lang="de">Textverarbeitung kostenlos</span>
+  <button type="button" class="kopie" data-ziel="t19" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t20" lang="de">docx</span>
+  <button type="button" class="kopie" data-ziel="t20" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t21" lang="de">odt</span>
+  <button type="button" class="kopie" data-ziel="t21" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t22" lang="de">Rechtschreibprüfung</span>
+  <button type="button" class="kopie" data-ziel="t22" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t23" lang="de">Wortwiederholungen</span>
+  <button type="button" class="kopie" data-ziel="t23" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t24" lang="de">Manuskript</span>
+  <button type="button" class="kopie" data-ziel="t24" aria-label="Zeile 7 kopieren">Kopieren</button></li></ol>
+  <p class="fertig">Danach ganz unten <b>Speichern</b> und mit der nächsten Sprache weitermachen. Die Felder „Neuigkeiten in dieser Version“ und die Bildschirmfotos bleiben, wie sie sind.</p>
+</section><section class="sprache" data-lang="en" hidden>
+  <p class="pfad">Öffne: Partner Center › PureQuill Writer › Store-Angebote › <b>Englisch (USA)</b></p>
+  <h2>1 · Beschreibung</h2>
+  <p class="hinweis">Kopiere den ganzen Text in das Feld <b>Beschreibung</b>. Vorhandenen Text vorher löschen.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Beschreibung“</span><span class="zahl">1519 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t25">Kopieren</button></div>
+  <div class="text gross" id="t25" lang="en">PureQuill Writer is a free word processor for long-form writing. It opens and saves Word files, lays your text out on real pages with margins, headers and footers, and comes with footnotes, a table of contents and spell checking in seven languages. No account, no subscription – and your writing stays on your computer, even without an internet connection.
+
+For anyone writing at length: a novel, a thesis, a report, a journal. What you see on screen is what ends up on paper. Word files come in with their fonts, spacing, footnotes, headers, footers and images, and Save writes straight back to the file you opened. Finished work goes out as PDF, as EPUB for e-readers, or as a Word file again.
+
+Plus the tools writing actually needs: a word goal, a panel that shows repeated words, word count, text clean-up, sticky notes and a glossary beside the text. Work is saved continuously with a version history, so earlier drafts are always within reach.
+
+No account, no sign-in, no ads, no telemetry. Six dictionaries ship with the app; the German one is downloaded once from suvantra.eu on first use, for licensing reasons, and stays on your computer afterwards.
+
+This version of PureQuill Writer is free, and it stays free. No trial period, no expiry, no feature held back behind a payment.
+
+If it helps you, two things help us back: a review here in the Store, and telling someone who writes. A paid Pro edition is planned as a separate app — this one stays as it is. Everything about PureQuill Writer is at suvantra.eu.</div></div>
+  <h2>2 · Kurzbeschreibung</h2>
+  <p class="hinweis">Kopiere den Text in das Feld <b>Kurzbeschreibung</b>.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Kurzbeschreibung“</span><span class="zahl">180 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t26">Kopieren</button></div>
+  <div class="text" id="t26" lang="en">Free word processor for long-form writing: opens and saves Word files, with real pages, footnotes and spell checking in seven languages. No account, no subscription, works offline.</div></div>
+  <h2>3 · Produktfeatures</h2>
+  <p class="hinweis">Jede Zeile kommt in ein <b>eigenes Feld</b>: Zeile 1 ins erste Feature-Feld, Zeile 2 ins zweite usw. Fehlen Felder, unten auf „Weitere Features hinzufügen“ klicken.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t27" lang="en">Free – no account, no subscription, no ads</span>
+  <button type="button" class="kopie" data-ziel="t27" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t28" lang="en">Opens and saves Word files (DOCX) with fonts, spacing, footnotes, headers, footers and images</span>
+  <button type="button" class="kopie" data-ziel="t28" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t29" lang="en">Autosave with checkpoints and version history</span>
+  <button type="button" class="kopie" data-ziel="t29" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t30" lang="en">Save your document as PDF, or as EPUB for e-readers</span>
+  <button type="button" class="kopie" data-ziel="t30" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t31" lang="en">Real pages: margins on the ruler, headers and footers, page breaks, sizes such as US Letter and A4</span>
+  <button type="button" class="kopie" data-ziel="t31" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t32" lang="en">Footnotes, tables, images, table of contents, handwritten signature</span>
+  <button type="button" class="kopie" data-ziel="t32" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t33" lang="en">Spell check with its own dictionaries: English, German, French, Spanish, Italian, Polish, Portuguese</span>
+  <button type="button" class="kopie" data-ziel="t33" aria-label="Zeile 7 kopieren">Kopieren</button></li><li><span class="nr">8</span><span class="text klein" id="t34" lang="en">Word goal, word count and repeated words in one panel</span>
+  <button type="button" class="kopie" data-ziel="t34" aria-label="Zeile 8 kopieren">Kopieren</button></li><li><span class="nr">9</span><span class="text klein" id="t35" lang="en">Your writing stays on your computer – no cloud, works without an internet connection</span>
+  <button type="button" class="kopie" data-ziel="t35" aria-label="Zeile 9 kopieren">Kopieren</button></li><li><span class="nr">10</span><span class="text klein" id="t36" lang="en">Sticky notes and a glossary beside the text, each in its own view</span>
+  <button type="button" class="kopie" data-ziel="t36" aria-label="Zeile 10 kopieren">Kopieren</button></li><li><span class="nr">11</span><span class="text klein" id="t37" lang="en">Text clean-up: double spaces, empty paragraphs, line endings</span>
+  <button type="button" class="kopie" data-ziel="t37" aria-label="Zeile 11 kopieren">Kopieren</button></li><li><span class="nr">12</span><span class="text klein" id="t38" lang="en">Seventeen color schemes, focus mode, reading view, print preview</span>
+  <button type="button" class="kopie" data-ziel="t38" aria-label="Zeile 12 kopieren">Kopieren</button></li><li><span class="nr">13</span><span class="text klein" id="t39" lang="en">Interface and help in seven languages: English, German, French, Spanish, Italian, Polish, Portuguese</span>
+  <button type="button" class="kopie" data-ziel="t39" aria-label="Zeile 13 kopieren">Kopieren</button></li><li><span class="nr">14</span><span class="text klein" id="t40" lang="en">Open: DOCX, ODT, RTF, HTML, Markdown, text</span>
+  <button type="button" class="kopie" data-ziel="t40" aria-label="Zeile 14 kopieren">Kopieren</button></li><li><span class="nr">15</span><span class="text klein" id="t41" lang="en">Save as: DOCX, EPUB, PDF, HTML, Markdown, text</span>
+  <button type="button" class="kopie" data-ziel="t41" aria-label="Zeile 15 kopieren">Kopieren</button></li></ol>
+  <h2>4 · Suchbegriffe</h2>
+  <p class="hinweis">Auch hier: jeder Begriff in ein <b>eigenes Feld</b> unter „Suchbegriffe“, alte Begriffe ersetzen.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t42" lang="en">word processor</span>
+  <button type="button" class="kopie" data-ziel="t42" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t43" lang="en">free word processor</span>
+  <button type="button" class="kopie" data-ziel="t43" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t44" lang="en">docx</span>
+  <button type="button" class="kopie" data-ziel="t44" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t45" lang="en">odt</span>
+  <button type="button" class="kopie" data-ziel="t45" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t46" lang="en">spell check</span>
+  <button type="button" class="kopie" data-ziel="t46" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t47" lang="en">repeated words</span>
+  <button type="button" class="kopie" data-ziel="t47" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t48" lang="en">manuscript</span>
+  <button type="button" class="kopie" data-ziel="t48" aria-label="Zeile 7 kopieren">Kopieren</button></li></ol>
+  <p class="fertig">Danach ganz unten <b>Speichern</b> und mit der nächsten Sprache weitermachen. Die Felder „Neuigkeiten in dieser Version“ und die Bildschirmfotos bleiben, wie sie sind.</p>
+</section><section class="sprache" data-lang="fr" hidden>
+  <p class="pfad">Öffne: Partner Center › PureQuill Writer › Store-Angebote › <b>Französisch (Frankreich)</b></p>
+  <h2>1 · Beschreibung</h2>
+  <p class="hinweis">Kopiere den ganzen Text in das Feld <b>Beschreibung</b>. Vorhandenen Text vorher löschen.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Beschreibung“</span><span class="zahl">1883 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t49">Kopieren</button></div>
+  <div class="text gross" id="t49" lang="fr">PureQuill Writer est un traitement de texte gratuit pour les textes longs. Il ouvre et enregistre les fichiers Word, met votre texte en page sur de vraies pages avec marges, en-têtes et pieds de page, et propose notes de bas de page, table des matières et correction orthographique en sept langues. Pas de compte, pas d'abonnement – et vos textes restent sur votre ordinateur, même sans connexion Internet.
+
+Pour celles et ceux qui écrivent longuement : un roman, un mémoire, un rapport, un journal. Ce que vous voyez à l'écran est ce qui sera imprimé. Les fichiers Word arrivent avec leurs polices, leurs espacements, leurs notes de bas de page, en-têtes, pieds de page et images, et « Enregistrer » écrit directement dans le fichier ouvert. Les textes terminés partent en PDF, en EPUB pour liseuses ou de nouveau en fichier Word.
+
+Et les outils dont l'écriture a vraiment besoin : un objectif d'écriture, un panneau qui montre les répétitions, le comptage des mots, le nettoyage du texte, des pense-bêtes et un glossaire à côté du texte. Tout est enregistré en continu avec un historique des versions : les états antérieurs restent toujours à portée de main.
+
+Pas de compte, pas de connexion, pas de publicité, pas de télémétrie. Six dictionnaires sont fournis avec l'application ; pour des raisons de licence, le dictionnaire allemand est téléchargé une seule fois depuis suvantra.eu lors de la première utilisation, puis il reste sur votre ordinateur.
+
+Cette version de PureQuill Writer est gratuite et le restera. Pas de période d'essai, pas de date d'expiration, aucune fonction réservée à un paiement.
+
+Si elle vous est utile, deux choses nous aident en retour : un avis ici dans le Store, et un mot à quelqu'un qui écrit. Une édition Pro payante est prévue sous forme d'application distincte — celle-ci reste telle quelle. Tout sur PureQuill Writer se trouve sur suvantra.eu.</div></div>
+  <h2>2 · Kurzbeschreibung</h2>
+  <p class="hinweis">Kopiere den Text in das Feld <b>Kurzbeschreibung</b>.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Kurzbeschreibung“</span><span class="zahl">234 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t50">Kopieren</button></div>
+  <div class="text" id="t50" lang="fr">Traitement de texte gratuit pour les textes longs : ouvre et enregistre les fichiers Word, avec de vraies pages, des notes de bas de page et une correction orthographique en sept langues. Sans compte, sans abonnement, même hors ligne.</div></div>
+  <h2>3 · Produktfeatures</h2>
+  <p class="hinweis">Jede Zeile kommt in ein <b>eigenes Feld</b>: Zeile 1 ins erste Feature-Feld, Zeile 2 ins zweite usw. Fehlen Felder, unten auf „Weitere Features hinzufügen“ klicken.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t51" lang="fr">Gratuit – pas de compte, pas d'abonnement, pas de publicité</span>
+  <button type="button" class="kopie" data-ziel="t51" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t52" lang="fr">Ouvre et enregistre les fichiers Word (DOCX) avec polices, espacements, notes de bas de page, en-têtes, pieds de page et images</span>
+  <button type="button" class="kopie" data-ziel="t52" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t53" lang="fr">Enregistrement automatique avec points de reprise et historique des versions</span>
+  <button type="button" class="kopie" data-ziel="t53" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t54" lang="fr">Enregistrez votre document en PDF, ou en EPUB pour liseuses</span>
+  <button type="button" class="kopie" data-ziel="t54" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t55" lang="fr">De vraies pages : marges sur la règle, en-tête et pied de page, sauts de page, formats A4, US Letter et autres</span>
+  <button type="button" class="kopie" data-ziel="t55" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t56" lang="fr">Notes de bas de page, tableaux, images, table des matières, signature manuscrite</span>
+  <button type="button" class="kopie" data-ziel="t56" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t57" lang="fr">Correction orthographique avec ses propres dictionnaires : français, allemand, anglais, espagnol, italien, polonais, portugais</span>
+  <button type="button" class="kopie" data-ziel="t57" aria-label="Zeile 7 kopieren">Kopieren</button></li><li><span class="nr">8</span><span class="text klein" id="t58" lang="fr">Objectif d'écriture, comptage des mots et répétitions dans un même panneau</span>
+  <button type="button" class="kopie" data-ziel="t58" aria-label="Zeile 8 kopieren">Kopieren</button></li><li><span class="nr">9</span><span class="text klein" id="t59" lang="fr">Vos textes restent sur votre ordinateur – pas de cloud, fonctionne aussi sans Internet</span>
+  <button type="button" class="kopie" data-ziel="t59" aria-label="Zeile 9 kopieren">Kopieren</button></li><li><span class="nr">10</span><span class="text klein" id="t60" lang="fr">Pense-bêtes et glossaire à côté du texte, chacun dans sa propre vue</span>
+  <button type="button" class="kopie" data-ziel="t60" aria-label="Zeile 10 kopieren">Kopieren</button></li><li><span class="nr">11</span><span class="text klein" id="t61" lang="fr">Nettoyage du texte : doubles espaces, paragraphes vides, fins de ligne</span>
+  <button type="button" class="kopie" data-ziel="t61" aria-label="Zeile 11 kopieren">Kopieren</button></li><li><span class="nr">12</span><span class="text klein" id="t62" lang="fr">Dix-sept thèmes de couleurs, mode focus, vue lecture, aperçu avant impression</span>
+  <button type="button" class="kopie" data-ziel="t62" aria-label="Zeile 12 kopieren">Kopieren</button></li><li><span class="nr">13</span><span class="text klein" id="t63" lang="fr">Interface et aide en sept langues : français, allemand, anglais, espagnol, italien, polonais, portugais</span>
+  <button type="button" class="kopie" data-ziel="t63" aria-label="Zeile 13 kopieren">Kopieren</button></li><li><span class="nr">14</span><span class="text klein" id="t64" lang="fr">Ouvrir : DOCX, ODT, RTF, HTML, Markdown, texte</span>
+  <button type="button" class="kopie" data-ziel="t64" aria-label="Zeile 14 kopieren">Kopieren</button></li><li><span class="nr">15</span><span class="text klein" id="t65" lang="fr">Enregistrer sous : DOCX, EPUB, PDF, HTML, Markdown, texte</span>
+  <button type="button" class="kopie" data-ziel="t65" aria-label="Zeile 15 kopieren">Kopieren</button></li></ol>
+  <h2>4 · Suchbegriffe</h2>
+  <p class="hinweis">Auch hier: jeder Begriff in ein <b>eigenes Feld</b> unter „Suchbegriffe“, alte Begriffe ersetzen.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t66" lang="fr">traitement de texte</span>
+  <button type="button" class="kopie" data-ziel="t66" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t67" lang="fr">traitement de texte gratuit</span>
+  <button type="button" class="kopie" data-ziel="t67" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t68" lang="fr">docx</span>
+  <button type="button" class="kopie" data-ziel="t68" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t69" lang="fr">odt</span>
+  <button type="button" class="kopie" data-ziel="t69" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t70" lang="fr">correcteur orthographique</span>
+  <button type="button" class="kopie" data-ziel="t70" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t71" lang="fr">répétitions</span>
+  <button type="button" class="kopie" data-ziel="t71" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t72" lang="fr">manuscrit</span>
+  <button type="button" class="kopie" data-ziel="t72" aria-label="Zeile 7 kopieren">Kopieren</button></li></ol>
+  <p class="fertig">Danach ganz unten <b>Speichern</b> und mit der nächsten Sprache weitermachen. Die Felder „Neuigkeiten in dieser Version“ und die Bildschirmfotos bleiben, wie sie sind.</p>
+</section><section class="sprache" data-lang="es" hidden>
+  <p class="pfad">Öffne: Partner Center › PureQuill Writer › Store-Angebote › <b>Spanisch (Spanien)</b></p>
+  <h2>1 · Beschreibung</h2>
+  <p class="hinweis">Kopiere den ganzen Text in das Feld <b>Beschreibung</b>. Vorhandenen Text vorher löschen.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Beschreibung“</span><span class="zahl">1738 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t73">Kopieren</button></div>
+  <div class="text gross" id="t73" lang="es">PureQuill Writer es un procesador de textos gratuito para textos largos. Abre y guarda archivos de Word, coloca el texto en páginas reales con márgenes, encabezado y pie de página, e incluye notas al pie, índice y corrección ortográfica en siete idiomas. Sin cuenta, sin suscripción, y tus textos se quedan en tu equipo, incluso sin conexión a internet.
+
+Para quien escribe textos largos: una novela, un trabajo de fin de grado, un informe, un diario. Lo que ves en pantalla es lo que acaba en el papel. Los archivos de Word llegan con sus fuentes, espaciados, notas al pie, encabezados, pies de página e imágenes, y «Guardar» escribe directamente en el archivo abierto. Los textos terminados salen en PDF, en EPUB para lectores electrónicos o de nuevo como archivo de Word.
+
+Y las herramientas que la escritura necesita de verdad: un objetivo de escritura, un panel que muestra las repeticiones, recuento de palabras, limpieza de texto, notas adhesivas y un glosario junto al texto. Todo se guarda de forma continua con historial de versiones, así que los estados anteriores siempre están a mano.
+
+Sin cuenta, sin registro, sin publicidad, sin telemetría. Seis diccionarios vienen incluidos en la aplicación; el alemán se descarga una sola vez desde suvantra.eu en el primer uso, por motivos de licencia, y después permanece en tu equipo.
+
+Esta versión de PureQuill Writer es gratuita y seguirá siéndolo. Sin periodo de prueba, sin fecha de caducidad, sin funciones detrás de un pago.
+
+Si te resulta útil, dos cosas nos ayudan a nosotros: una reseña aquí en la Store y contárselo a alguien que escriba. Está prevista una edición Pro de pago como aplicación aparte; esta se queda tal cual. Todo sobre PureQuill Writer está en suvantra.eu.</div></div>
+  <h2>2 · Kurzbeschreibung</h2>
+  <p class="hinweis">Kopiere den Text in das Feld <b>Kurzbeschreibung</b>.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Kurzbeschreibung“</span><span class="zahl">208 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t74">Kopieren</button></div>
+  <div class="text" id="t74" lang="es">Procesador de textos gratuito para textos largos: abre y guarda archivos de Word, con páginas reales, notas al pie y corrección ortográfica en siete idiomas. Sin cuenta, sin suscripción, también sin conexión.</div></div>
+  <h2>3 · Produktfeatures</h2>
+  <p class="hinweis">Jede Zeile kommt in ein <b>eigenes Feld</b>: Zeile 1 ins erste Feature-Feld, Zeile 2 ins zweite usw. Fehlen Felder, unten auf „Weitere Features hinzufügen“ klicken.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t75" lang="es">Gratuito: sin cuenta, sin suscripción, sin publicidad</span>
+  <button type="button" class="kopie" data-ziel="t75" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t76" lang="es">Abre y guarda archivos de Word (DOCX) con fuentes, espaciados, notas al pie, encabezados, pies de página e imágenes</span>
+  <button type="button" class="kopie" data-ziel="t76" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t77" lang="es">Guardado automático con puntos de restauración e historial de versiones</span>
+  <button type="button" class="kopie" data-ziel="t77" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t78" lang="es">Guarda tu documento como PDF o como EPUB para lectores electrónicos</span>
+  <button type="button" class="kopie" data-ziel="t78" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t79" lang="es">Páginas reales: márgenes en la regla, encabezado y pie de página, saltos de página, formatos como A4 y US Letter</span>
+  <button type="button" class="kopie" data-ziel="t79" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t80" lang="es">Notas al pie, tablas, imágenes, índice, firma manuscrita</span>
+  <button type="button" class="kopie" data-ziel="t80" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t81" lang="es">Corrección ortográfica con diccionarios propios: español, alemán, inglés, francés, italiano, polaco, portugués</span>
+  <button type="button" class="kopie" data-ziel="t81" aria-label="Zeile 7 kopieren">Kopieren</button></li><li><span class="nr">8</span><span class="text klein" id="t82" lang="es">Objetivo de escritura, recuento de palabras y repeticiones en un mismo panel</span>
+  <button type="button" class="kopie" data-ziel="t82" aria-label="Zeile 8 kopieren">Kopieren</button></li><li><span class="nr">9</span><span class="text klein" id="t83" lang="es">Tus textos se quedan en tu equipo: sin nube, funciona también sin conexión a internet</span>
+  <button type="button" class="kopie" data-ziel="t83" aria-label="Zeile 9 kopieren">Kopieren</button></li><li><span class="nr">10</span><span class="text klein" id="t84" lang="es">Notas adhesivas y glosario junto al texto, cada uno en su propia vista</span>
+  <button type="button" class="kopie" data-ziel="t84" aria-label="Zeile 10 kopieren">Kopieren</button></li><li><span class="nr">11</span><span class="text klein" id="t85" lang="es">Limpieza de texto: espacios dobles, párrafos vacíos, saltos de línea</span>
+  <button type="button" class="kopie" data-ziel="t85" aria-label="Zeile 11 kopieren">Kopieren</button></li><li><span class="nr">12</span><span class="text klein" id="t86" lang="es">Diecisiete esquemas de color, modo de concentración, vista de lectura, vista previa de impresión</span>
+  <button type="button" class="kopie" data-ziel="t86" aria-label="Zeile 12 kopieren">Kopieren</button></li><li><span class="nr">13</span><span class="text klein" id="t87" lang="es">Interfaz y ayuda en siete idiomas: español, alemán, inglés, francés, italiano, polaco, portugués</span>
+  <button type="button" class="kopie" data-ziel="t87" aria-label="Zeile 13 kopieren">Kopieren</button></li><li><span class="nr">14</span><span class="text klein" id="t88" lang="es">Abrir: DOCX, ODT, RTF, HTML, Markdown, texto</span>
+  <button type="button" class="kopie" data-ziel="t88" aria-label="Zeile 14 kopieren">Kopieren</button></li><li><span class="nr">15</span><span class="text klein" id="t89" lang="es">Guardar como: DOCX, EPUB, PDF, HTML, Markdown, texto</span>
+  <button type="button" class="kopie" data-ziel="t89" aria-label="Zeile 15 kopieren">Kopieren</button></li></ol>
+  <h2>4 · Suchbegriffe</h2>
+  <p class="hinweis">Auch hier: jeder Begriff in ein <b>eigenes Feld</b> unter „Suchbegriffe“, alte Begriffe ersetzen.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t90" lang="es">procesador de textos</span>
+  <button type="button" class="kopie" data-ziel="t90" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t91" lang="es">procesador de textos gratis</span>
+  <button type="button" class="kopie" data-ziel="t91" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t92" lang="es">docx</span>
+  <button type="button" class="kopie" data-ziel="t92" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t93" lang="es">odt</span>
+  <button type="button" class="kopie" data-ziel="t93" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t94" lang="es">corrector ortográfico</span>
+  <button type="button" class="kopie" data-ziel="t94" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t95" lang="es">repeticiones</span>
+  <button type="button" class="kopie" data-ziel="t95" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t96" lang="es">manuscrito</span>
+  <button type="button" class="kopie" data-ziel="t96" aria-label="Zeile 7 kopieren">Kopieren</button></li></ol>
+  <p class="fertig">Danach ganz unten <b>Speichern</b> und mit der nächsten Sprache weitermachen. Die Felder „Neuigkeiten in dieser Version“ und die Bildschirmfotos bleiben, wie sie sind.</p>
+</section><section class="sprache" data-lang="it" hidden>
+  <p class="pfad">Öffne: Partner Center › PureQuill Writer › Store-Angebote › <b>Italienisch (Italien)</b></p>
+  <h2>1 · Beschreibung</h2>
+  <p class="hinweis">Kopiere den ganzen Text in das Feld <b>Beschreibung</b>. Vorhandenen Text vorher löschen.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Beschreibung“</span><span class="zahl">1732 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t97">Kopieren</button></div>
+  <div class="text gross" id="t97" lang="it">PureQuill Writer è un elaboratore di testi gratuito per testi lunghi. Apre e salva file Word, impagina il testo su pagine vere con margini, intestazione e piè di pagina, e offre note a piè di pagina, sommario e controllo ortografico in sette lingue. Nessun account, nessun abbonamento – e i tuoi testi restano sul tuo computer, anche senza connessione a Internet.
+
+Per chi scrive testi lunghi: un romanzo, una tesi, una relazione, un diario. Quello che vedi sullo schermo è quello che finisce sulla carta. I file Word arrivano con caratteri, spaziature, note a piè di pagina, intestazioni, piè di pagina e immagini, e «Salva» scrive direttamente nel file aperto. I testi finiti escono in PDF, in EPUB per gli e-reader o di nuovo come file Word.
+
+E gli strumenti di cui la scrittura ha davvero bisogno: un obiettivo di scrittura, un pannello che mostra le ripetizioni, il conteggio delle parole, la pulizia del testo, foglietti adesivi e un glossario accanto al testo. Tutto viene salvato di continuo con una cronologia delle versioni, così gli stati precedenti sono sempre a portata di mano.
+
+Nessun account, nessuna registrazione, nessuna pubblicità, nessuna telemetria. Sei dizionari sono inclusi nell'applicazione; quello tedesco viene scaricato una sola volta da suvantra.eu al primo utilizzo, per motivi di licenza, e poi resta sul tuo computer.
+
+Questa versione di PureQuill Writer è gratuita e resta gratuita. Nessun periodo di prova, nessuna scadenza, nessuna funzione dietro un pagamento.
+
+Se ti è utile, due cose aiutano noi: una recensione qui nello Store e una parola a chi scrive. È prevista un'edizione Pro a pagamento come applicazione separata — questa resta com'è. Tutto su PureQuill Writer si trova su suvantra.eu.</div></div>
+  <h2>2 · Kurzbeschreibung</h2>
+  <p class="hinweis">Kopiere den Text in das Feld <b>Kurzbeschreibung</b>.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Kurzbeschreibung“</span><span class="zahl">201 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t98">Kopieren</button></div>
+  <div class="text" id="t98" lang="it">Elaboratore di testi gratuito per testi lunghi: apre e salva file Word, con pagine vere, note a piè di pagina e controllo ortografico in sette lingue. Nessun account, nessun abbonamento, anche offline.</div></div>
+  <h2>3 · Produktfeatures</h2>
+  <p class="hinweis">Jede Zeile kommt in ein <b>eigenes Feld</b>: Zeile 1 ins erste Feature-Feld, Zeile 2 ins zweite usw. Fehlen Felder, unten auf „Weitere Features hinzufügen“ klicken.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t99" lang="it">Gratuito: nessun account, nessun abbonamento, nessuna pubblicità</span>
+  <button type="button" class="kopie" data-ziel="t99" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t100" lang="it">Apre e salva file Word (DOCX) con caratteri, spaziature, note a piè di pagina, intestazioni, piè di pagina e immagini</span>
+  <button type="button" class="kopie" data-ziel="t100" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t101" lang="it">Salvataggio automatico con punti di ripristino e cronologia delle versioni</span>
+  <button type="button" class="kopie" data-ziel="t101" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t102" lang="it">Salva il tuo documento in PDF o in EPUB per e-reader</span>
+  <button type="button" class="kopie" data-ziel="t102" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t103" lang="it">Pagine vere: margini sul righello, intestazione e piè di pagina, interruzioni di pagina, formati come A4 e US Letter</span>
+  <button type="button" class="kopie" data-ziel="t103" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t104" lang="it">Note a piè di pagina, tabelle, immagini, sommario, firma autografa</span>
+  <button type="button" class="kopie" data-ziel="t104" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t105" lang="it">Controllo ortografico con dizionari propri: italiano, tedesco, inglese, francese, spagnolo, polacco, portoghese</span>
+  <button type="button" class="kopie" data-ziel="t105" aria-label="Zeile 7 kopieren">Kopieren</button></li><li><span class="nr">8</span><span class="text klein" id="t106" lang="it">Obiettivo di scrittura, conteggio parole e ripetizioni in un unico pannello</span>
+  <button type="button" class="kopie" data-ziel="t106" aria-label="Zeile 8 kopieren">Kopieren</button></li><li><span class="nr">9</span><span class="text klein" id="t107" lang="it">I tuoi testi restano sul tuo computer: nessun cloud, funziona anche senza Internet</span>
+  <button type="button" class="kopie" data-ziel="t107" aria-label="Zeile 9 kopieren">Kopieren</button></li><li><span class="nr">10</span><span class="text klein" id="t108" lang="it">Foglietti adesivi e glossario accanto al testo, ciascuno in una vista propria</span>
+  <button type="button" class="kopie" data-ziel="t108" aria-label="Zeile 10 kopieren">Kopieren</button></li><li><span class="nr">11</span><span class="text klein" id="t109" lang="it">Pulizia del testo: spazi doppi, paragrafi vuoti, fine riga</span>
+  <button type="button" class="kopie" data-ziel="t109" aria-label="Zeile 11 kopieren">Kopieren</button></li><li><span class="nr">12</span><span class="text klein" id="t110" lang="it">Diciassette schemi di colore, modalità concentrazione, vista lettura, anteprima di stampa</span>
+  <button type="button" class="kopie" data-ziel="t110" aria-label="Zeile 12 kopieren">Kopieren</button></li><li><span class="nr">13</span><span class="text klein" id="t111" lang="it">Interfaccia e guida in sette lingue: italiano, tedesco, inglese, francese, spagnolo, polacco, portoghese</span>
+  <button type="button" class="kopie" data-ziel="t111" aria-label="Zeile 13 kopieren">Kopieren</button></li><li><span class="nr">14</span><span class="text klein" id="t112" lang="it">Apri: DOCX, ODT, RTF, HTML, Markdown, testo</span>
+  <button type="button" class="kopie" data-ziel="t112" aria-label="Zeile 14 kopieren">Kopieren</button></li><li><span class="nr">15</span><span class="text klein" id="t113" lang="it">Salva come: DOCX, EPUB, PDF, HTML, Markdown, testo</span>
+  <button type="button" class="kopie" data-ziel="t113" aria-label="Zeile 15 kopieren">Kopieren</button></li></ol>
+  <h2>4 · Suchbegriffe</h2>
+  <p class="hinweis">Auch hier: jeder Begriff in ein <b>eigenes Feld</b> unter „Suchbegriffe“, alte Begriffe ersetzen.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t114" lang="it">elaboratore di testi</span>
+  <button type="button" class="kopie" data-ziel="t114" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t115" lang="it">programma di scrittura gratis</span>
+  <button type="button" class="kopie" data-ziel="t115" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t116" lang="it">docx</span>
+  <button type="button" class="kopie" data-ziel="t116" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t117" lang="it">odt</span>
+  <button type="button" class="kopie" data-ziel="t117" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t118" lang="it">correttore ortografico</span>
+  <button type="button" class="kopie" data-ziel="t118" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t119" lang="it">ripetizioni</span>
+  <button type="button" class="kopie" data-ziel="t119" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t120" lang="it">manoscritto</span>
+  <button type="button" class="kopie" data-ziel="t120" aria-label="Zeile 7 kopieren">Kopieren</button></li></ol>
+  <p class="fertig">Danach ganz unten <b>Speichern</b> und mit der nächsten Sprache weitermachen. Die Felder „Neuigkeiten in dieser Version“ und die Bildschirmfotos bleiben, wie sie sind.</p>
+</section><section class="sprache" data-lang="pl" hidden>
+  <p class="pfad">Öffne: Partner Center › PureQuill Writer › Store-Angebote › <b>Polnisch (Polen)</b></p>
+  <h2>1 · Beschreibung</h2>
+  <p class="hinweis">Kopiere den ganzen Text in das Feld <b>Beschreibung</b>. Vorhandenen Text vorher löschen.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Beschreibung“</span><span class="zahl">1612 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t121">Kopieren</button></div>
+  <div class="text gross" id="t121" lang="pl">PureQuill Writer to bezpłatny edytor tekstu do długich tekstów. Otwiera i zapisuje pliki Worda, układa tekst na prawdziwych stronach z marginesami, nagłówkiem i stopką, a do tego oferuje przypisy, spis treści i sprawdzanie pisowni w siedmiu językach. Bez konta, bez abonamentu – a twoje teksty zostają na twoim komputerze, także bez dostępu do internetu.
+
+Dla tych, którzy piszą długie teksty: powieść, pracę dyplomową, raport, dziennik. To, co widzisz na ekranie, trafia tak samo na papier. Pliki Worda wczytują się z czcionkami, odstępami, przypisami, nagłówkami, stopkami i obrazami, a „Zapisz” zapisuje bezpośrednio do otwartego pliku. Gotowe teksty wychodzą jako PDF, jako EPUB na czytniki e-booków albo z powrotem jako plik Worda.
+
+Do tego narzędzia, które naprawdę pomagają w pisaniu: cel pisania, panel pokazujący powtórzenia słów, licznik słów, porządkowanie tekstu, karteczki i glosariusz obok tekstu. Wszystko zapisuje się na bieżąco z historią wersji, więc wcześniejsze stany są zawsze pod ręką.
+
+Bez konta, bez logowania, bez reklam, bez telemetrii. Sześć słowników jest dołączonych do programu; niemiecki pobierany jest jednorazowo z suvantra.eu przy pierwszym użyciu, ze względów licencyjnych, i potem pozostaje na twoim komputerze.
+
+Ta wersja PureQuill Writer jest bezpłatna i taka pozostanie. Bez okresu próbnego, bez daty wygaśnięcia, bez funkcji ukrytych za opłatą.
+
+Jeśli ci pomaga, nam pomagają dwie rzeczy: opinia tutaj w Store i słowo do kogoś, kto pisze. Płatna edycja Pro jest planowana jako osobny program — ta pozostaje bez zmian. Wszystko o PureQuill Writer znajdziesz na suvantra.eu.</div></div>
+  <h2>2 · Kurzbeschreibung</h2>
+  <p class="hinweis">Kopiere den Text in das Feld <b>Kurzbeschreibung</b>.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Kurzbeschreibung“</span><span class="zahl">195 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t122">Kopieren</button></div>
+  <div class="text" id="t122" lang="pl">Bezpłatny edytor tekstu do długich tekstów: otwiera i zapisuje pliki Worda, z prawdziwymi stronami, przypisami i sprawdzaniem pisowni w siedmiu językach. Bez konta, bez abonamentu, także offline.</div></div>
+  <h2>3 · Produktfeatures</h2>
+  <p class="hinweis">Jede Zeile kommt in ein <b>eigenes Feld</b>: Zeile 1 ins erste Feature-Feld, Zeile 2 ins zweite usw. Fehlen Felder, unten auf „Weitere Features hinzufügen“ klicken.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t123" lang="pl">Bezpłatny – bez konta, bez abonamentu, bez reklam</span>
+  <button type="button" class="kopie" data-ziel="t123" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t124" lang="pl">Otwiera i zapisuje pliki Worda (DOCX) z czcionkami, odstępami, przypisami, nagłówkami, stopkami i obrazami</span>
+  <button type="button" class="kopie" data-ziel="t124" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t125" lang="pl">Autozapis z punktami przywracania i historią wersji</span>
+  <button type="button" class="kopie" data-ziel="t125" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t126" lang="pl">Zapisz dokument jako PDF albo jako EPUB na czytniki e-booków</span>
+  <button type="button" class="kopie" data-ziel="t126" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t127" lang="pl">Prawdziwe strony: marginesy na linijce, nagłówek i stopka, podział strony, formaty takie jak A4 i US Letter</span>
+  <button type="button" class="kopie" data-ziel="t127" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t128" lang="pl">Przypisy, tabele, obrazy, spis treści, odręczny podpis</span>
+  <button type="button" class="kopie" data-ziel="t128" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t129" lang="pl">Sprawdzanie pisowni z własnymi słownikami: polski, niemiecki, angielski, francuski, hiszpański, włoski, portugalski</span>
+  <button type="button" class="kopie" data-ziel="t129" aria-label="Zeile 7 kopieren">Kopieren</button></li><li><span class="nr">8</span><span class="text klein" id="t130" lang="pl">Cel pisania, licznik słów i powtórzenia w jednym panelu</span>
+  <button type="button" class="kopie" data-ziel="t130" aria-label="Zeile 8 kopieren">Kopieren</button></li><li><span class="nr">9</span><span class="text klein" id="t131" lang="pl">Twoje teksty zostają na twoim komputerze – bez chmury, działa także bez internetu</span>
+  <button type="button" class="kopie" data-ziel="t131" aria-label="Zeile 9 kopieren">Kopieren</button></li><li><span class="nr">10</span><span class="text klein" id="t132" lang="pl">Karteczki i glosariusz obok tekstu, każde we własnym widoku</span>
+  <button type="button" class="kopie" data-ziel="t132" aria-label="Zeile 10 kopieren">Kopieren</button></li><li><span class="nr">11</span><span class="text klein" id="t133" lang="pl">Porządkowanie tekstu: podwójne spacje, puste akapity, końce wierszy</span>
+  <button type="button" class="kopie" data-ziel="t133" aria-label="Zeile 11 kopieren">Kopieren</button></li><li><span class="nr">12</span><span class="text klein" id="t134" lang="pl">Siedemnaście motywów kolorystycznych, tryb skupienia, widok czytania, podgląd wydruku</span>
+  <button type="button" class="kopie" data-ziel="t134" aria-label="Zeile 12 kopieren">Kopieren</button></li><li><span class="nr">13</span><span class="text klein" id="t135" lang="pl">Interfejs i pomoc w siedmiu językach: polski, niemiecki, angielski, francuski, hiszpański, włoski, portugalski</span>
+  <button type="button" class="kopie" data-ziel="t135" aria-label="Zeile 13 kopieren">Kopieren</button></li><li><span class="nr">14</span><span class="text klein" id="t136" lang="pl">Otwieranie: DOCX, ODT, RTF, HTML, Markdown, tekst</span>
+  <button type="button" class="kopie" data-ziel="t136" aria-label="Zeile 14 kopieren">Kopieren</button></li><li><span class="nr">15</span><span class="text klein" id="t137" lang="pl">Zapisywanie jako: DOCX, EPUB, PDF, HTML, Markdown, tekst</span>
+  <button type="button" class="kopie" data-ziel="t137" aria-label="Zeile 15 kopieren">Kopieren</button></li></ol>
+  <h2>4 · Suchbegriffe</h2>
+  <p class="hinweis">Auch hier: jeder Begriff in ein <b>eigenes Feld</b> unter „Suchbegriffe“, alte Begriffe ersetzen.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t138" lang="pl">edytor tekstu</span>
+  <button type="button" class="kopie" data-ziel="t138" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t139" lang="pl">darmowy edytor tekstu</span>
+  <button type="button" class="kopie" data-ziel="t139" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t140" lang="pl">docx</span>
+  <button type="button" class="kopie" data-ziel="t140" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t141" lang="pl">odt</span>
+  <button type="button" class="kopie" data-ziel="t141" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t142" lang="pl">sprawdzanie pisowni</span>
+  <button type="button" class="kopie" data-ziel="t142" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t143" lang="pl">powtórzenia</span>
+  <button type="button" class="kopie" data-ziel="t143" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t144" lang="pl">manuskrypt</span>
+  <button type="button" class="kopie" data-ziel="t144" aria-label="Zeile 7 kopieren">Kopieren</button></li></ol>
+  <p class="fertig">Danach ganz unten <b>Speichern</b> und mit der nächsten Sprache weitermachen. Die Felder „Neuigkeiten in dieser Version“ und die Bildschirmfotos bleiben, wie sie sind.</p>
+</section><section class="sprache" data-lang="pt" hidden>
+  <p class="pfad">Öffne: Partner Center › PureQuill Writer › Store-Angebote › <b>Portugiesisch (Brasilien)</b></p>
+  <h2>1 · Beschreibung</h2>
+  <p class="hinweis">Kopiere den ganzen Text in das Feld <b>Beschreibung</b>. Vorhandenen Text vorher löschen.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Beschreibung“</span><span class="zahl">1651 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t145">Kopieren</button></div>
+  <div class="text gross" id="t145" lang="pt">O PureQuill Writer é um processador de textos gratuito para textos longos. Ele abre e salva arquivos do Word, organiza o texto em páginas de verdade com margens, cabeçalho e rodapé, e traz notas de rodapé, sumário e verificação ortográfica em sete idiomas. Sem conta, sem assinatura – e seus textos ficam no seu computador, mesmo sem internet.
+
+Para quem escreve textos longos: um romance, um TCC, um relatório, um diário. O que você vê na tela é o que vai para o papel. Arquivos do Word chegam com fontes, espaçamentos, notas de rodapé, cabeçalhos, rodapés e imagens, e &quot;Salvar&quot; grava direto no arquivo aberto. Os textos prontos saem em PDF, em EPUB para leitores digitais ou de novo como arquivo do Word.
+
+Além disso, as ferramentas de que a escrita realmente precisa: uma meta de escrita, um painel que mostra as repetições de palavras, contagem de palavras, limpeza de texto, lembretes adesivos e um glossário ao lado do texto. Tudo é salvo continuamente com histórico de versões, então os estados anteriores estão sempre à mão.
+
+Sem conta, sem login, sem anúncios, sem telemetria. Seis dicionários vêm junto com o aplicativo; o alemão é baixado uma única vez de suvantra.eu no primeiro uso, por motivos de licença, e depois fica no seu computador.
+
+Esta versão do PureQuill Writer é gratuita e continuará gratuita. Sem período de teste, sem data de expiração, sem recursos atrás de um pagamento.
+
+Se ela te ajuda, duas coisas nos ajudam de volta: uma avaliação aqui na Store e um aviso a alguém que escreve. Uma edição Pro paga está planejada como aplicativo separado — esta permanece como está. Tudo sobre o PureQuill Writer está em suvantra.eu.</div></div>
+  <h2>2 · Kurzbeschreibung</h2>
+  <p class="hinweis">Kopiere den Text in das Feld <b>Kurzbeschreibung</b>.</p>
+  <div class="block">
+  <div class="kopf"><span class="wohin">→ Feld „Kurzbeschreibung“</span><span class="zahl">207 Zeichen</span>
+  <button type="button" class="kopie" data-ziel="t146">Kopieren</button></div>
+  <div class="text" id="t146" lang="pt">Processador de textos gratuito para textos longos: abre e salva arquivos do Word, com páginas de verdade, notas de rodapé e verificação ortográfica em sete idiomas. Sem conta, sem assinatura, também offline.</div></div>
+  <h2>3 · Produktfeatures</h2>
+  <p class="hinweis">Jede Zeile kommt in ein <b>eigenes Feld</b>: Zeile 1 ins erste Feature-Feld, Zeile 2 ins zweite usw. Fehlen Felder, unten auf „Weitere Features hinzufügen“ klicken.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t147" lang="pt">Gratuito – sem conta, sem assinatura, sem anúncios</span>
+  <button type="button" class="kopie" data-ziel="t147" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t148" lang="pt">Abre e salva arquivos do Word (DOCX) com fontes, espaçamentos, notas de rodapé, cabeçalhos, rodapés e imagens</span>
+  <button type="button" class="kopie" data-ziel="t148" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t149" lang="pt">Salvamento automático com pontos de restauração e histórico de versões</span>
+  <button type="button" class="kopie" data-ziel="t149" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t150" lang="pt">Salve seu documento como PDF ou como EPUB para leitores digitais</span>
+  <button type="button" class="kopie" data-ziel="t150" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t151" lang="pt">Páginas de verdade: margens na régua, cabeçalho e rodapé, quebras de página, formatos como A4 e Carta (US Letter)</span>
+  <button type="button" class="kopie" data-ziel="t151" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t152" lang="pt">Notas de rodapé, tabelas, imagens, sumário, assinatura à mão</span>
+  <button type="button" class="kopie" data-ziel="t152" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t153" lang="pt">Verificação ortográfica com dicionários próprios: português, alemão, inglês, francês, espanhol, italiano, polonês</span>
+  <button type="button" class="kopie" data-ziel="t153" aria-label="Zeile 7 kopieren">Kopieren</button></li><li><span class="nr">8</span><span class="text klein" id="t154" lang="pt">Meta de escrita, contagem de palavras e repetições em um único painel</span>
+  <button type="button" class="kopie" data-ziel="t154" aria-label="Zeile 8 kopieren">Kopieren</button></li><li><span class="nr">9</span><span class="text klein" id="t155" lang="pt">Seus textos ficam no seu computador – sem nuvem, funciona também sem internet</span>
+  <button type="button" class="kopie" data-ziel="t155" aria-label="Zeile 9 kopieren">Kopieren</button></li><li><span class="nr">10</span><span class="text klein" id="t156" lang="pt">Lembretes adesivos e glossário ao lado do texto, cada um em sua própria visualização</span>
+  <button type="button" class="kopie" data-ziel="t156" aria-label="Zeile 10 kopieren">Kopieren</button></li><li><span class="nr">11</span><span class="text klein" id="t157" lang="pt">Limpeza de texto: espaços duplos, parágrafos vazios, fins de linha</span>
+  <button type="button" class="kopie" data-ziel="t157" aria-label="Zeile 11 kopieren">Kopieren</button></li><li><span class="nr">12</span><span class="text klein" id="t158" lang="pt">Dezessete esquemas de cores, modo de foco, modo de leitura, visualização de impressão</span>
+  <button type="button" class="kopie" data-ziel="t158" aria-label="Zeile 12 kopieren">Kopieren</button></li><li><span class="nr">13</span><span class="text klein" id="t159" lang="pt">Interface e ajuda em sete idiomas: português, alemão, inglês, francês, espanhol, italiano, polonês</span>
+  <button type="button" class="kopie" data-ziel="t159" aria-label="Zeile 13 kopieren">Kopieren</button></li><li><span class="nr">14</span><span class="text klein" id="t160" lang="pt">Abrir: DOCX, ODT, RTF, HTML, Markdown, texto</span>
+  <button type="button" class="kopie" data-ziel="t160" aria-label="Zeile 14 kopieren">Kopieren</button></li><li><span class="nr">15</span><span class="text klein" id="t161" lang="pt">Salvar como: DOCX, EPUB, PDF, HTML, Markdown, texto</span>
+  <button type="button" class="kopie" data-ziel="t161" aria-label="Zeile 15 kopieren">Kopieren</button></li></ol>
+  <h2>4 · Suchbegriffe</h2>
+  <p class="hinweis">Auch hier: jeder Begriff in ein <b>eigenes Feld</b> unter „Suchbegriffe“, alte Begriffe ersetzen.</p>
+  <ol class="liste"><li><span class="nr">1</span><span class="text klein" id="t162" lang="pt">processador de texto</span>
+  <button type="button" class="kopie" data-ziel="t162" aria-label="Zeile 1 kopieren">Kopieren</button></li><li><span class="nr">2</span><span class="text klein" id="t163" lang="pt">editor de texto gratuito</span>
+  <button type="button" class="kopie" data-ziel="t163" aria-label="Zeile 2 kopieren">Kopieren</button></li><li><span class="nr">3</span><span class="text klein" id="t164" lang="pt">docx</span>
+  <button type="button" class="kopie" data-ziel="t164" aria-label="Zeile 3 kopieren">Kopieren</button></li><li><span class="nr">4</span><span class="text klein" id="t165" lang="pt">odt</span>
+  <button type="button" class="kopie" data-ziel="t165" aria-label="Zeile 4 kopieren">Kopieren</button></li><li><span class="nr">5</span><span class="text klein" id="t166" lang="pt">corretor ortográfico</span>
+  <button type="button" class="kopie" data-ziel="t166" aria-label="Zeile 5 kopieren">Kopieren</button></li><li><span class="nr">6</span><span class="text klein" id="t167" lang="pt">repetições</span>
+  <button type="button" class="kopie" data-ziel="t167" aria-label="Zeile 6 kopieren">Kopieren</button></li><li><span class="nr">7</span><span class="text klein" id="t168" lang="pt">manuscrito</span>
+  <button type="button" class="kopie" data-ziel="t168" aria-label="Zeile 7 kopieren">Kopieren</button></li></ol>
+  <p class="fertig">Danach ganz unten <b>Speichern</b> und mit der nächsten Sprache weitermachen. Die Felder „Neuigkeiten in dieser Version“ und die Bildschirmfotos bleiben, wie sie sind.</p>
+</section>
+</div>
+<script>
+(function(){
+  const tabs=[...document.querySelectorAll(".tab")], seiten=[...document.querySelectorAll(".sprache")];
+  function zeige(code){
+    tabs.forEach(t=>t.setAttribute("aria-pressed",String(t.dataset.lang===code)));
+    seiten.forEach(s=>s.hidden=s.dataset.lang!==code);
+    try{localStorage.setItem("pq-store-lang",code)}catch(e){}
+  }
+  tabs.forEach(t=>t.addEventListener("click",()=>zeige(t.dataset.lang)));
+  let start="de";try{start=localStorage.getItem("pq-store-lang")||"de"}catch(e){}
+  zeige(tabs.some(t=>t.dataset.lang===start)?start:"de");
+  document.addEventListener("click",e=>{
+    const b=e.target.closest(".kopie");if(!b)return;
+    const el=document.getElementById(b.dataset.ziel);
+    const fertig=()=>{const alt=b.textContent;b.textContent="Kopiert";b.classList.add("ok");
+      setTimeout(()=>{b.textContent=alt;b.classList.remove("ok")},1600)};
+    const markieren=()=>{const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);
+      b.textContent="Markiert – Strg+C";setTimeout(()=>b.textContent="Kopieren",2500)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(el.textContent).then(fertig,markieren)}else markieren();
+  });
+})();
+</script>
