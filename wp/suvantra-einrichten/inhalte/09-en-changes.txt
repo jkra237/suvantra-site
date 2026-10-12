@@ -1,0 +1,136 @@
+<!-- wp:paragraph {"className":"klein"} -->
+<p class="klein">Every released version, newest first.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Version 1.1.0</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"klein"} -->
+<p class="klein">4 October 2026</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">New</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>File › Save (Ctrl+S) writes the document to its Word file. The first time, it asks where to save; after that, it saves without asking. A .docx file you opened is updated directly.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Ctrl+S now saves the file. A checkpoint on its own is on Alt+Shift+S.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The status bar shows the file name with a dot: green when the file is up to date, in the accent colour when there are changes that are not in the file yet. A click saves.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Closing a document with unsaved changes asks first: Save, Don’t save or Cancel.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>If the file is locked, usually because it is still open in Word, the program says so and asks for another location.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>New documents start like in Word, with Calibri 11 and 1.15 line spacing. Font, size and spacing can be chosen right when you create a document.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>New section Settings › General › New documents, with “Reset to Word defaults”. Existing documents keep their look.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Line spacing is calculated the way Word does it, so 1.15 looks the same in both programs.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Word, ODT and RTF files open in their own font, size, line and paragraph spacing, and keep them when saved.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The toolbar shows Bold, Italic and Underline with the letters Word uses in your language.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>New users start at 100% zoom, as in Word.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Fixed</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Text from Word files looked larger than in Word.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>File names no longer end with the punctuation of the first line, as in “Dear Sir or Madam,.docx”.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Spell check accepts typographic apostrophes, as in “don’t”.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Word export: code blocks keep their line breaks and tabs.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Word export: lines no longer start with spaces that the editor did not show.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The welcome window now closes after File › Open.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Creating or opening a document with no tab open no longer adds a second, empty tab.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Repeated words no longer lists filler words that are switched off.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>“Dictionary not available” is now translated into every language.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The colour scheme dialog named the wrong scheme as the default.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Version 1.0.0</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"klein"} -->
+<p class="klein">2 October 2026</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>First release on the Microsoft Store. Free, with no account and no subscription.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Opens DOCX, ODT, RTF, HTML, Markdown and text. Saves as DOCX, EPUB, PDF, HTML, Markdown and text.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Real pages: margins on the ruler, headers and footers, page breaks, A4 and US Letter.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Footnotes, tables, pictures, table of contents, handwritten signature.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Spell check with its own dictionaries in seven languages: English, German, French, Spanish, Italian, Polish and Portuguese.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Word goal, word count and repeated words in one panel.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Autosave with checkpoints and version history.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Sticky notes and a glossary beside the text.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Text clean-up, seventeen colour schemes, focus mode, reading view and print preview.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Interface and help in the same seven languages.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Settings › Save › Delete all data, which offers a full backup first.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>An About window with the version and the licences of the dictionaries.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
