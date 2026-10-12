@@ -1,0 +1,107 @@
+================================================================
+PureQuill Writer 1.2.0 — „Neuigkeiten in dieser Version“
+Partner Center: Store-Angebot › <Sprache> › Neuigkeiten in dieser Version
+Je Sprache den Block zwischen den Linien einfügen.
+================================================================
+
+DEUTSCH  (de-DE)
+----------------------------------------------------------------
+Version 1.2.0
+• Word-Dateien: Logos und Bilder in Kopf- und Fußzeile, Endnoten und Kommentare werden übernommen. Spalten, Abschnitte und alles Übrige bleiben beim Speichern erhalten.
+• Ausgefüllte Word-Formulare öffnen vollständig: Antworten und nachverfolgte Änderungen gehen nicht mehr verloren.
+• Word-Dateien behalten Schriftfarben, Großbuchstaben, Schriftgrößen, Einzüge und Tabellen ohne Rahmen. Nummerierte Listen zählen wie in Word weiter.
+• Druck: richtige Seitenzahl auf jeder Seite, Fußnoten am Seitenende, lange Tabellen über mehrere Seiten.
+• Neuer Dialog „Neues Dokument“ mit Titel und Seitenvorschau. Die Einstellungen sind übersichtlicher und lassen sich auf den Werkszustand zurücksetzen.
+• Der Versionsverlauf reicht bis zu einem Monat zurück.
+• Beim Einfügen von Text mit Bildern fragt das Programm, ob die Bilder mitkommen sollen.
+• Tastenkürzel wie in Word, zum Beispiel Strg+Umschalt+F für Fett.
+• Bilder und Tabellen lassen sich mit der Rücktaste löschen, Dialoge öffnen mittig im Fenster.
+• Weitere Korrekturen: Druckvorschau auf weißem Papier, Vorschläge für fehlende Apostrophe, Zeichenzahl wie in Word, Doppelklick öffnet .pqw-Dateien.
+
+
+ENGLISH  (en-US)
+----------------------------------------------------------------
+Version 1.2.0
+• Word files: logos and images in headers and footers, endnotes and comments are imported. Columns, sections and everything else are kept when you save.
+• Filled-in Word forms open completely: answers and tracked changes are no longer lost.
+• Word files keep font colors, all caps, font sizes, indents and tables without borders. Numbered lists continue counting the way Word does.
+• Printing: the right page number on every page, footnotes at the foot of the page, long tables across several pages.
+• New "New document" dialog with title and page preview. Settings are clearer and can be reset to factory settings.
+• Version history now reaches back up to a month.
+• When you paste text with images, the program asks whether to include the images.
+• Images and tables can be deleted with Backspace, and dialogs open centered in the window.
+• More fixes: print preview on white paper, suggestions for missing apostrophes such as "doesn't", a character count that matches Word, double-clicking opens .pqw files.
+
+
+FRANÇAIS  (fr-FR)
+----------------------------------------------------------------
+Version 1.2.0
+• Fichiers Word : logos et images d’en-tête et de pied de page, notes de fin et commentaires sont repris. Colonnes, sections et tout le reste sont conservés à l’enregistrement.
+• Les formulaires Word remplis s’ouvrent en entier : réponses et modifications suivies ne sont plus perdues.
+• Les fichiers Word conservent couleurs, majuscules, tailles de police, retraits et tableaux sans bordure. Les listes numérotées continuent comme dans Word.
+• Impression : le bon numéro sur chaque page, notes de bas de page en bas de page, longs tableaux sur plusieurs pages.
+• Nouvelle boîte « Nouveau document » avec titre et aperçu de la page. Les paramètres sont plus clairs et se rétablissent aux réglages d’usine.
+• L’historique des versions remonte jusqu’à un mois.
+• En collant du texte avec des images, le programme demande s’il faut les inclure.
+• Raccourcis clavier comme dans Word, par exemple Ctrl+G pour le gras.
+• Images et tableaux se suppriment avec la touche Retour arrière, les boîtes de dialogue s’ouvrent au centre.
+• Autres corrections : aperçu sur papier blanc, apostrophes manquantes proposées (« j’ai » pour « jai »), nombre de caractères comme Word, double-clic sur un .pqw.
+
+
+ESPAÑOL  (es-ES)
+----------------------------------------------------------------
+Versión 1.2.0
+• Archivos de Word: se importan logotipos e imágenes del encabezado y pie de página, notas al final y comentarios. Columnas, secciones y todo lo demás se conservan al guardar.
+• Los formularios de Word rellenados se abren completos: respuestas y cambios controlados ya no se pierden.
+• Los archivos de Word conservan colores, mayúsculas, tamaños de fuente, sangrías y tablas sin bordes. Las listas numeradas siguen contando como en Word.
+• Impresión: el número correcto en cada página, notas al pie al final de la página, tablas largas en varias páginas.
+• Nuevo diálogo «Documento nuevo» con título y vista previa de la página. La configuración es más clara y se puede restablecer a la de fábrica.
+• El historial de versiones llega hasta un mes atrás.
+• Al pegar texto con imágenes, el programa pregunta si quieres incluirlas.
+• En la aplicación de escritorio, los atajos son los de Word en español: Ctrl+N para negrita, Ctrl+G para guardar.
+• Las imágenes y tablas se borran con la tecla Retroceso, los diálogos se abren centrados.
+• Más correcciones: vista previa en papel blanco, recuento de caracteres igual al de Word, doble clic abre archivos .pqw.
+
+
+ITALIANO  (it-IT)
+----------------------------------------------------------------
+Versione 1.2.0
+• File Word: loghi e immagini in intestazione e piè di pagina, note di chiusura e commenti vengono importati. Colonne, sezioni e tutto il resto restano al salvataggio.
+• I moduli Word compilati si aprono per intero: risposte e revisioni non vanno più perse.
+• I file Word mantengono colori, maiuscolo, dimensioni del carattere, rientri e tabelle senza bordi. Gli elenchi numerati proseguono come in Word.
+• Stampa: il numero giusto su ogni pagina, note a piè di pagina in fondo alla pagina, tabelle lunghe su più pagine.
+• Nuova finestra «Nuovo documento» con titolo e anteprima della pagina. Le impostazioni sono più chiare e si possono ripristinare quelle di fabbrica.
+• La cronologia delle versioni arriva fino a un mese.
+• Incollando testo con immagini, il programma chiede se includerle.
+• Scorciatoie da tastiera come in Word, ad esempio Ctrl+G per il grassetto.
+• Immagini e tabelle si eliminano con il tasto Backspace, le finestre si aprono al centro.
+• Altre correzioni: anteprima su carta bianca, apostrofi mancanti proposti («l’anno» per «lanno»), conteggio dei caratteri come in Word, doppio clic apre i file .pqw.
+
+
+POLSKI  (pl-PL)
+----------------------------------------------------------------
+Wersja 1.2.0
+• Pliki Word: logo i obrazy w nagłówku i stopce, przypisy końcowe i komentarze są przejmowane. Kolumny, sekcje i cała reszta zostają zachowane przy zapisie.
+• Wypełnione formularze Worda otwierają się w całości: odpowiedzi i śledzone zmiany nie giną.
+• Pliki Word zachowują kolory, wielkie litery, rozmiary czcionki, wcięcia i tabele bez obramowania. Listy numerowane liczą dalej jak w Wordzie.
+• Drukowanie: właściwy numer na każdej stronie, przypisy na dole strony, długie tabele na kilku stronach.
+• Nowe okno „Nowy dokument” z tytułem i podglądem strony. Ustawienia są czytelniejsze i można przywrócić ustawienia fabryczne.
+• Historia wersji sięga do miesiąca wstecz.
+• Przy wklejaniu tekstu z obrazami program pyta, czy je dołączyć.
+• Obrazy i tabele usuwa się klawiszem Backspace, okna dialogowe otwierają się na środku.
+• Kolejne poprawki: podgląd wydruku na białym papierze, liczba znaków zgodna z Wordem, dwukrotne kliknięcie otwiera pliki .pqw.
+
+
+PORTUGUÊS (BRASIL)  (pt-BR)
+----------------------------------------------------------------
+Versão 1.2.0
+• Arquivos do Word: logotipos e imagens no cabeçalho e rodapé, notas de fim e comentários são importados. Colunas, seções e todo o resto são mantidos ao salvar.
+• Formulários do Word preenchidos abrem por completo: respostas e alterações controladas não se perdem mais.
+• Arquivos do Word mantêm cores, maiúsculas, tamanhos de fonte, recuos e tabelas sem bordas. Listas numeradas continuam a contagem como no Word.
+• Impressão: o número certo em cada página, notas de rodapé no pé da página, tabelas longas em várias páginas.
+• Nova janela "Novo documento" com título e prévia da página. As configurações estão mais claras e podem voltar às de fábrica.
+• O histórico de versões volta até um mês.
+• Ao colar texto com imagens, o programa pergunta se elas devem vir junto.
+• No aplicativo para computador, os atalhos são os do Word em português: Ctrl+N para negrito, Ctrl+B para salvar.
+• Imagens e tabelas são apagadas com a tecla Backspace, as janelas abrem centralizadas.
+• Mais correções: visualização de impressão em papel branco, contagem de caracteres igual à do Word, clique duplo abre arquivos .pqw.

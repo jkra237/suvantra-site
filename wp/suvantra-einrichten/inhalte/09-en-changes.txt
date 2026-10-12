@@ -3,6 +3,94 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
+<h2 class="wp-block-heading">Version 1.2.0</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"klein"} -->
+<p class="klein">12 October 2026</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">New</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Word files: logos and pictures in headers and footers, endnotes, different first and even pages, and formatting and tabs in headers are taken over. Word comments become notes beside the text.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Everything PureQuill does not show itself, such as columns, sections, text boxes and charts, is kept unchanged when you save the Word file again.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Headers and footers can hold your own logo in the size you choose, and the first page can have its own header and footer.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>New, compact “New document” window: title, page format and font at a glance, everything else under “More settings”. The page preview shows the formats to scale.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Settings with a sidebar: General, New documents, Autocorrect, Saving and Snapshots, each on one page. Saving shows at a glance what is active.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>“Reset to factory settings” resets the settings and keeps your documents, notes and glossaries.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The version history now reaches back up to a month. Recent snapshots stay complete, older ones are thinned out.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Keyboard shortcuts follow Word in your language, for example Ctrl+Shift+F for bold in German.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Pasting text with pictures asks whether the pictures should come along.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Linux version as AppImage and .deb, for x64 and arm64.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Fixed</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Filled-in Word forms lost all answers when opened, and tracked changes went missing.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Word files kept too little of their formatting: font colours, all caps, font sizes, indents, borderless tables and numbered lists that continue.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Printed pages all showed page number “0”.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Footnotes are printed at the foot of their own page instead of as a list at the end.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Long tables are split across pages on screen, as in print.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>A selected picture or a fully selected table can be deleted with Backspace or Delete.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Dialogs open centred in the program window.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Submenus closed only after a click; now they close when the pointer leaves them.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Pasted web pages and emails no longer push the layout apart.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The print preview showed the page in the colours of the scheme, or blank pages.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The character count counted paragraph breaks.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Double-clicking a .pqw file only opened the program, not the file.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
 <h2 class="wp-block-heading">Version 1.1.0</h2>
 <!-- /wp:heading -->
 
