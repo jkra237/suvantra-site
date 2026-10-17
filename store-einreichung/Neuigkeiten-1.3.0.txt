@@ -1,0 +1,109 @@
+================================================================
+PureQuill Writer 1.3.0 — „Neuigkeiten in dieser Version“
+Partner Center: Store-Angebot › <Sprache> › Neuigkeiten in dieser Version
+Je Sprache den Block zwischen den Linien einfügen.
+================================================================
+
+DEUTSCH  (de-DE)
+----------------------------------------------------------------
+Version 1.3.0
+• OpenDocument: Dateien aus LibreOffice und OpenOffice öffnen vollständig und lassen sich als .odt speichern.
+• Word-Dateien behalten Ausrichtung, hoch- und tiefgestellten Text, Textmarker, Links, Seitenumbrüche, verbundene Zellen, Bildunterschriften und Zitate.
+• Schrift und Größe gelten für den markierten Text, wie in Word. Word-Dateien mit wechselnden Schriften öffnen Wort für Wort genau.
+• Neue Schriftauswahl: alle installierten Schriften, die zuletzt verwendeten oben, Suche beim Tippen.
+• Listen wie in Word: gleiche Einrückung, Nummerierung 1. → a. → i., der zuletzt gewählte Stil gilt für neue Listen, „a)“, „A.“ und „I.“ beim Tippen.
+• Bilder: neue Bildleiste mit „Text umfließt“, „Hinter dem Text“ und „Vor dem Text“. Unterschriften wandern mit ihrem Text.
+• Seitenumbruch wie in Word: Überschriften bleiben bei ihrem Text, Absätze und Listen brechen zeilenweise um.
+• PDF mit Titel, Autor („Dein Name“ in den Einstellungen), Betreff und Stichwörtern.
+• Neue Dokumente beginnen in Calibri 12, neue Nutzer mit dem Farbschema „Wolke“.
+• Weitere Korrekturen: Großschreibung nach Abkürzungen wie in Word, „Formatierung entfernen“ wirkt auch auf Überschriften und Zitate, Listen aus Word einfügen.
+
+
+ENGLISH  (en-US)
+----------------------------------------------------------------
+Version 1.3.0
+• OpenDocument: files from LibreOffice and OpenOffice open completely and can be saved as .odt.
+• Word files keep alignment, superscript and subscript, highlighting, links, page breaks, merged cells, captions and quotes.
+• Font and size apply to the selected text, as in Word. Word files with mixed fonts open exactly, word for word.
+• New font picker: all installed fonts, recently used ones at the top, search as you type.
+• Lists as in Word: the same indent, numbering 1. → a. → i., the last style you chose applies to new lists, and "a)", "A." and "I." work as you type.
+• Images: new image bar with "Wrap text", "Behind text" and "In front of text". Signatures move with their text.
+• Page breaks as in Word: headings stay with their text, paragraphs and lists break line by line.
+• PDF with title, author ("Your name" in the settings), subject and keywords.
+• New documents start in Calibri 12, new users with the "Cloud" color scheme.
+• More fixes: capitalization after abbreviations as in Word, "Clear formatting" also works on headings and quotes, pasting lists from Word.
+
+
+FRANÇAIS  (fr-FR)
+----------------------------------------------------------------
+Version 1.3.0
+• OpenDocument : les fichiers de LibreOffice et d’OpenOffice s’ouvrent en entier et s’enregistrent au format .odt.
+• Les fichiers Word conservent l’alignement, l’exposant et l’indice, le surlignage, les liens, les sauts de page, les cellules fusionnées, les légendes et les citations.
+• Police et taille s’appliquent au texte sélectionné, comme dans Word. Les fichiers Word aux polices variées s’ouvrent mot pour mot.
+• Nouveau choix de police : toutes les polices installées, les plus récentes en haut, recherche à la frappe.
+• Listes comme dans Word : même retrait, numérotation 1. → a. → i., le dernier style choisi vaut pour les nouvelles listes, « a) », « A. » et « I. » à la frappe.
+• Images : nouvelle barre avec « Habillage du texte », « Derrière le texte » et « Devant le texte ». Les signatures suivent leur texte.
+• Sauts de page comme dans Word : les titres restent avec leur texte, paragraphes et listes se coupent ligne par ligne.
+• PDF avec titre, auteur (« Votre nom » dans les paramètres), sujet et mots-clés.
+• Les nouveaux documents commencent en Calibri 12, les nouveaux utilisateurs avec le thème « Nuage ».
+• Autres corrections : majuscules après les abréviations comme dans Word, « Effacer la mise en forme » agit aussi sur les titres et citations, collage de listes depuis Word.
+
+
+ESPAÑOL  (es-ES)
+----------------------------------------------------------------
+Versión 1.3.0
+• OpenDocument: los archivos de LibreOffice y OpenOffice se abren completos y se pueden guardar como .odt.
+• Los archivos de Word conservan la alineación, superíndice y subíndice, el resaltado, los enlaces, los saltos de página, las celdas combinadas, los títulos de imagen y las citas.
+• Fuente y tamaño se aplican al texto seleccionado, como en Word. Los archivos de Word con fuentes variadas se abren palabra por palabra.
+• Nuevo selector de fuentes: todas las fuentes instaladas, las usadas recientemente arriba, búsqueda al escribir.
+• Listas como en Word: la misma sangría, numeración 1. → a. → i., el último estilo elegido vale para las listas nuevas, y «a)», «A.» e «I.» al escribir.
+• Imágenes: nueva barra con «Ajustar texto», «Detrás del texto» y «Delante del texto». Las firmas se mueven con su texto.
+• Saltos de página como en Word: los títulos se quedan con su texto, párrafos y listas se dividen línea a línea.
+• PDF con título, autor («Tu nombre» en la configuración), asunto y palabras clave.
+• Los documentos nuevos empiezan en Calibri 12, los usuarios nuevos con el tema «Nube».
+• Más correcciones: mayúsculas tras abreviaturas como en Word, «Borrar formato» también actúa sobre títulos y citas, pegar listas desde Word.
+
+
+ITALIANO  (it-IT)
+----------------------------------------------------------------
+Versione 1.3.0
+• OpenDocument: i file di LibreOffice e OpenOffice si aprono per intero e si possono salvare come .odt.
+• I file Word mantengono allineamento, apice e pedice, evidenziazione, link, interruzioni di pagina, celle unite, didascalie e citazioni.
+• Carattere e dimensione valgono per il testo selezionato, come in Word. I file Word con caratteri diversi si aprono parola per parola.
+• Nuova scelta del carattere: tutti i caratteri installati, quelli usati di recente in alto, ricerca mentre scrivi.
+• Elenchi come in Word: stesso rientro, numerazione 1. → a. → i., l’ultimo stile scelto vale per i nuovi elenchi, e «a)», «A.» e «I.» mentre scrivi.
+• Immagini: nuova barra con «Testo a capo», «Dietro al testo» e «Davanti al testo». Le firme si spostano con il loro testo.
+• Interruzioni di pagina come in Word: i titoli restano con il loro testo, paragrafi ed elenchi si dividono riga per riga.
+• PDF con titolo, autore («Il tuo nome» nelle impostazioni), oggetto e parole chiave.
+• I nuovi documenti iniziano in Calibri 12, i nuovi utenti con lo schema «Nuvola».
+• Altre correzioni: maiuscole dopo le abbreviazioni come in Word, «Cancella formattazione» agisce anche su titoli e citazioni, incollare elenchi da Word.
+
+
+POLSKI  (pl-PL)
+----------------------------------------------------------------
+Wersja 1.3.0
+• OpenDocument: pliki z LibreOffice i OpenOffice otwierają się w całości i można je zapisać jako .odt.
+• Pliki Word zachowują wyrównanie, indeks górny i dolny, wyróżnienie, łącza, podziały stron, scalone komórki, podpisy pod obrazami i cytaty.
+• Czcionka i rozmiar dotyczą zaznaczonego tekstu, jak w Wordzie. Pliki Word z różnymi czcionkami otwierają się słowo w słowo.
+• Nowy wybór czcionki: wszystkie zainstalowane czcionki, ostatnio używane na górze, wyszukiwanie podczas pisania.
+• Listy jak w Wordzie: to samo wcięcie, numeracja 1. → a. → i., ostatnio wybrany styl obowiązuje dla nowych list, a „a)”, „A.” i „I.” działają podczas pisania.
+• Obrazy: nowy pasek z opcjami „Tekst opływa”, „Za tekstem” i „Przed tekstem”. Podpisy przesuwają się razem z tekstem.
+• Podział stron jak w Wordzie: nagłówki zostają przy swoim tekście, akapity i listy dzielą się wiersz po wierszu.
+• PDF z tytułem, autorem („Twoje imię i nazwisko” w ustawieniach), tematem i słowami kluczowymi.
+• Nowe dokumenty zaczynają się czcionką Calibri 12, nowi użytkownicy ze schematem „Chmura”.
+• Kolejne poprawki: wielkie litery po skrótach jak w Wordzie, „Usuń formatowanie” działa też na nagłówki i cytaty, wklejanie list z Worda.
+
+
+PORTUGUÊS (BRASIL)  (pt-BR)
+----------------------------------------------------------------
+Versão 1.3.0
+• OpenDocument: arquivos do LibreOffice e do OpenOffice abrem por completo e podem ser salvos como .odt.
+• Arquivos do Word mantêm alinhamento, sobrescrito e subscrito, realce, links, quebras de página, células mescladas, legendas e citações.
+• Fonte e tamanho valem para o texto selecionado, como no Word. Arquivos do Word com fontes variadas abrem palavra por palavra.
+• Nova escolha de fonte: todas as fontes instaladas, as usadas recentemente no topo, busca enquanto você digita.
+• Listas como no Word: o mesmo recuo, numeração 1. → a. → i., o último estilo escolhido vale para novas listas, e "a)", "A." e "I." enquanto você digita.
+• Imagens: nova barra com "Quebra de texto", "Atrás do texto" e "Na frente do texto". Assinaturas acompanham o texto.
+• Quebra de página como no Word: títulos ficam com o texto, parágrafos e listas quebram linha por linha.
+• PDF com título, autor ("Seu nome" nas configurações), assunto e palavras-chave.
+• Novos documentos começam em Calibri 12, novos usuários com o esquema "Nuvem".
+• Mais correções: maiúsculas após abreviações como no Word, "Limpar formatação" também atua em títulos e citações, colar listas do Word.

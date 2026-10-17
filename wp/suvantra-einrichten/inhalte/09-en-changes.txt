@@ -3,6 +3,70 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
+<h2 class="wp-block-heading">Version 1.3.0</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"klein"} -->
+<p class="klein">17 October 2026</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">New</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>OpenDocument: files from LibreOffice and OpenOffice open completely, with fonts, lists, tables, pictures, footnotes, headers and footers — and documents can be saved as OpenDocument Text (.odt).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Font and size apply to the selected text, as in Word. Word files that mix fonts and sizes open exactly as they were, word for word.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>New font picker: all fonts installed on your computer, recently used ones at the top, and a search as you type.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Pictures have a new toolbar: in line with text, wrap text, behind text or in front of text. Pictures behind or in front of text move with their paragraph, so a signature stays under its closing line.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Lists work as in Word: the same indent, numbering 1. → a. → i., the style you chose last is used for new lists, and typing “a)”, “A.” or “I.” starts a list.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>PDF files carry a title, your name as author (“Your name” in the settings), a subject and keywords.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>On a phone, the browser version shows the text across the screen width, with one toolbar row and the menus behind ☰.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>New documents start in Calibri 12, and new users start with the “Cloud” colour scheme.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Fixed</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Word files lost alignment, superscript and subscript, highlighting, link targets, page breaks, merged cells, captions and quotes.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Pictures behind or in front of text came back from Word in line with the text, and a signature could land on the wrong page in Word.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Headings could be left alone at the bottom of a page; now they stay with their text. Paragraphs and lists break line by line at the end of a page, with widow and orphan control as in Word.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Capitalization after abbreviations works as in Word and can be undone.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>“Clear formatting” also turns headings and quotes back into normal text.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Lists pasted from Word keep their structure, and sub-items are no longer lost when saving.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
 <h2 class="wp-block-heading">Version 1.2.0</h2>
 <!-- /wp:heading -->
 
