@@ -52,7 +52,7 @@
       <small>Zum Ausprobieren</small>
     </div>
   </div>
-  <p style="margin:28px 0 0;font-size:14px"><a href="/purequill/changes/" hreflang="en" style="color:var(--ink);text-underline-offset:3px;text-decoration-color:var(--ink-faint)">Neu in Version 1.3.0</a> <span style="color:var(--ink-soft)">(auf Englisch)</span> <span style="color:var(--ink-soft)" aria-hidden="true">→</span></p>
+  <p style="margin:28px 0 0;font-size:14px"><a href="/purequill/changes/" hreflang="en" style="color:var(--ink);text-underline-offset:3px;text-decoration-color:var(--ink-faint)">Neu in Version 1.4.0</a> <span style="color:var(--ink-soft)">(auf Englisch)</span> <span style="color:var(--ink-soft)" aria-hidden="true">→</span></p>
 </section>
 
 <figure class="buehne schaubild">
@@ -70,7 +70,7 @@
        Fußzeilen und Bildern herein, und „Speichern“ schreibt in dieselbe Datei zurück.
        Fertige Texte gehen als PDF, als EPUB für E-Reader oder wieder als Word-Datei hinaus.</p>
     <div class="formatweg" role="img" aria-label="Word-Datei öffnen, in PureQuill Writer schreiben, als PDF, EPUB oder Word-Datei speichern">
-      <div class="fw-gruppe"><span class="fw-dok"><b>DOCX</b><small>auch ODT, RTF, Markdown</small></span></div>
+      <div class="fw-gruppe"><span class="fw-dok"><b>DOCX</b><small>auch DOC, ODT, RTF</small></span></div>
       <span class="fw-pfeil" aria-hidden="true">→</span>
       <div class="fw-gruppe"><span class="fw-dok fw-mitte"><b>PureQuill Writer</b><small>schreiben und setzen</small></span></div>
       <span class="fw-pfeil" aria-hidden="true">→</span>
@@ -175,8 +175,8 @@
       <li>Notizzettel und Glossar neben dem Text, jeweils eigene Ansicht</li>
       <li>Text bereinigen: doppelte Leerzeichen, leere Absätze, Zeilenenden</li>
       <li>Siebzehn Farbschemata, Fokusmodus, Leseansicht, Druckvorschau</li>
-      <li>Öffnen: DOCX, ODT, RTF, HTML, Markdown, Text</li>
-      <li>Speichern als: DOCX, ODT, EPUB, PDF, HTML, Markdown, Text</li>
+      <li>Öffnen: DOCX, DOC, ODT, RTF, Word- und ODT-Vorlagen, HTML, Markdown, Text</li>
+      <li>Speichern als: DOCX, ODT, RTF, EPUB, PDF, HTML, Markdown, Text</li>
     </ul>
   </div>
 </section>
@@ -194,7 +194,7 @@
         <p>.deb · 86 MB · erscheint im Anwendungsmenü</p>
       </div>
       <div class="laden">
-        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.3.0-amd64.deb" download>Herunterladen</a>
+        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.4.0-amd64.deb" download>Herunterladen</a>
       </div>
     </li>
     <li class="paket">
@@ -204,22 +204,22 @@
         <p>AppImage · 108 MB · ohne Installation, läuft auf jedem Linux</p>
       </div>
       <div class="laden">
-        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.3.0-x86_64.AppImage" download>Herunterladen</a>
+        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.4.0-x86_64.AppImage" download>Herunterladen</a>
       </div>
     </li>
   </ul>
   <p class="tipp"><strong>Nicht sicher, welche Distribution du hast?</strong>
     Das AppImage läuft auf jedem Linux:
-    <a href="/download/linux/PureQuill-Writer-1.3.0-x86_64.AppImage" download>AppImage herunterladen (108 MB)</a></p>
+    <a href="/download/linux/PureQuill-Writer-1.4.0-x86_64.AppImage" download>AppImage herunterladen (108 MB)</a></p>
   <p class="klein">
     Raspberry Pi oder Laptop mit ARM-Prozessor (etwa Snapdragon)?
-    <a href="/download/linux/PureQuill-Writer-1.3.0-arm64.deb" download>.deb für ARM</a> ·
-    <a href="/download/linux/PureQuill-Writer-1.3.0-arm64.AppImage" download>AppImage für ARM</a>.
+    <a href="/download/linux/PureQuill-Writer-1.4.0-arm64.deb" download>.deb für ARM</a> ·
+    <a href="/download/linux/PureQuill-Writer-1.4.0-arm64.AppImage" download>AppImage für ARM</a>.
     Für jeden anderen PC sind die Knöpfe oben richtig.
   </p>
   <p class="klein">
-    Version 1.3.0 (<a href="/purequill/changes/" hreflang="en">Neuigkeiten, auf Englisch</a>). Das AppImage vor dem ersten Start ausführbar machen — im Dateimanager
-    unter „Eigenschaften“ oder mit <code>chmod +x PureQuill-Writer-1.3.0-x86_64.AppImage</code>.
+    Version 1.4.0 (<a href="/purequill/changes/" hreflang="en">Neuigkeiten, auf Englisch</a>). Das AppImage vor dem ersten Start ausführbar machen — im Dateimanager
+    unter „Eigenschaften“ oder mit <code>chmod +x PureQuill-Writer-1.4.0-x86_64.AppImage</code>.
     <a href="/download/linux/SHA256SUMS">SHA‑256-Prüfsummen</a>
   </p>
 </section>
