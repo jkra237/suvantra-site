@@ -1,0 +1,109 @@
+================================================================
+PureQuill Writer 1.4.0 — „Neuigkeiten in dieser Version“
+Partner Center: Store-Angebot › <Sprache> › Neuigkeiten in dieser Version
+Je Sprache den Block zwischen den Linien einfügen.
+================================================================
+
+DEUTSCH  (de-DE)
+----------------------------------------------------------------
+Version 1.4.0
+• Alte Word-Dateien (.doc, Word 97–2003) öffnen, mit Bildern, Tabellen, Listen, Fußnoten, Kopf- und Fußzeilen.
+• RTF neu: öffnen und als RTF speichern. Dazu Word- und OpenDocument-Vorlagen (.dotx, .ott) und .docm.
+• .odt und .rtf bleiben beim Speichern, was sie sind. Der Dateityp steht in der Titelleiste, alte Formate mit „Kompatibilitätsmodus“.
+• Word-Dateien sehen aus wie in Word: Symbole in der Zeile, eigene Tabstopps, Linien unter Absätzen, Zeichenabstand und Listeneinzug.
+• Zeilen- und Absatzabstand je Absatz wie in Word: neuer Knopf und Dialog „Absatz…“ mit Einzügen, Abstand vor und nach, einfach bis genau.
+• Formatvorlagen wie in Word: Titel, Untertitel, Überschrift 4 und drei Zitatarten, Absatzformat mit Vorschau.
+• E-Book vorbereiten: Kapitel finden, Text aufräumen, Buchsatz – in einer Kopie, das Original bleibt unverändert.
+• Suchen und Ersetzen neu gestaltet, horizontale Linien aus ---, ___, === und ***, Reiter duplizieren, Strg + Mausrad zoomt.
+• PureQuill erscheint unter Windows bei „Öffnen mit“ für Word-, OpenDocument-, RTF- und Textdateien.
+• Weitere Verbesserungen: Seitenumbruch löschen wie in Word, Enter verlässt Listen zuverlässig, Schließen-Dialog wie in Word.
+
+
+ENGLISH  (en-US)
+----------------------------------------------------------------
+Version 1.4.0
+• Open old Word files (.doc, Word 97–2003) with images, tables, lists, footnotes, headers and footers.
+• RTF rebuilt: open and save as RTF. Plus Word and OpenDocument templates (.dotx, .ott) and .docm.
+• .odt and .rtf files stay what they are when you save. The file type shows in the title bar, old formats with "Compatibility mode".
+• Word files look as they do in Word: icons in the line, custom tab stops, lines under paragraphs, character spacing and list indents.
+• Line and paragraph spacing per paragraph as in Word: new button and "Paragraph…" dialog with indents, space before and after, single to exactly.
+• Styles as in Word: Title, Subtitle, Heading 4 and three quote styles, paragraph style list with preview.
+• Prepare e-book: find chapters, tidy up the text, book typography – in a copy, the original stays unchanged.
+• Find and replace redesigned, horizontal lines from ---, ___, === and ***, duplicate tabs, Ctrl + mouse wheel zooms.
+• PureQuill appears in Windows "Open with" for Word, OpenDocument, RTF and text files.
+• More improvements: delete page breaks as in Word, Enter reliably leaves lists, close dialog as in Word.
+
+
+FRANÇAIS  (fr-FR)
+----------------------------------------------------------------
+Version 1.4.0
+• Ouvrir les anciens fichiers Word (.doc, Word 97–2003), avec images, tableaux, listes, notes de bas de page, en-têtes et pieds de page.
+• RTF refait : ouvrir et enregistrer en RTF. En plus, les modèles Word et OpenDocument (.dotx, .ott) et .docm.
+• Les fichiers .odt et .rtf restent au même format à l’enregistrement. Le type de fichier s’affiche dans la barre de titre, les anciens formats avec « Mode de compatibilité ».
+• Les fichiers Word s’affichent comme dans Word : icônes dans la ligne, tabulations personnalisées, lignes sous les paragraphes, espacement des caractères et retrait des listes.
+• Interligne et espacement par paragraphe comme dans Word : nouveau bouton et boîte « Paragraphe… » avec retraits, espacement avant et après, de simple à exactement.
+• Styles comme dans Word : Titre, Sous-titre, Titre 4 et trois styles de citation, liste des styles avec aperçu.
+• Préparer l’e-book : trouver les chapitres, nettoyer le texte, mise en page de livre – dans une copie, l’original reste inchangé.
+• Rechercher et remplacer repensé, lignes horizontales avec ---, ___, === et ***, dupliquer les onglets, Ctrl + molette pour zoomer.
+• PureQuill apparaît dans « Ouvrir avec » de Windows pour les fichiers Word, OpenDocument, RTF et texte.
+• Autres améliorations : supprimer un saut de page comme dans Word, Entrée quitte les listes de façon fiable, boîte de fermeture comme dans Word.
+
+
+ESPAÑOL  (es-ES)
+----------------------------------------------------------------
+Versión 1.4.0
+• Abrir archivos antiguos de Word (.doc, Word 97–2003), con imágenes, tablas, listas, notas al pie, encabezados y pies de página.
+• RTF renovado: abrir y guardar como RTF. Además, plantillas de Word y OpenDocument (.dotx, .ott) y .docm.
+• Los archivos .odt y .rtf conservan su formato al guardar. El tipo de archivo aparece en la barra de título, los formatos antiguos con «Modo de compatibilidad».
+• Los archivos de Word se ven como en Word: iconos en la línea, tabulaciones propias, líneas bajo los párrafos, espaciado entre caracteres y sangría de listas.
+• Interlineado y espaciado por párrafo como en Word: nuevo botón y cuadro «Párrafo…» con sangrías, espacio anterior y posterior, de sencillo a exacto.
+• Estilos como en Word: Título, Subtítulo, Título 4 y tres tipos de cita, lista de estilos con vista previa.
+• Preparar e-book: encontrar capítulos, ordenar el texto, composición de libro, en una copia; el original no cambia.
+• Buscar y reemplazar rediseñado, líneas horizontales con ---, ___, === y ***, duplicar pestañas, Ctrl + rueda del ratón para el zoom.
+• PureQuill aparece en «Abrir con» de Windows para archivos de Word, OpenDocument, RTF y texto.
+• Más mejoras: quitar saltos de página como en Word, Intro sale de las listas de forma fiable, cuadro de cierre como en Word.
+
+
+ITALIANO  (it-IT)
+----------------------------------------------------------------
+Versione 1.4.0
+• Aprire i vecchi file Word (.doc, Word 97–2003), con immagini, tabelle, elenchi, note a piè di pagina, intestazioni e piè di pagina.
+• RTF rifatto: aprire e salvare come RTF. In più modelli Word e OpenDocument (.dotx, .ott) e .docm.
+• I file .odt e .rtf restano nel loro formato al salvataggio. Il tipo di file compare nella barra del titolo, i vecchi formati con «Modalità compatibilità».
+• I file Word appaiono come in Word: icone nella riga, tabulazioni personalizzate, linee sotto i paragrafi, spaziatura dei caratteri e rientro degli elenchi.
+• Interlinea e spaziatura per paragrafo come in Word: nuovo pulsante e finestra «Paragrafo…» con rientri, spazio prima e dopo, da singola a esatta.
+• Stili come in Word: Titolo, Sottotitolo, Titolo 4 e tre tipi di citazione, elenco degli stili con anteprima.
+• Prepara e-book: trovare i capitoli, sistemare il testo, impaginazione da libro, in una copia; l’originale resta invariato.
+• Trova e sostituisci ridisegnato, linee orizzontali con ---, ___, === e ***, duplicare le schede, Ctrl + rotellina per lo zoom.
+• PureQuill compare in «Apri con» di Windows per file Word, OpenDocument, RTF e di testo.
+• Altri miglioramenti: eliminare le interruzioni di pagina come in Word, Invio esce dagli elenchi in modo affidabile, finestra di chiusura come in Word.
+
+
+POLSKI  (pl-PL)
+----------------------------------------------------------------
+Wersja 1.4.0
+• Otwieranie starych plików Word (.doc, Word 97–2003) z obrazami, tabelami, listami, przypisami, nagłówkami i stopkami.
+• Nowy RTF: otwieranie i zapisywanie jako RTF. Do tego szablony Word i OpenDocument (.dotx, .ott) oraz .docm.
+• Pliki .odt i .rtf przy zapisie zachowują swój format. Typ pliku widać na pasku tytułu, stare formaty z „Trybem zgodności”.
+• Pliki Word wyglądają jak w Wordzie: ikony w wierszu, własne tabulatory, linie pod akapitami, odstępy między znakami i wcięcia list.
+• Interlinia i odstępy dla każdego akapitu jak w Wordzie: nowy przycisk i okno „Akapit…” z wcięciami, odstępem przed i po, od pojedynczej do dokładnej.
+• Style jak w Wordzie: Tytuł, Podtytuł, Nagłówek 4 i trzy rodzaje cytatów, lista stylów z podglądem.
+• Przygotuj e-book: znajdowanie rozdziałów, porządkowanie tekstu, skład książkowy – w kopii, oryginał pozostaje bez zmian.
+• Nowe wyszukiwanie i zamiana, linie poziome z ---, ___, === i ***, duplikowanie kart, Ctrl + kółko myszy powiększa.
+• PureQuill pojawia się w „Otwórz za pomocą” w Windows dla plików Word, OpenDocument, RTF i tekstowych.
+• Kolejne poprawki: usuwanie podziału strony jak w Wordzie, Enter niezawodnie kończy listę, okno zamykania jak w Wordzie.
+
+
+PORTUGUÊS (BRASIL)  (pt-BR)
+----------------------------------------------------------------
+Versão 1.4.0
+• Abrir arquivos antigos do Word (.doc, Word 97–2003), com imagens, tabelas, listas, notas de rodapé, cabeçalhos e rodapés.
+• RTF refeito: abrir e salvar como RTF. Além disso, modelos do Word e do OpenDocument (.dotx, .ott) e .docm.
+• Arquivos .odt e .rtf continuam no mesmo formato ao salvar. O tipo de arquivo aparece na barra de título, formatos antigos com "Modo de compatibilidade".
+• Arquivos do Word aparecem como no Word: ícones na linha, tabulações próprias, linhas sob parágrafos, espaçamento entre caracteres e recuo de listas.
+• Espaçamento de linha e de parágrafo por parágrafo como no Word: novo botão e caixa "Parágrafo…" com recuos, espaço antes e depois, de simples a exatamente.
+• Estilos como no Word: Título, Subtítulo, Título 4 e três tipos de citação, lista de estilos com visualização.
+• Preparar e-book: encontrar capítulos, arrumar o texto, composição de livro – em uma cópia, o original fica inalterado.
+• Localizar e substituir redesenhado, linhas horizontais com ---, ___, === e ***, duplicar abas, Ctrl + roda do mouse para zoom.
+• O PureQuill aparece em "Abrir com" do Windows para arquivos do Word, OpenDocument, RTF e texto.
+• Outras melhorias: excluir quebras de página como no Word, Enter sai das listas de forma confiável, caixa de fechamento como no Word.
