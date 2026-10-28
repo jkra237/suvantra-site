@@ -34,8 +34,9 @@
       <a class="karte" href="/purequill/">
         <img class="kicon" src="/assets/pq-icon-256.png" alt="" width="56" height="56" decoding="async">
         <h3>PureQuill Writer</h3>
-        <p>Free word processor for long texts. Opens and saves Word files, saves as
-           PDF and EPUB, checks spelling in seven languages.</p>
+        <p>Free word processor that works completely offline. Opens Word files the
+           way Word shows them, with table styles, notes pinned to the text, repeated
+           words and spell checking in seven languages.</p>
       </a>
       <div class="karte">
         <span class="bald">in progress</span>
@@ -44,6 +45,13 @@
            without uploading. No date, no waiting list.</p>
       </div>
     </div>
+    <figure class="schaubild">
+      <picture>
+        <source srcset="/assets/pq-en-kapitelplan.webp" type="image/webp">
+        <img src="/assets/pq-en-kapitelplan.png" alt="PureQuill Writer with a chapter plan: header, a table with a style and notes in the margin" width="1366" height="768" loading="lazy" decoding="async">
+      </picture>
+      <figcaption>PureQuill Writer 1.5.0: tables with styles, headers and notes pinned right to the text.</figcaption>
+    </figure>
   </div>
 </section>
 

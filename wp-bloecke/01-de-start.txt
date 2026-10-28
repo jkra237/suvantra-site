@@ -34,9 +34,9 @@
       <a class="karte" href="/de/purequill/">
         <img class="kicon" src="/assets/pq-icon-256.png" alt="" width="56" height="56" decoding="async">
         <h3>PureQuill Writer</h3>
-        <p>Kostenloses Schreibprogramm für lange Texte. Öffnet und speichert
-           Word-Dateien, speichert als PDF und EPUB, prüft die Rechtschreibung in
-           sieben Sprachen.</p>
+        <p>Kostenloses Schreibprogramm, das komplett offline arbeitet. Öffnet
+           Word-Dateien so, wie Word sie zeigt, mit Tabellenvorlagen, Notizen an
+           Textstellen, Wortwiederholungen und Rechtschreibprüfung in sieben Sprachen.</p>
       </a>
       <div class="karte">
         <span class="bald">in Arbeit</span>
@@ -45,6 +45,13 @@
            Regeln: lokal, ohne Hochladen. Kein Datum, keine Warteliste.</p>
       </div>
     </div>
+    <figure class="schaubild">
+      <picture>
+        <source srcset="/assets/pq-kapitelplan.webp" type="image/webp">
+        <img src="/assets/pq-kapitelplan.png" alt="PureQuill Writer mit einem Kapitelplan: Kopfzeile, Tabelle mit Vorlage und Notizen am Rand" width="1366" height="768" loading="lazy" decoding="async">
+      </picture>
+      <figcaption>PureQuill Writer 1.5.0: Tabellen mit Vorlagen, Kopfzeilen und Notizen direkt an der Textstelle.</figcaption>
+    </figure>
   </div>
 </section>
 
