@@ -1,0 +1,109 @@
+================================================================
+PureQuill Writer 1.5.0 — „Neuigkeiten in dieser Version“
+Partner Center: Store-Angebot › <Sprache> › Neuigkeiten in dieser Version
+Je Sprache den Block zwischen den Linien einfügen.
+================================================================
+
+DEUTSCH  (de-DE)
+----------------------------------------------------------------
+Version 1.5.0
+• Tabellen wie in Word: Zellen verbinden und teilen, Schattierung, Rahmen, Ausrichtung in der Zelle und Spaltenbreite, direkt per Rechtsklick.
+• Tabellenvorlagen mit einem Klick: Gitternetz, Grün, Blau, Orange, Grau und Schlicht, mit hervorgehobener Kopfzeile, erster Spalte und gebänderten Zeilen.
+• Lange Tabellen wiederholen ihre Überschrift auf jeder Seite, wie in Word.
+• Rückgängig und Wiederholen wirken bei jeder Änderung, auch bei Tabellen, Bildern, Listen und Absatzformat.
+• Word-Dateien teilen sich auf die Seiten auf wie in Word: gleiche Zeilenhöhen, Tabellen an derselben Stelle, auch im Druck.
+• Kopf- und Fußzeile leichter bearbeiten: eigene Leiste, Seitenzahl und Datum beim Schreiben sichtbar, Logos, Formatierung und Tabstopps aus Word, .odt und .rtf.
+• Neues Menü „Einfügen“ wie in Word: Bild, Tabelle, Link, Seitenumbruch, Fuß- und Endnote, Verzeichnisse, Kopf- und Fußzeile.
+• Notizen an Textstellen neu gestaltet; angeheftete Stellen sind nur beim Zeigen farbig.
+• Einstellungen übersichtlicher, mit „Alle Einstellungen zurücksetzen“ unter Allgemein.
+• Weitere Verbesserungen: Formatierung entfernen ohne Auswahl wie in Word, Bild- und Tabellenleiste fest unter der Symbolleiste.
+
+
+ENGLISH  (en-US)
+----------------------------------------------------------------
+Version 1.5.0
+• Tables as in Word: merge and split cells, shading, borders, cell alignment and column width, right from the right-click menu.
+• Table styles in one click: Grid, Green, Blue, Orange, Grey and Simple, with highlighted header row, first column and banded rows.
+• Long tables repeat their header row on every page, as in Word.
+• Undo and redo work for every change, including tables, images, lists and paragraph formatting.
+• Word files split into pages as they do in Word: same line heights, tables in the same place, in print too.
+• Headers and footers are easier to edit: their own toolbar, page number and date visible while you type, logos, formatting and tab stops from Word, .odt and .rtf.
+• New "Insert" menu as in Word: image, table, link, page break, footnote and endnote, tables of contents, header and footer.
+• Notes on text passages redesigned; attached passages are only coloured while shown.
+• Clearer settings, with "Reset all settings" under General.
+• More improvements: clear formatting without a selection as in Word, image and table toolbars fixed below the main toolbar.
+
+
+FRANÇAIS  (fr-FR)
+----------------------------------------------------------------
+Version 1.5.0
+• Tableaux comme dans Word : fusionner et fractionner des cellules, trame de fond, bordures, alignement dans la cellule et largeur des colonnes, directement par clic droit.
+• Styles de tableau en un clic : Grille, Vert, Bleu, Orange, Gris et Sobre, avec ligne d’en-tête, première colonne et lignes à bandes mises en valeur.
+• Les longs tableaux répètent leur ligne d’en-tête sur chaque page, comme dans Word.
+• Annuler et Rétablir fonctionnent pour chaque modification, y compris tableaux, images, listes et mise en forme des paragraphes.
+• Les fichiers Word se répartissent sur les pages comme dans Word : mêmes hauteurs de ligne, tableaux au même endroit, à l’impression aussi.
+• En-têtes et pieds de page plus simples à modifier : barre dédiée, numéro de page et date visibles pendant la saisie, logos, mise en forme et tabulations de Word, .odt et .rtf.
+• Nouveau menu « Insertion » comme dans Word : image, tableau, lien, saut de page, note de bas de page et de fin, tables, en-tête et pied de page.
+• Notes sur des passages du texte repensées ; les passages liés ne sont colorés que lorsqu’ils sont affichés.
+• Réglages plus clairs, avec « Réinitialiser tous les réglages » sous Général.
+• Autres améliorations : effacer la mise en forme sans sélection comme dans Word, barres d’image et de tableau fixées sous la barre d’outils.
+
+
+ESPAÑOL  (es-ES)
+----------------------------------------------------------------
+Versión 1.5.0
+• Tablas como en Word: combinar y dividir celdas, sombreado, bordes, alineación en la celda y ancho de columna, directamente con clic derecho.
+• Estilos de tabla con un clic: Cuadrícula, Verde, Azul, Naranja, Gris y Sencillo, con fila de encabezado, primera columna y filas con bandas destacadas.
+• Las tablas largas repiten su fila de encabezado en cada página, como en Word.
+• Deshacer y Rehacer funcionan con cada cambio, también en tablas, imágenes, listas y formato de párrafo.
+• Los archivos de Word se reparten en páginas como en Word: mismas alturas de línea, tablas en el mismo lugar, también al imprimir.
+• Encabezados y pies de página más fáciles de editar: barra propia, número de página y fecha visibles al escribir, logotipos, formato y tabulaciones de Word, .odt y .rtf.
+• Nuevo menú «Insertar» como en Word: imagen, tabla, vínculo, salto de página, nota al pie y nota al final, índices, encabezado y pie de página.
+• Notas en pasajes del texto rediseñadas; los pasajes anclados solo se colorean al mostrarlos.
+• Ajustes más claros, con «Restablecer todos los ajustes» en General.
+• Más mejoras: borrar formato sin selección como en Word, barras de imagen y tabla fijas bajo la barra de herramientas.
+
+
+ITALIANO  (it-IT)
+----------------------------------------------------------------
+Versione 1.5.0
+• Tabelle come in Word: unire e dividere celle, sfondo, bordi, allineamento nella cella e larghezza delle colonne, direttamente con il clic destro.
+• Stili tabella con un clic: Griglia, Verde, Blu, Arancione, Grigio e Semplice, con riga di intestazione, prima colonna e righe alternate in evidenza.
+• Le tabelle lunghe ripetono la riga di intestazione su ogni pagina, come in Word.
+• Annulla e Ripeti funzionano per ogni modifica, anche per tabelle, immagini, elenchi e formato del paragrafo.
+• I file Word si dividono nelle pagine come in Word: stesse altezze di riga, tabelle nello stesso punto, anche in stampa.
+• Intestazioni e piè di pagina più facili da modificare: barra dedicata, numero di pagina e data visibili mentre scrivi, loghi, formattazione e tabulazioni da Word, .odt e .rtf.
+• Nuovo menu «Inserisci» come in Word: immagine, tabella, collegamento, interruzione di pagina, nota a piè di pagina e di chiusura, indici, intestazione e piè di pagina.
+• Note sui passaggi del testo ridisegnate; i passaggi collegati si colorano solo quando li mostri.
+• Impostazioni più chiare, con «Ripristina tutte le impostazioni» in Generale.
+• Altri miglioramenti: cancellare la formattazione senza selezione come in Word, barre di immagine e tabella fisse sotto la barra degli strumenti.
+
+
+POLSKI  (pl-PL)
+----------------------------------------------------------------
+Wersja 1.5.0
+• Tabele jak w Wordzie: scalanie i dzielenie komórek, cieniowanie, obramowanie, wyrównanie w komórce i szerokość kolumn, prosto z menu prawego przycisku.
+• Style tabeli jednym kliknięciem: Siatka, Zielony, Niebieski, Pomarańczowy, Szary i Prosty, z wyróżnionym wierszem nagłówka, pierwszą kolumną i wierszami naprzemiennymi.
+• Długie tabele powtarzają wiersz nagłówka na każdej stronie, jak w Wordzie.
+• Cofnij i Ponów działają przy każdej zmianie, także w tabelach, obrazach, listach i formatowaniu akapitu.
+• Pliki Word dzielą się na strony jak w Wordzie: te same wysokości wierszy, tabele w tym samym miejscu, także w druku.
+• Łatwiejsza edycja nagłówka i stopki: własny pasek, numer strony i data widoczne podczas pisania, logo, formatowanie i tabulatory z Worda, .odt i .rtf.
+• Nowe menu „Wstaw” jak w Wordzie: obraz, tabela, link, podział strony, przypis dolny i końcowy, spisy, nagłówek i stopka.
+• Notatki przy fragmentach tekstu na nowo; przypięte fragmenty są kolorowe tylko po pokazaniu.
+• Bardziej przejrzyste ustawienia, z „Przywróć wszystkie ustawienia” w zakładce Ogólne.
+• Kolejne poprawki: czyszczenie formatowania bez zaznaczenia jak w Wordzie, paski obrazu i tabeli na stałe pod paskiem narzędzi.
+
+
+PORTUGUÊS (BRASIL)  (pt-BR)
+----------------------------------------------------------------
+Versão 1.5.0
+• Tabelas como no Word: mesclar e dividir células, sombreamento, bordas, alinhamento na célula e largura das colunas, direto pelo clique direito.
+• Estilos de tabela com um clique: Grade, Verde, Azul, Laranja, Cinza e Simples, com linha de cabeçalho, primeira coluna e linhas em tiras destacadas.
+• Tabelas longas repetem a linha de cabeçalho em cada página, como no Word.
+• Desfazer e Refazer funcionam em cada alteração, também em tabelas, imagens, listas e formatação de parágrafo.
+• Arquivos do Word se dividem em páginas como no Word: mesmas alturas de linha, tabelas no mesmo lugar, também na impressão.
+• Cabeçalho e rodapé mais fáceis de editar: barra própria, número de página e data visíveis enquanto você digita, logotipos, formatação e tabulações do Word, .odt e .rtf.
+• Novo menu "Inserir" como no Word: imagem, tabela, link, quebra de página, nota de rodapé e nota de fim, sumários, cabeçalho e rodapé.
+• Notas em trechos do texto redesenhadas; os trechos anexados só ficam coloridos quando exibidos.
+• Configurações mais claras, com "Redefinir todas as configurações" em Geral.
+• Outras melhorias: limpar formatação sem seleção como no Word, barras de imagem e tabela fixas abaixo da barra de ferramentas.
