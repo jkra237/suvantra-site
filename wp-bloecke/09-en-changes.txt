@@ -3,6 +3,76 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
+<h2 class="wp-block-heading">Version 1.6.0</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"klein"} -->
+<p class="klein">3 November 2026</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">New</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Time machine: see earlier versions of your text on a timeline, with changes marked in colour; play them back as the text grew and restore any version in one click. A cog chooses whether changes are compared with the previous or the current version.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Outline with cards: every chapter with its first line and word count, the total at the top. Move chapters by dragging or with the arrows, and give each a status: Draft, In progress or Done.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>A click in the outline jumps to the chapter and briefly highlights it in the text.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Mods: the typewriter turns your writing space into an old typewriter, with the Special Elite typewriter font, an ink ribbon from fresh to worn and real recorded typing sounds (quiet by default, bell optional), full screen if you like. Print, PDF and preview always use your real font.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Recently used files in the start window and under File › Recently used.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>“All commands” reworked: recently used commands at the top, everything grouped by menu, names as in the menus and a more precise search.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>More room for checkpoints: they are now kept in a much larger storage area, so even long books keep many earlier versions. Settings show how much space they take, per document, with a limit you can set and buttons to delete them.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>“Close all documents” in the right-click menu of a document.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Menus with coloured icons and a little more space between entries.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Writing goal with “Start goal” and “End goal” instead of a checkbox.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The note count in the status bar counts only this document and opens its notes.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Fixed</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Moving the first chapter of a document in the outline can now be undone.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Headings pasted from web pages stay headings instead of turning into bold text.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Closing every document and restarting showed an empty document instead of the start window when there were notes or a glossary.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Clicks on the word count and the goal bar in the status bar sometimes did nothing.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The number fields of the header and footer toolbar were unreadable in dark colour schemes.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
 <h2 class="wp-block-heading">Version 1.5.0</h2>
 <!-- /wp:heading -->
 

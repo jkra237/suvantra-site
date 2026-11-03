@@ -25,9 +25,9 @@
   <p class="pille">Kostenlos · komplett offline · Windows, Linux und Browser</p>
   <h1>PureQuill Writer</h1>
   <p class="lead">
-    Das kostenlose Schreibprogramm, das komplett offline arbeitet. Es öffnet Word-Dateien
-    und zeigt sie so, wie Word sie zeigt — mit Werkzeugen für Autoren, die andere
-    Textverarbeitungen nicht haben. Kein Konto, kein Abo, keine Cloud.
+    Das kostenlose Schreibprogramm, das komplett offline arbeitet. Es öffnet und speichert
+    Word-Dateien mit hoher Kompatibilität — und bringt Werkzeuge für Autoren mit, die
+    andere Textverarbeitungen nicht haben. Kein Konto, kein Abo, keine Cloud.
   </p>
   <div class="knopfreihe">
     <div class="storeweg">
@@ -52,7 +52,7 @@
       <small>Zum Ausprobieren</small>
     </div>
   </div>
-  <p style="margin:28px 0 0;font-size:14px"><a href="/purequill/changes/" hreflang="en" style="color:var(--ink);text-underline-offset:3px;text-decoration-color:var(--ink-faint)">Neu in Version 1.5.0</a> <span style="color:var(--ink-soft)">(auf Englisch)</span> <span style="color:var(--ink-soft)" aria-hidden="true">→</span></p>
+  <p style="margin:28px 0 0;font-size:14px"><a href="/purequill/changes/" hreflang="en" style="color:var(--ink);text-underline-offset:3px;text-decoration-color:var(--ink-faint)">Neu in Version 1.6.0</a> <span style="color:var(--ink-soft)">(auf Englisch)</span> <span style="color:var(--ink-soft)" aria-hidden="true">→</span></p>
 </section>
 
 <figure class="buehne schaubild">
@@ -64,41 +64,40 @@
 
 <section class="flaeche">
   <div class="wrap">
-    <p class="augbraue">Neu in 1.5.0</p>
-    <h2>Noch näher an Word.</h2>
-    <p class="lead">Die neue Version holt auf, wo Word bisher vorn lag: bei Tabellen, beim
-       Seitenumbruch und bei Kopf- und Fußzeilen. Und jede Änderung lässt sich
-       rückgängig machen.</p>
+    <p class="augbraue">Neu in 1.6.0</p>
+    <h2>Dein Text erinnert sich.</h2>
+    <p class="lead">Zurück zu jeder früheren Fassung, ein Buch Kapitel für Kapitel neu
+       ordnen — und wer mag, schreibt auf einer alten Schreibmaschine.</p>
     <div class="saeulen" style="margin-top:30px">
       <div class="saeule">
-        <span class="nr">Tabellen</span>
-        <h3>Tabellen wie in Word</h3>
-        <p>Vorlagen mit einem Klick, Zellen verbinden und teilen, Schattierung, Rahmen und Spaltenbreite. Lange Tabellen wiederholen ihre Überschrift auf jeder Seite.</p>
+        <span class="nr">Zeitmaschine</span>
+        <h3>Jede Fassung auf dem Zeitstrahl</h3>
+        <p>Frühere Stände durchblättern, Änderungen farbig sehen, das Entstehen des Textes abspielen und einen Stand mit einem Klick zurückholen.</p>
       </div>
       <div class="saeule">
-        <span class="nr">Seiten</span>
-        <h3>Seite für Seite wie Word</h3>
-        <p>Word-Dateien teilen sich auf die Seiten auf wie in Word: gleiche Zeilenhöhen, Tabellen an derselben Stelle, auch im Druck.</p>
+        <span class="nr">Gliederung</span>
+        <h3>Kapitel als Karten</h3>
+        <p>Jedes Kapitel mit erster Zeile und Wortzahl. Ziehen oder mit Pfeilen verschieben, als Entwurf, In Arbeit oder Fertig markieren.</p>
       </div>
       <div class="saeule">
-        <span class="nr">Kopf- und Fußzeile</span>
-        <h3>Mit eigener Leiste</h3>
-        <p>Seitenzahl und Datum siehst du beim Schreiben, Logos, Formatierung und Tabstopps kommen aus Word, .odt und .rtf mit.</p>
+        <span class="nr">Mods</span>
+        <h3>Die Schreibmaschine</h3>
+        <p>Schreibmaschinenschrift, ein abgenutztes Farbband und echte aufgenommene Tippgeräusche, auf Wunsch im Vollbild. Druck und PDF bleiben, wie sie sind.</p>
       </div>
       <div class="saeule">
-        <span class="nr">Rückgängig</span>
-        <h3>Alles lässt sich zurücknehmen</h3>
-        <p>Rückgängig und Wiederholen wirken bei jeder Änderung, auch bei Tabellen, Bildern, Listen und Absatzformat.</p>
+        <span class="nr">Zuletzt verwendet</span>
+        <h3>Weitermachen, wo du warst</h3>
+        <p>Deine letzten Dateien warten im Startfenster und im Menü Datei.</p>
       </div>
     </div>
-    <p class="klein" style="margin-top:30px">Dazu ein Menü „Einfügen“ wie in Word und neu gestaltete Notizen.
+    <p class="klein" style="margin-top:30px">Dazu „Alle Befehle“ überarbeitet, Menüs mit Symbolen und mehr Platz für Zwischenstände.
       <a href="/purequill/changes/" hreflang="en">Alle Neuerungen</a> (auf Englisch).</p>
   </div>
 </section>
 
 <section class="wrap">
   <p class="augbraue">Word-Dateien</p>
-  <h2>Word-Dateien, so wie Word sie zeigt.</h2>
+  <h2>Word-Dateien mit hoher Kompatibilität.</h2>
   <p class="lead">Schriften, Abstände, Tabellen, Fußnoten, Kopf- und Fußzeilen und Bilder
      kommen mit, auf echten Seiten in Millimetermaßen. „Speichern“ schreibt in dieselbe
      Datei zurück. Fertige Texte gehen als PDF, als EPUB für E-Reader oder wieder als
@@ -134,7 +133,7 @@
   <p class="augbraue">Notizen</p>
   <h2>Notizen genau dort, wo sie hingehören.</h2>
   <p class="lead">Heft eine Notiz an eine Textstelle, und sie steht am Rand daneben —
-     wie ein Kommentar in Word, nur für dich. Kommentare aus Word-Dateien kommen als
+     wie ein Kommentar, nur für dich. Kommentare aus Word-Dateien kommen als
      Notizen mit.</p>
   <div class="saeulen" style="margin-top:30px">
     <div class="saeule">
@@ -198,7 +197,7 @@
       </div>
       <div class="saeule">
         <h3>Zwischenstände</h3>
-        <p>Alle 30 Sekunden hält das Programm einen Zwischenstand fest. Der Versionsverlauf reicht bis zu einem Monat zurück.</p>
+        <p>Alle 30 Sekunden hält das Programm einen Zwischenstand fest. In der Zeitmaschine siehst du jeden an und holst ihn zurück.</p>
       </div>
       <div class="saeule">
         <h3>Sicherungsdatei</h3>
@@ -214,14 +213,15 @@
     <h2>Was drin ist.</h2>
     <ul class="merkmale" style="margin-top:34px">
       <li>Kostenlos und komplett offline — kein Konto, kein Abo, keine Cloud, keine Werbung</li>
-      <li>Öffnet und speichert Word-Dateien (DOCX, DOC) und zeigt sie wie Word: Seiten, Tabellen, Fußnoten, Kopf- und Fußzeilen</li>
+      <li>Öffnet und speichert Word-Dateien (DOCX, DOC) mit hoher Kompatibilität: Seiten, Tabellen, Fußnoten, Kopf- und Fußzeilen bleiben erhalten</li>
       <li>Werkzeuge für Autoren: Wortwiederholungen, Schreibziel mit Wortzählung, Text bereinigen</li>
       <li>Rechtschreibprüfung mit eigenem Wörterbuch in sieben Sprachen</li>
       <li>Notizen an Textstellen, Word-Kommentare als Notizen, Glossar neben dem Text</li>
       <li>Siebzehn Farbschemata, Fokusmodus, Leseansicht, Druckvorschau</li>
-      <li>Autosave mit Zwischenständen und Versionsverlauf</li>
+      <li>Autosave mit Zwischenständen und Zeitmaschine für frühere Fassungen</li>
+      <li>Gliederung mit Kapitelkarten, Wortzahl und Status je Kapitel</li>
       <li>Als PDF speichern oder als EPUB für E-Reader, mit E-Book-Assistent</li>
-      <li>Tabellen mit Vorlagen wie in Word, wiederholte Überschriftenzeile, Inhaltsverzeichnis</li>
+      <li>Tabellen mit Vorlagen, wiederholte Überschriftenzeile, Inhaltsverzeichnis</li>
       <li>Echte Seiten: Ränder am Lineal, Kopf- und Fußzeile mit eigener Leiste, DIN A4 und US Letter</li>
       <li>Fußnoten, Endnoten, Bilder im Text oder frei, handschriftliche Signatur</li>
       <li>Rückgängig und Wiederholen für jede Änderung</li>
@@ -244,7 +244,7 @@
         <p>.deb · 86 MB · erscheint im Anwendungsmenü</p>
       </div>
       <div class="laden">
-        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.5.0-amd64.deb" download>Herunterladen</a>
+        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.6.0-amd64.deb" download>Herunterladen</a>
       </div>
     </li>
     <li class="paket">
@@ -254,22 +254,22 @@
         <p>AppImage · 108 MB · ohne Installation, läuft auf jedem Linux</p>
       </div>
       <div class="laden">
-        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.5.0-x86_64.AppImage" download>Herunterladen</a>
+        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.6.0-x86_64.AppImage" download>Herunterladen</a>
       </div>
     </li>
   </ul>
   <p class="tipp"><strong>Nicht sicher, welche Distribution du hast?</strong>
     Das AppImage läuft auf jedem Linux:
-    <a href="/download/linux/PureQuill-Writer-1.5.0-x86_64.AppImage" download>AppImage herunterladen (108 MB)</a></p>
+    <a href="/download/linux/PureQuill-Writer-1.6.0-x86_64.AppImage" download>AppImage herunterladen (108 MB)</a></p>
   <p class="klein">
     Raspberry Pi oder Laptop mit ARM-Prozessor (etwa Snapdragon)?
-    <a href="/download/linux/PureQuill-Writer-1.5.0-arm64.deb" download>.deb für ARM</a> ·
-    <a href="/download/linux/PureQuill-Writer-1.5.0-arm64.AppImage" download>AppImage für ARM</a>.
+    <a href="/download/linux/PureQuill-Writer-1.6.0-arm64.deb" download>.deb für ARM</a> ·
+    <a href="/download/linux/PureQuill-Writer-1.6.0-arm64.AppImage" download>AppImage für ARM</a>.
     Für jeden anderen PC sind die Knöpfe oben richtig.
   </p>
   <p class="klein">
-    Version 1.5.0 (<a href="/purequill/changes/" hreflang="en">Neuigkeiten, auf Englisch</a>). Das AppImage vor dem ersten Start ausführbar machen — im Dateimanager
-    unter „Eigenschaften“ oder mit <code>chmod +x PureQuill-Writer-1.5.0-x86_64.AppImage</code>.
+    Version 1.6.0 (<a href="/purequill/changes/" hreflang="en">Neuigkeiten, auf Englisch</a>). Das AppImage vor dem ersten Start ausführbar machen — im Dateimanager
+    unter „Eigenschaften“ oder mit <code>chmod +x PureQuill-Writer-1.6.0-x86_64.AppImage</code>.
     <a href="/download/linux/SHA256SUMS">SHA‑256-Prüfsummen</a>
   </p>
 </section>

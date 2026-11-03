@@ -25,9 +25,9 @@
   <p class="pille">Free · completely offline · Windows, Linux and browser</p>
   <h1>PureQuill Writer</h1>
   <p class="lead">
-    The free word processor that works completely offline. It opens Word files and
-    shows them the way Word does — with tools for writers that other word processors
-    do not have. No account, no subscription, no cloud.
+    The free word processor that works completely offline. It opens and saves Word
+    files with high compatibility — and brings tools for writers that other word
+    processors do not have. No account, no subscription, no cloud.
   </p>
   <div class="knopfreihe">
     <div class="storeweg">
@@ -52,7 +52,7 @@
       <small>To try it out</small>
     </div>
   </div>
-  <p style="margin:28px 0 0;font-size:14px"><a href="/purequill/changes/" style="color:var(--ink);text-underline-offset:3px;text-decoration-color:var(--ink-faint)">What’s new in version 1.5.0</a> <span style="color:var(--ink-soft)" aria-hidden="true">→</span></p>
+  <p style="margin:28px 0 0;font-size:14px"><a href="/purequill/changes/" style="color:var(--ink);text-underline-offset:3px;text-decoration-color:var(--ink-faint)">What’s new in version 1.6.0</a> <span style="color:var(--ink-soft)" aria-hidden="true">→</span></p>
 </section>
 
 <figure class="buehne schaubild">
@@ -64,40 +64,40 @@
 
 <section class="flaeche">
   <div class="wrap">
-    <p class="augbraue">New in 1.5.0</p>
-    <h2>Even closer to Word.</h2>
-    <p class="lead">The new version catches up where Word used to be ahead: tables, page
-       breaks, headers and footers. And every change can be undone.</p>
+    <p class="augbraue">New in 1.6.0</p>
+    <h2>Your text remembers.</h2>
+    <p class="lead">Go back to any earlier version of your text, rearrange a book chapter by
+       chapter, and write on an old typewriter if you feel like it.</p>
     <div class="saeulen" style="margin-top:30px">
       <div class="saeule">
-        <span class="nr">Tables</span>
-        <h3>Tables as in Word</h3>
-        <p>Styles in one click, merge and split cells, shading, borders and column width. Long tables repeat their header row on every page.</p>
+        <span class="nr">Time machine</span>
+        <h3>Every version on a timeline</h3>
+        <p>Step through earlier versions, see what changed in colour, play the text back as it grew and restore a version in one click.</p>
       </div>
       <div class="saeule">
-        <span class="nr">Pages</span>
-        <h3>Page for page like Word</h3>
-        <p>Word files split into pages as they do in Word: same line heights, tables in the same place, in print too.</p>
+        <span class="nr">Outline</span>
+        <h3>Chapters as cards</h3>
+        <p>Every chapter with its first line and word count. Drag it or move it with the arrows, and mark it Draft, In progress or Done.</p>
       </div>
       <div class="saeule">
-        <span class="nr">Headers and footers</span>
-        <h3>With their own toolbar</h3>
-        <p>You see page number and date while you type; logos, formatting and tab stops come along from Word, .odt and .rtf.</p>
+        <span class="nr">Mods</span>
+        <h3>The typewriter</h3>
+        <p>Typewriter font, a worn ink ribbon and real recorded typing sounds, full screen if you like. Print and PDF stay as they are.</p>
       </div>
       <div class="saeule">
-        <span class="nr">Undo</span>
-        <h3>Everything can be taken back</h3>
-        <p>Undo and redo work for every change, including tables, images, lists and paragraph formatting.</p>
+        <span class="nr">Recently used</span>
+        <h3>Pick up where you left off</h3>
+        <p>Your recent files wait in the start window and in the File menu.</p>
       </div>
     </div>
-    <p class="klein" style="margin-top:30px">Plus an Insert menu as in Word and redesigned notes.
+    <p class="klein" style="margin-top:30px">Plus a reworked “All commands”, menus with icons and more room for checkpoints.
       <a href="/purequill/changes/">Everything that is new</a>.</p>
   </div>
 </section>
 
 <section class="wrap">
   <p class="augbraue">Word files</p>
-  <h2>Word files, the way Word shows them.</h2>
+  <h2>Word files with high compatibility.</h2>
   <p class="lead">Fonts, spacing, tables, footnotes, headers, footers and images come
      along, on real pages in millimetres. Save writes back to the same file. Finished
      work goes out as PDF, as EPUB for e-readers, or as a Word file again.</p>
@@ -132,7 +132,7 @@
   <p class="augbraue">Notes</p>
   <h2>Notes right where they belong.</h2>
   <p class="lead">Pin a note to a passage and it sits in the margin beside it — like a
-     comment in Word, just for you. Comments from Word files come in as notes.</p>
+     comment, just for you. Comments from Word files come in as notes.</p>
   <div class="saeulen" style="margin-top:30px">
     <div class="saeule">
       <h3>On the passage</h3>
@@ -194,7 +194,7 @@
       </div>
       <div class="saeule">
         <h3>Checkpoints</h3>
-        <p>Every 30 seconds the program records a checkpoint. The version history reaches back up to a month.</p>
+        <p>Every 30 seconds the program records a checkpoint. In the time machine you can look at any of them and bring it back.</p>
       </div>
       <div class="saeule">
         <h3>Backup file</h3>
@@ -210,14 +210,15 @@
     <h2>What is in it.</h2>
     <ul class="merkmale" style="margin-top:34px">
       <li>Free and completely offline — no account, no subscription, no cloud, no ads</li>
-      <li>Opens and saves Word files (DOCX, DOC) and shows them like Word: pages, tables, footnotes, headers and footers</li>
+      <li>Opens and saves Word files (DOCX, DOC) with high compatibility: pages, tables, footnotes, headers and footers stay intact</li>
       <li>Tools for writers: repeated words, word goal with word count, text clean-up</li>
       <li>Spell check with its own dictionaries in seven languages</li>
       <li>Notes pinned to passages, Word comments as notes, a glossary beside the text</li>
       <li>Seventeen colour schemes, focus mode, reading view, print preview</li>
-      <li>Autosave with checkpoints and version history</li>
+      <li>Autosave with checkpoints and a time machine for earlier versions</li>
+      <li>Outline with chapter cards, word counts and a status per chapter</li>
       <li>Save as PDF, or as EPUB for e-readers, with an e-book assistant</li>
-      <li>Table styles as in Word, repeating header rows, table of contents</li>
+      <li>Table styles, repeating header rows, table of contents</li>
       <li>Real pages: margins on the ruler, headers and footers with their own toolbar, A4 and US Letter</li>
       <li>Footnotes, endnotes, pictures in line or free, handwritten signature</li>
       <li>Undo and redo for every change</li>
@@ -240,7 +241,7 @@
         <p>.deb · 86 MB · appears in the applications menu</p>
       </div>
       <div class="laden">
-        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.5.0-amd64.deb" download>Download</a>
+        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.6.0-amd64.deb" download>Download</a>
       </div>
     </li>
     <li class="paket">
@@ -250,22 +251,22 @@
         <p>AppImage · 108 MB · no installation, runs on any Linux</p>
       </div>
       <div class="laden">
-        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.5.0-x86_64.AppImage" download>Download</a>
+        <a class="btn pri" href="/download/linux/PureQuill-Writer-1.6.0-x86_64.AppImage" download>Download</a>
       </div>
     </li>
   </ul>
   <p class="tipp"><strong>Not sure which distribution you have?</strong>
     The AppImage runs on any Linux:
-    <a href="/download/linux/PureQuill-Writer-1.5.0-x86_64.AppImage" download>Download the AppImage (108 MB)</a></p>
+    <a href="/download/linux/PureQuill-Writer-1.6.0-x86_64.AppImage" download>Download the AppImage (108 MB)</a></p>
   <p class="klein">
     Raspberry Pi or a laptop with an ARM processor (such as Snapdragon)?
-    <a href="/download/linux/PureQuill-Writer-1.5.0-arm64.deb" download>.deb for ARM</a> ·
-    <a href="/download/linux/PureQuill-Writer-1.5.0-arm64.AppImage" download>AppImage for ARM</a>.
+    <a href="/download/linux/PureQuill-Writer-1.6.0-arm64.deb" download>.deb for ARM</a> ·
+    <a href="/download/linux/PureQuill-Writer-1.6.0-arm64.AppImage" download>AppImage for ARM</a>.
     For any other PC, the buttons above are the right ones.
   </p>
   <p class="klein">
-    Version 1.5.0 (<a href="/purequill/changes/">what’s new</a>). Make the AppImage executable before the first start — under
-    “Properties” in your file manager, or with <code>chmod +x PureQuill-Writer-1.5.0-x86_64.AppImage</code>.
+    Version 1.6.0 (<a href="/purequill/changes/">what’s new</a>). Make the AppImage executable before the first start — under
+    “Properties” in your file manager, or with <code>chmod +x PureQuill-Writer-1.6.0-x86_64.AppImage</code>.
     <a href="/download/linux/SHA256SUMS">SHA‑256 checksums</a>
   </p>
 </section>
