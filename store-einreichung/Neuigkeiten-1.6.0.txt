@@ -1,0 +1,109 @@
+================================================================
+PureQuill Writer 1.6.0 — „Neuigkeiten in dieser Version“
+Partner Center: Store-Angebot › <Sprache> › Neuigkeiten in dieser Version
+Je Sprache den Block zwischen den Linien einfügen.
+================================================================
+
+DEUTSCH  (de-DE)
+----------------------------------------------------------------
+Version 1.6.0
+• Zeitmaschine: frühere Stände deines Textes auf einem Zeitstrahl ansehen, Änderungen farbig verglichen, als Film abspielen und mit einem Klick wiederherstellen.
+• Gliederung mit Karten: jedes Kapitel mit erster Zeile und Wortzahl, verschieben per Ziehen oder Pfeil, mit Status Entwurf, In Arbeit oder Fertig.
+• Ein Klick in der Gliederung springt zum Kapitel und hebt es im Text kurz hervor.
+• Neu: Mods. Die Schreibmaschine verwandelt den Schreibplatz in eine alte Schreibmaschine, mit Schreibmaschinenschrift, Farbband und echten Tippgeräuschen, auf Wunsch im Vollbild.
+• Zuletzt verwendete Dateien im Startfenster und im Menü Datei.
+• „Alle Befehle“ überarbeitet: nach Menüs geordnet, zuletzt benutzte Befehle oben, genauere Suche.
+• Mehr Platz für Zwischenstände: auch lange Bücher behalten viele frühere Fassungen. Die Einstellungen zeigen, wie viel Speicher sie belegen, mit einstellbarer Obergrenze.
+• Menüs mit farbigen Symbolen und mehr Luft; „Alle Dokumente schließen“ per Rechtsklick auf ein Dokument.
+• Schreibziel mit „Ziel starten“ und „Ziel beenden“.
+• Weitere Verbesserungen: Überschriften aus Webseiten bleiben beim Einfügen Überschriften, Kapitel am Dokumentanfang lassen sich rückgängig verschieben, besser lesbare Felder in dunklen Farbschemata.
+
+
+ENGLISH  (en-US)
+----------------------------------------------------------------
+Version 1.6.0
+• Time machine: see earlier versions of your text on a timeline, changes compared in colour, play them back like a film and restore them in one click.
+• Outline with cards: every chapter with its first line and word count, move it by dragging or with the arrows, with a status of Draft, In progress or Done.
+• A click in the outline jumps to the chapter and briefly highlights it in the text.
+• New: Mods. The typewriter turns your writing space into an old typewriter, with typewriter font, ink ribbon and real typing sounds, full screen if you like.
+• Recently used files in the start window and in the File menu.
+• "All commands" reworked: grouped by menu, recently used commands at the top, more precise search.
+• More room for snapshots: even long books keep many earlier versions. Settings show how much storage they use, with an adjustable limit.
+• Menus with coloured icons and more breathing room; "Close all documents" by right-clicking a document.
+• Writing goal with "Start goal" and "End goal".
+• More improvements: headings from web pages stay headings when pasted, moving chapters at the start of a document can be undone, easier-to-read fields in dark colour schemes.
+
+
+FRANÇAIS  (fr-FR)
+----------------------------------------------------------------
+Version 1.6.0
+• Machine à remonter le temps : voyez les versions antérieures de votre texte sur une frise, les modifications comparées en couleur, lisez-les comme un film et restaurez-les en un clic.
+• Plan sous forme de cartes : chaque chapitre avec sa première ligne et son nombre de mots, à déplacer par glisser ou avec les flèches, avec un statut Brouillon, En cours ou Terminé.
+• Un clic dans le plan mène au chapitre et le met brièvement en valeur dans le texte.
+• Nouveau : les Mods. La machine à écrire transforme votre espace d’écriture en vieille machine à écrire, avec police dactylographique, ruban encreur et vrais bruits de frappe, en plein écran si vous le souhaitez.
+• Fichiers récemment utilisés dans la fenêtre de démarrage et dans le menu Fichier.
+• « Toutes les commandes » repensé : classé par menu, commandes récentes en haut, recherche plus précise.
+• Plus de place pour les points de restauration : même les longs livres gardent de nombreuses versions antérieures. Les réglages indiquent l’espace occupé, avec une limite réglable.
+• Menus avec icônes en couleur et plus aérés ; « Fermer tous les documents » par clic droit sur un document.
+• Objectif d’écriture avec « Démarrer l’objectif » et « Arrêter l’objectif ».
+• Autres améliorations : les titres copiés depuis des pages web restent des titres, déplacer des chapitres en début de document peut être annulé, champs plus lisibles dans les thèmes sombres.
+
+
+ESPAÑOL  (es-ES)
+----------------------------------------------------------------
+Versión 1.6.0
+• Máquina del tiempo: ve versiones anteriores de tu texto en una línea de tiempo, con los cambios comparados en color, reprodúcelas como una película y restáuralas con un clic.
+• Esquema con tarjetas: cada capítulo con su primera línea y su recuento de palabras, muévelo arrastrando o con las flechas, con estado Borrador, En curso o Listo.
+• Un clic en el esquema salta al capítulo y lo resalta brevemente en el texto.
+• Nuevo: Mods. La máquina de escribir convierte tu espacio de escritura en una vieja máquina de escribir, con letra mecanográfica, cinta de tinta y sonidos de tecleo reales, a pantalla completa si quieres.
+• Archivos usados recientemente en la ventana de inicio y en el menú Archivo.
+• «Todos los comandos» renovado: ordenado por menús, los comandos recientes arriba, búsqueda más precisa.
+• Más espacio para los puntos de restauración: incluso los libros largos conservan muchas versiones anteriores. Los ajustes muestran cuánto espacio ocupan, con un límite ajustable.
+• Menús con iconos en color y más espacio; «Cerrar todos los documentos» con clic derecho en un documento.
+• Objetivo de escritura con «Iniciar objetivo» y «Terminar objetivo».
+• Más mejoras: los títulos de páginas web siguen siendo títulos al pegarlos, mover capítulos al principio del documento se puede deshacer, campos más legibles en los esquemas oscuros.
+
+
+ITALIANO  (it-IT)
+----------------------------------------------------------------
+Versione 1.6.0
+• Macchina del tempo: guarda le versioni precedenti del tuo testo su una linea del tempo, con le modifiche confrontate a colori, riproducile come un film e ripristinale con un clic.
+• Struttura del documento con schede: ogni capitolo con la prima riga e il numero di parole, da spostare trascinando o con le frecce, con stato Bozza, In corso o Fatto.
+• Un clic nella struttura porta al capitolo e lo evidenzia brevemente nel testo.
+• Novità: i Mod. La macchina da scrivere trasforma il tuo spazio di scrittura in una vecchia macchina da scrivere, con carattere dattilografico, nastro inchiostrato e veri suoni di battitura, anche a schermo intero.
+• File usati di recente nella finestra iniziale e nel menu File.
+• «Tutti i comandi» rinnovato: ordinato per menu, i comandi recenti in alto, ricerca più precisa.
+• Più spazio per i punti di ripristino: anche i libri lunghi conservano molte versioni precedenti. Le impostazioni mostrano quanto spazio occupano, con un limite regolabile.
+• Menu con icone colorate e più ariosi; «Chiudi tutti i documenti» con il clic destro su un documento.
+• Obiettivo di scrittura con «Avvia obiettivo» e «Termina obiettivo».
+• Altri miglioramenti: i titoli incollati da pagine web restano titoli, lo spostamento dei capitoli all’inizio del documento si può annullare, campi più leggibili nei temi scuri.
+
+
+POLSKI  (pl-PL)
+----------------------------------------------------------------
+Wersja 1.6.0
+• Wehikuł czasu: zobacz wcześniejsze wersje tekstu na osi czasu, ze zmianami porównanymi w kolorze, odtwórz je jak film i przywróć jednym kliknięciem.
+• Konspekt z kartami: każdy rozdział z pierwszym wierszem i liczbą słów, przenoszony przeciąganiem lub strzałkami, ze statusem Szkic, W toku lub Gotowe.
+• Kliknięcie w konspekcie przenosi do rozdziału i na chwilę wyróżnia go w tekście.
+• Nowość: Mody. Maszyna do pisania zmienia miejsce pisania w starą maszynę do pisania, z czcionką maszynową, taśmą barwiącą i prawdziwymi dźwiękami pisania, na życzenie na pełnym ekranie.
+• Ostatnio używane pliki w oknie startowym i w menu Plik.
+• „Wszystkie polecenia” na nowo: według menu, ostatnio używane polecenia na górze, dokładniejsze wyszukiwanie.
+• Więcej miejsca na punkty przywracania: nawet długie książki zachowują wiele wcześniejszych wersji. Ustawienia pokazują, ile miejsca zajmują, z regulowanym limitem.
+• Menu z kolorowymi ikonami i większymi odstępami; „Zamknij wszystkie dokumenty” po kliknięciu prawym przyciskiem na dokument.
+• Cel pisania z „Rozpocznij cel” i „Zakończ cel”.
+• Kolejne poprawki: nagłówki wklejone ze stron internetowych pozostają nagłówkami, przeniesienie rozdziałów na początku dokumentu można cofnąć, czytelniejsze pola w ciemnych schematach kolorów.
+
+
+PORTUGUÊS (BRASIL)  (pt-BR)
+----------------------------------------------------------------
+Versão 1.6.0
+• Máquina do tempo: veja versões anteriores do seu texto em uma linha do tempo, com as alterações comparadas em cores, reproduza-as como um filme e restaure-as com um clique.
+• Estrutura de tópicos com cartões: cada capítulo com a primeira linha e a contagem de palavras, mova arrastando ou com as setas, com status Rascunho, Em andamento ou Concluído.
+• Um clique na estrutura leva ao capítulo e o destaca rapidamente no texto.
+• Novo: Mods. A máquina de escrever transforma seu espaço de escrita em uma velha máquina de escrever, com fonte datilográfica, fita de tinta e sons de digitação reais, em tela cheia se você quiser.
+• Arquivos usados recentemente na janela inicial e no menu Arquivo.
+• "Todos os comandos" renovado: organizado por menus, comandos recentes no topo, busca mais precisa.
+• Mais espaço para pontos de restauração: até livros longos mantêm muitas versões anteriores. As configurações mostram quanto espaço eles ocupam, com um limite ajustável.
+• Menus com ícones coloridos e mais espaçados; "Fechar todos os documentos" com o clique direito em um documento.
+• Meta de escrita com "Iniciar meta" e "Encerrar meta".
+• Outras melhorias: títulos colados de páginas da web continuam sendo títulos, mover capítulos no início do documento pode ser desfeito, campos mais legíveis nos esquemas escuros.

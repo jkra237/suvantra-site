@@ -62,7 +62,7 @@ DEUTSCH  (de-DE)
 
 --- Beschreibung ---------------------------------------------
 
-PureQuill Writer ist ein kostenloses Schreibprogramm, das komplett offline arbeitet. Kein Konto, kein Abo, keine Cloud: Deine Texte bleiben auf deinem Rechner. Es öffnet und speichert Word-Dateien und zeigt sie so, wie Word sie zeigt, mit Seiten, Tabellen, Fußnoten, Kopf- und Fußzeilen.
+PureQuill Writer ist ein kostenloses Schreibprogramm, das komplett offline arbeitet. Kein Konto, kein Abo, keine Cloud: Deine Texte bleiben auf deinem Rechner. Es öffnet und speichert Word-Dateien mit hoher Kompatibilität: Seiten, Tabellen, Fußnoten, Kopf- und Fußzeilen bleiben erhalten.
 
 Gemacht für alle, die lange Texte schreiben: Roman, Abschlussarbeit, Bericht. Dafür bringt PureQuill Werkzeuge mit, die gewöhnliche Textverarbeitungen nicht haben: eine Leiste, die Wortwiederholungen zeigt, ein Schreibziel mit Wortzählung und eine Textbereinigung für doppelte Leerzeichen und leere Absätze. Dazu kommt eine Rechtschreibprüfung in sieben Sprachen.
 
@@ -72,7 +72,7 @@ Richte dir deinen Schreibplatz ein: 17 Farbschemata, Fokusmodus und Leseansicht.
 
 Fertige Texte speicherst du als Word-Datei, als PDF oder als EPUB für E-Reader. Gesichert wird laufend, mit Zwischenständen und Versionsverlauf.
 
-Keine Anmeldung, keine Werbung, keine Telemetrie. Sechs Wörterbücher liegen im Programm. Das deutsche wird aus Lizenzgründen beim ersten Gebrauch einmalig von suvantra.eu geladen und bleibt danach auf dem Rechner.
+Keine Werbung, und es werden keine Daten über dich gesammelt. Sechs Wörterbücher liegen im Programm. Das deutsche wird aus Lizenzgründen beim ersten Gebrauch einmalig von suvantra.eu geladen und bleibt danach auf dem Rechner.
 
 Diese Fassung von PureQuill Writer ist kostenlos und bleibt kostenlos. Kein Testzeitraum, kein Ablaufdatum, keine Funktion hinter einer Bezahlschranke.
 
@@ -81,20 +81,20 @@ Wenn sie dir hilft, helfen uns zwei Dinge zurück: eine Bewertung hier im Store 
 
 --- Kurzbeschreibung -----------------------------------------
 
-Kostenloses Schreibprogramm, das komplett offline arbeitet. Öffnet und speichert Word-Dateien so, wie Word sie zeigt, mit Werkzeugen für Autoren (Wortwiederholungen, Schreibziel, Textbereinigung) und Rechtschreibprüfung in sieben Sprachen. Kein Konto, kein Abo.
+Kostenloses Schreibprogramm, das komplett offline arbeitet. Öffnet und speichert Word-Dateien mit hoher Kompatibilität, mit Werkzeugen für Autoren (Wortwiederholungen, Schreibziel, Textbereinigung) und Rechtschreibprüfung in sieben Sprachen. Kein Konto, kein Abo.
 
 
 --- Produktfeatures (je eine Zeile) --------------------------
 
 Kostenlos und komplett offline: kein Konto, kein Abo, keine Cloud. Deine Texte bleiben auf deinem Rechner.
-Öffnet und speichert Word-Dateien (DOCX, DOC) und zeigt sie wie Word: Seiten, Tabellen, Fußnoten, Kopf- und Fußzeilen.
+Öffnet und speichert Word-Dateien (DOCX, DOC) mit hoher Kompatibilität: Seiten, Tabellen, Fußnoten, Kopf- und Fußzeilen bleiben erhalten.
 Werkzeuge für Autoren: Wortwiederholungen finden, Schreibziel mit Wortzählung, Text bereinigen.
 Rechtschreibprüfung in sieben Sprachen, mit eigenem Wörterbuch.
 Notizen direkt an Textstellen heften. Kommentare aus Word kommen als Notizen mit, dazu ein Glossar neben dem Text.
 17 Farbschemata, Fokusmodus und Leseansicht: Richte dir deinen Schreibplatz ein.
 Automatisches Sichern mit Zwischenständen und Versionsverlauf.
 Als PDF speichern oder als EPUB für E-Reader, mit E-Book-Assistent.
-Tabellen mit Vorlagen wie in Word, Inhaltsverzeichnis und eigene Kopf- und Fußzeilen.
+Tabellen mit Vorlagen, Inhaltsverzeichnis und eigene Kopf- und Fußzeilen.
 Auch OpenDocument (ODT) und RTF; Oberfläche und Hilfe in sieben Sprachen.
 
 
@@ -110,7 +110,7 @@ Manuskript
 
 --- Bildunterschriften ----------------------------------------
 
-Schreiben wie in Word, ganz ohne Abo: Tabellen mit Vorlagen, Kopfzeilen und Notizen direkt an der Textstelle.
+Alles für lange Texte, ganz ohne Abo: Tabellen mit Vorlagen, Kopfzeilen und Notizen direkt an der Textstelle.
 Wortwiederholungen auf einen Blick – mit dem engsten Abstand, damit du weißt, wo du kürzen solltest.
 17 Farbschemata, hell oder dunkel: Richte dir deinen Schreibplatz so ein, wie du am besten schreibst.
 Rechtschreibprüfung in sieben Sprachen – direkt auf deinem Rechner, ohne Cloud.
@@ -135,7 +135,7 @@ ENGLISH  (en-US)
 
 --- Description ----------------------------------------------
 
-PureQuill Writer is a free word processor that works completely offline. No account, no subscription, no cloud: your writing stays on your computer. It opens and saves Word files and shows them the way Word does, with pages, tables, footnotes, headers and footers.
+PureQuill Writer is a free word processor that works completely offline. No account, no subscription, no cloud: your writing stays on your computer. It opens and saves Word files with high compatibility: pages, tables, footnotes, headers and footers stay intact.
 
 Made for anyone who writes at length: a novel, a thesis, a report. For that, PureQuill brings tools ordinary word processors don't have: a panel that shows repeated words, a word goal with word count, and a clean-up for double spaces and empty paragraphs. Plus spell checking in seven languages.
 
@@ -145,7 +145,7 @@ Make your writing space your own: 17 colour schemes, focus mode and reading view
 
 Save finished work as a Word file, as PDF or as EPUB for e-readers. Your work is saved continuously, with snapshots and a version history.
 
-No sign-in, no ads, no telemetry. Six dictionaries ship with the app. For licensing reasons, the German one is downloaded once from suvantra.eu on first use and stays on your computer afterwards.
+No ads, and no data is collected about you. Six dictionaries ship with the app. For licensing reasons, the German one is downloaded once from suvantra.eu on first use and stays on your computer afterwards.
 
 This version of PureQuill Writer is free, and it stays free. No trial period, no expiry, no feature held back behind a payment.
 
@@ -154,20 +154,20 @@ If it helps you, two things help us back: a review here in the Store, and tellin
 
 --- Short description ----------------------------------------
 
-Free word processor that works completely offline. Opens and saves Word files the way Word shows them, with tools for writers (repeated words, word goal, text clean-up) and spell checking in seven languages. No account, no subscription.
+Free word processor that works completely offline. Opens and saves Word files with high compatibility, with tools for writers (repeated words, word goal, text clean-up) and spell checking in seven languages. No account, no subscription.
 
 
 --- Product features -----------------------------------------
 
 Free and completely offline: no account, no subscription, no cloud. Your writing stays on your computer.
-Opens and saves Word files (DOCX, DOC) and shows them as Word does: pages, tables, footnotes, headers and footers.
+Opens and saves Word files (DOCX, DOC) with high compatibility: pages, tables, footnotes, headers and footers stay intact.
 Tools for writers: find repeated words, word goal with word count, text clean-up.
 Spell checking in seven languages, with your own dictionary.
 Pin notes directly to passages of text. Comments from Word come in as notes, plus a glossary beside the text.
 17 colour schemes, focus mode and reading view: make your writing space your own.
 Automatic saving with snapshots and version history.
 Save as PDF or as EPUB for e-readers, with an e-book assistant.
-Tables with styles as in Word, table of contents and custom headers and footers.
+Tables with styles, table of contents and custom headers and footers.
 Also OpenDocument (ODT) and RTF; interface and help in seven languages.
 
 
@@ -183,7 +183,7 @@ manuscript
 
 --- Screenshot captions ---------------------------------------
 
-Write like in Word, without a subscription: tables with styles, headers and notes pinned right to the text.
+Everything for long-form writing, without a subscription: tables with styles, headers and notes pinned right to the text.
 Spot repeated words at a glance – with the closest distance, so you know where to trim.
 17 colour schemes, light or dark: set up your writing space the way you write best.
 Spell checking in seven languages – right on your computer, no cloud.
@@ -208,7 +208,7 @@ FRANÇAIS  (fr-FR)
 
 --- Description ----------------------------------------------
 
-PureQuill Writer est un traitement de texte gratuit qui fonctionne entièrement hors ligne. Pas de compte, pas d’abonnement, pas de cloud : vos textes restent sur votre ordinateur. Il ouvre et enregistre les fichiers Word et les affiche comme Word, avec pages, tableaux, notes de bas de page, en-têtes et pieds de page.
+PureQuill Writer est un traitement de texte gratuit qui fonctionne entièrement hors ligne. Pas de compte, pas d’abonnement, pas de cloud : vos textes restent sur votre ordinateur. Il ouvre et enregistre les fichiers Word avec une grande compatibilité : pages, tableaux, notes de bas de page, en-têtes et pieds de page sont conservés.
 
 Conçu pour tous ceux qui écrivent des textes longs : roman, mémoire, rapport. Pour cela, PureQuill apporte des outils que les traitements de texte ordinaires n’ont pas : un panneau qui montre les répétitions de mots, un objectif d’écriture avec décompte des mots et un nettoyage des espaces doubles et des paragraphes vides. S’y ajoute un correcteur orthographique en sept langues.
 
@@ -218,7 +218,7 @@ Aménagez votre espace d’écriture : 17 jeux de couleurs, mode concentration e
 
 Enregistrez vos textes terminés en fichier Word, en PDF ou en EPUB pour liseuses. L’enregistrement est continu, avec des versions intermédiaires et un historique.
 
-Pas de connexion, pas de publicité, pas de télémétrie. Six dictionnaires sont inclus. Pour des raisons de licence, le dictionnaire allemand est téléchargé une seule fois depuis suvantra.eu lors de sa première utilisation, puis reste sur votre ordinateur.
+Pas de publicité, et aucune donnée n’est collectée sur vous. Six dictionnaires sont inclus. Pour des raisons de licence, le dictionnaire allemand est téléchargé une seule fois depuis suvantra.eu lors de sa première utilisation, puis reste sur votre ordinateur.
 
 Cette version de PureQuill Writer est gratuite et le restera. Pas de période d'essai, pas de date d'expiration, aucune fonction réservée à un paiement.
 
@@ -227,20 +227,20 @@ Si elle vous est utile, deux choses nous aident en retour : un avis ici dans le 
 
 --- Description courte ---------------------------------------
 
-Traitement de texte gratuit qui fonctionne entièrement hors ligne. Ouvre et enregistre les fichiers Word comme Word les affiche, avec des outils pour auteurs (répétitions, objectif d’écriture, nettoyage du texte) et un correcteur en sept langues. Sans compte, sans abonnement.
+Traitement de texte gratuit qui fonctionne entièrement hors ligne. Ouvre et enregistre les fichiers Word avec une grande compatibilité, avec des outils pour auteurs (répétitions, objectif d’écriture, nettoyage du texte) et un correcteur en sept langues. Sans compte, sans abonnement.
 
 
 --- Fonctionnalités ------------------------------------------
 
 Gratuit et entièrement hors ligne : pas de compte, pas d’abonnement, pas de cloud. Vos textes restent sur votre ordinateur.
-Ouvre et enregistre les fichiers Word (DOCX, DOC) et les affiche comme Word : pages, tableaux, notes, en-têtes et pieds de page.
+Ouvre et enregistre les fichiers Word (DOCX, DOC) avec une grande compatibilité : pages, tableaux, notes, en-têtes et pieds de page conservés.
 Outils pour auteurs : trouver les répétitions de mots, objectif d’écriture avec décompte, nettoyage du texte.
 Correcteur orthographique en sept langues, avec votre propre dictionnaire.
 Attachez des notes à des passages du texte. Les commentaires de Word arrivent en notes, avec un glossaire à côté du texte.
 17 jeux de couleurs, mode concentration et vue lecture : aménagez votre espace d’écriture.
 Enregistrement automatique avec versions intermédiaires et historique.
 Enregistrer en PDF ou en EPUB pour liseuses, avec un assistant e-book.
-Tableaux avec styles comme dans Word, table des matières, en-têtes et pieds de page personnalisés.
+Tableaux avec styles, table des matières, en-têtes et pieds de page personnalisés.
 Aussi OpenDocument (ODT) et RTF ; interface et aide en sept langues.
 
 
@@ -256,7 +256,7 @@ manuscrit
 
 --- Légendes des captures -------------------------------------
 
-Écrivez comme dans Word, sans abonnement : tableaux avec styles, en-têtes et notes attachées au texte.
+Tout pour les textes longs, sans abonnement : tableaux avec styles, en-têtes et notes attachées au texte.
 Repérez les répétitions d’un coup d’œil – avec l’écart le plus court, pour savoir où couper.
 17 jeux de couleurs, clairs ou sombres : aménagez votre espace d’écriture comme il vous convient.
 Correcteur orthographique en sept langues – directement sur votre ordinateur, sans cloud.
@@ -273,7 +273,7 @@ ESPAÑOL  (es-ES)
 
 --- Descripción ----------------------------------------------
 
-PureQuill Writer es un procesador de textos gratuito que funciona totalmente sin conexión. Sin cuenta, sin suscripción, sin nube: tus textos se quedan en tu ordenador. Abre y guarda archivos de Word y los muestra como Word, con páginas, tablas, notas al pie, encabezados y pies de página.
+PureQuill Writer es un procesador de textos gratuito que funciona totalmente sin conexión. Sin cuenta, sin suscripción, sin nube: tus textos se quedan en tu ordenador. Abre y guarda archivos de Word con alta compatibilidad: páginas, tablas, notas al pie, encabezados y pies de página se conservan.
 
 Pensado para quien escribe textos largos: novela, trabajo de fin de grado, informe. Para ello, PureQuill trae herramientas que los procesadores de texto habituales no tienen: un panel que muestra las palabras repetidas, un objetivo de escritura con recuento de palabras y una limpieza de espacios dobles y párrafos vacíos. Además, corrección ortográfica en siete idiomas.
 
@@ -283,7 +283,7 @@ Prepara tu espacio de escritura: 17 combinaciones de colores, modo concentració
 
 Guarda tus textos terminados como archivo de Word, en PDF o en EPUB para lectores electrónicos. Todo se guarda de forma continua, con versiones intermedias e historial.
 
-Sin registro, sin publicidad, sin telemetría. Seis diccionarios vienen incluidos. Por motivos de licencia, el alemán se descarga una sola vez desde suvantra.eu la primera vez que se usa y luego se queda en tu ordenador.
+Sin publicidad, y no se recopila ningún dato sobre ti. Seis diccionarios vienen incluidos. Por motivos de licencia, el alemán se descarga una sola vez desde suvantra.eu la primera vez que se usa y luego se queda en tu ordenador.
 
 Esta versión de PureQuill Writer es gratuita y seguirá siéndolo. Sin periodo de prueba, sin fecha de caducidad, sin funciones detrás de un pago.
 
@@ -292,20 +292,20 @@ Si te resulta útil, dos cosas nos ayudan a nosotros: una reseña aquí en la St
 
 --- Descripción corta ----------------------------------------
 
-Procesador de textos gratuito que funciona totalmente sin conexión. Abre y guarda archivos de Word tal como Word los muestra, con herramientas para autores (palabras repetidas, objetivo de escritura, limpieza del texto) y corrección ortográfica en siete idiomas. Sin cuenta ni suscripción.
+Procesador de textos gratuito que funciona totalmente sin conexión. Abre y guarda archivos de Word con alta compatibilidad, con herramientas para autores (palabras repetidas, objetivo de escritura, limpieza del texto) y corrección ortográfica en siete idiomas. Sin cuenta ni suscripción.
 
 
 --- Características ------------------------------------------
 
 Gratis y totalmente sin conexión: sin cuenta, sin suscripción, sin nube. Tus textos se quedan en tu ordenador.
-Abre y guarda archivos de Word (DOCX, DOC) y los muestra como Word: páginas, tablas, notas al pie, encabezados y pies de página.
+Abre y guarda archivos de Word (DOCX, DOC) con alta compatibilidad: páginas, tablas, notas al pie, encabezados y pies de página se conservan.
 Herramientas para autores: encontrar palabras repetidas, objetivo de escritura con recuento de palabras, limpiar el texto.
 Corrección ortográfica en siete idiomas, con tu propio diccionario.
 Fija notas en pasajes del texto. Los comentarios de Word llegan como notas, y hay un glosario junto al texto.
 17 combinaciones de colores, modo concentración y vista de lectura: prepara tu espacio de escritura.
 Guardado automático con versiones intermedias e historial.
 Guardar en PDF o en EPUB para lectores electrónicos, con asistente de e-book.
-Tablas con estilos como en Word, índice de contenido y encabezados y pies de página propios.
+Tablas con estilos, índice de contenido y encabezados y pies de página propios.
 También OpenDocument (ODT) y RTF; interfaz y ayuda en siete idiomas.
 
 
@@ -321,7 +321,7 @@ manuscrito
 
 --- Textos de las capturas ------------------------------------
 
-Escribe como en Word, sin suscripción: tablas con estilos, encabezados y notas fijadas en el texto.
+Todo para textos largos, sin suscripción: tablas con estilos, encabezados y notas fijadas en el texto.
 Detecta las palabras repetidas de un vistazo, con la distancia más corta, para saber dónde recortar.
 17 combinaciones de colores, claras u oscuras: prepara tu espacio de escritura a tu manera.
 Corrección ortográfica en siete idiomas, directamente en tu ordenador, sin nube.
@@ -338,7 +338,7 @@ ITALIANO  (it-IT)
 
 --- Descrizione ----------------------------------------------
 
-PureQuill Writer è un programma di scrittura gratuito che funziona completamente offline. Nessun account, nessun abbonamento, nessun cloud: i tuoi testi restano sul tuo computer. Apre e salva i file Word e li mostra come Word, con pagine, tabelle, note a piè di pagina, intestazioni e piè di pagina.
+PureQuill Writer è un programma di scrittura gratuito che funziona completamente offline. Nessun account, nessun abbonamento, nessun cloud: i tuoi testi restano sul tuo computer. Apre e salva i file Word con alta compatibilità: pagine, tabelle, note a piè di pagina, intestazioni e piè di pagina restano intatti.
 
 Pensato per chi scrive testi lunghi: romanzo, tesi, relazione. Per questo PureQuill offre strumenti che i comuni programmi di videoscrittura non hanno: un pannello che mostra le parole ripetute, un obiettivo di scrittura con conteggio delle parole e una pulizia di spazi doppi e paragrafi vuoti. In più, il controllo ortografico in sette lingue.
 
@@ -348,7 +348,7 @@ Crea il tuo spazio di scrittura: 17 combinazioni di colori, modalità concentraz
 
 Salva i testi finiti come file Word, in PDF o in EPUB per e-reader. Il salvataggio è continuo, con versioni intermedie e cronologia.
 
-Nessun accesso, nessuna pubblicità, nessuna telemetria. Sei dizionari sono inclusi. Per motivi di licenza, quello tedesco viene scaricato una sola volta da suvantra.eu al primo utilizzo e poi resta sul tuo computer.
+Nessuna pubblicità, e nessun dato viene raccolto su di te. Sei dizionari sono inclusi. Per motivi di licenza, quello tedesco viene scaricato una sola volta da suvantra.eu al primo utilizzo e poi resta sul tuo computer.
 
 Questa versione di PureQuill Writer è gratuita e resta gratuita. Nessun periodo di prova, nessuna scadenza, nessuna funzione dietro un pagamento.
 
@@ -357,20 +357,20 @@ Se ti è utile, due cose aiutano noi: una recensione qui nello Store e una parol
 
 --- Descrizione breve ----------------------------------------
 
-Programma di scrittura gratuito che funziona completamente offline. Apre e salva i file Word come li mostra Word, con strumenti per autori (parole ripetute, obiettivo di scrittura, pulizia del testo) e controllo ortografico in sette lingue. Senza account, senza abbonamento.
+Programma di scrittura gratuito che funziona completamente offline. Apre e salva i file Word con alta compatibilità, con strumenti per autori (parole ripetute, obiettivo di scrittura, pulizia del testo) e controllo ortografico in sette lingue. Senza account, senza abbonamento.
 
 
 --- Caratteristiche ------------------------------------------
 
 Gratuito e completamente offline: nessun account, nessun abbonamento, nessun cloud. I tuoi testi restano sul tuo computer.
-Apre e salva i file Word (DOCX, DOC) e li mostra come Word: pagine, tabelle, note, intestazioni e piè di pagina.
+Apre e salva i file Word (DOCX, DOC) con alta compatibilità: pagine, tabelle, note, intestazioni e piè di pagina restano intatti.
 Strumenti per autori: trovare le parole ripetute, obiettivo di scrittura con conteggio, pulizia del testo.
 Controllo ortografico in sette lingue, con il tuo dizionario personale.
 Attacca note ai passaggi del testo. I commenti di Word arrivano come note, e c’è un glossario accanto al testo.
 17 combinazioni di colori, modalità concentrazione e vista lettura: crea il tuo spazio di scrittura.
 Salvataggio automatico con versioni intermedie e cronologia.
 Salva in PDF o in EPUB per e-reader, con assistente e-book.
-Tabelle con stili come in Word, sommario e intestazioni e piè di pagina personalizzati.
+Tabelle con stili, sommario e intestazioni e piè di pagina personalizzati.
 Anche OpenDocument (ODT) e RTF; interfaccia e guida in sette lingue.
 
 
@@ -386,7 +386,7 @@ manoscritto
 
 --- Didascalie delle schermate --------------------------------
 
-Scrivi come in Word, senza abbonamento: tabelle con stili, intestazioni e note attaccate al testo.
+Tutto per i testi lunghi, senza abbonamento: tabelle con stili, intestazioni e note attaccate al testo.
 Trova le parole ripetute a colpo d’occhio, con la distanza più breve, per sapere dove tagliare.
 17 combinazioni di colori, chiare o scure: crea lo spazio di scrittura che fa per te.
 Controllo ortografico in sette lingue, direttamente sul tuo computer, senza cloud.
@@ -403,7 +403,7 @@ POLSKI  (pl-PL)
 
 --- Opis -----------------------------------------------------
 
-PureQuill Writer to darmowy edytor tekstu, który działa całkowicie offline. Bez konta, bez subskrypcji, bez chmury: twoje teksty zostają na twoim komputerze. Otwiera i zapisuje pliki Word i pokazuje je tak jak Word – ze stronami, tabelami, przypisami, nagłówkami i stopkami.
+PureQuill Writer to darmowy edytor tekstu, który działa całkowicie offline. Bez konta, bez subskrypcji, bez chmury: twoje teksty zostają na twoim komputerze. Otwiera i zapisuje pliki Word z wysoką zgodnością – strony, tabele, przypisy, nagłówki i stopki pozostają nienaruszone.
 
 Stworzony dla wszystkich, którzy piszą długie teksty: powieść, pracę dyplomową, raport. PureQuill ma narzędzia, których zwykłe edytory tekstu nie mają: panel pokazujący powtórzenia słów, cel pisania z licznikiem słów oraz czyszczenie podwójnych spacji i pustych akapitów. Do tego sprawdzanie pisowni w siedmiu językach.
 
@@ -413,7 +413,7 @@ Urządź swoje miejsce do pisania: 17 schematów kolorów, tryb skupienia i wido
 
 Gotowe teksty zapiszesz jako plik Word, PDF lub EPUB na czytniki. Zapis odbywa się na bieżąco, z wersjami pośrednimi i historią.
 
-Bez logowania, bez reklam, bez telemetrii. Sześć słowników jest w programie. Ze względów licencyjnych niemiecki jest pobierany jednorazowo z suvantra.eu przy pierwszym użyciu, a potem zostaje na komputerze.
+Bez reklam i bez zbierania danych o tobie. Sześć słowników jest w programie. Ze względów licencyjnych niemiecki jest pobierany jednorazowo z suvantra.eu przy pierwszym użyciu, a potem zostaje na komputerze.
 
 Ta wersja PureQuill Writer jest bezpłatna i taka pozostanie. Bez okresu próbnego, bez daty wygaśnięcia, bez funkcji ukrytych za opłatą.
 
@@ -422,20 +422,20 @@ Jeśli ci pomaga, nam pomagają dwie rzeczy: opinia tutaj w Store i słowo do ko
 
 --- Krótki opis ----------------------------------------------
 
-Darmowy edytor tekstu, który działa całkowicie offline. Otwiera i zapisuje pliki Word tak, jak pokazuje je Word, z narzędziami dla autorów (powtórzenia słów, cel pisania, czyszczenie tekstu) i sprawdzaniem pisowni w siedmiu językach. Bez konta, bez subskrypcji.
+Darmowy edytor tekstu, który działa całkowicie offline. Otwiera i zapisuje pliki Word z wysoką zgodnością, z narzędziami dla autorów (powtórzenia słów, cel pisania, czyszczenie tekstu) i sprawdzaniem pisowni w siedmiu językach. Bez konta, bez subskrypcji.
 
 
 --- Funkcje --------------------------------------------------
 
 Darmowy i całkowicie offline: bez konta, bez subskrypcji, bez chmury. Twoje teksty zostają na twoim komputerze.
-Otwiera i zapisuje pliki Word (DOCX, DOC) i pokazuje je jak Word: strony, tabele, przypisy, nagłówki i stopki.
+Otwiera i zapisuje pliki Word (DOCX, DOC) z wysoką zgodnością: strony, tabele, przypisy, nagłówki i stopki pozostają nienaruszone.
 Narzędzia dla autorów: wyszukiwanie powtórzeń słów, cel pisania z licznikiem słów, czyszczenie tekstu.
 Sprawdzanie pisowni w siedmiu językach, z własnym słownikiem.
 Przypinaj notatki do fragmentów tekstu. Komentarze z Worda trafiają do notatek, a obok tekstu jest glosariusz.
 17 schematów kolorów, tryb skupienia i widok czytania: urządź swoje miejsce do pisania.
 Automatyczny zapis z wersjami pośrednimi i historią.
 Zapis jako PDF lub EPUB na czytniki, z asystentem e-booka.
-Tabele ze stylami jak w Wordzie, spis treści oraz własne nagłówki i stopki.
+Tabele ze stylami, spis treści oraz własne nagłówki i stopki.
 Także OpenDocument (ODT) i RTF; interfejs i pomoc w siedmiu językach.
 
 
@@ -451,7 +451,7 @@ manuskrypt
 
 --- Podpisy zrzutów ekranu ------------------------------------
 
-Pisz jak w Wordzie, bez subskrypcji: tabele ze stylami, nagłówki i notatki przypięte do tekstu.
+Wszystko do długich tekstów, bez subskrypcji: tabele ze stylami, nagłówki i notatki przypięte do tekstu.
 Powtórzenia słów na pierwszy rzut oka – z najmniejszym odstępem, żebyś wiedział, gdzie skrócić.
 17 schematów kolorów, jasnych lub ciemnych: urządź miejsce do pisania tak, jak lubisz.
 Sprawdzanie pisowni w siedmiu językach – prosto na twoim komputerze, bez chmury.
@@ -468,7 +468,7 @@ PORTUGUÊS (BRASIL)  (pt-BR)
 
 --- Descrição ------------------------------------------------
 
-PureQuill Writer é um editor de texto gratuito que funciona totalmente offline. Sem conta, sem assinatura, sem nuvem: seus textos ficam no seu computador. Ele abre e salva arquivos do Word e os mostra como o Word, com páginas, tabelas, notas de rodapé, cabeçalhos e rodapés.
+PureQuill Writer é um editor de texto gratuito que funciona totalmente offline. Sem conta, sem assinatura, sem nuvem: seus textos ficam no seu computador. Ele abre e salva arquivos do Word com alta compatibilidade: páginas, tabelas, notas de rodapé, cabeçalhos e rodapés são preservados.
 
 Feito para quem escreve textos longos: romance, TCC, relatório. Para isso, o PureQuill traz ferramentas que os editores de texto comuns não têm: um painel que mostra palavras repetidas, uma meta de escrita com contagem de palavras e uma limpeza de espaços duplos e parágrafos vazios. Além disso, verificação ortográfica em sete idiomas.
 
@@ -478,7 +478,7 @@ Monte seu espaço de escrita: 17 esquemas de cores, modo foco e modo de leitura.
 
 Salve os textos prontos como arquivo do Word, em PDF ou em EPUB para leitores digitais. Tudo é salvo continuamente, com versões intermediárias e histórico.
 
-Sem login, sem anúncios, sem telemetria. Seis dicionários vêm incluídos. Por motivos de licença, o alemão é baixado uma única vez de suvantra.eu no primeiro uso e depois fica no seu computador.
+Sem anúncios, e nenhum dado sobre você é coletado. Seis dicionários vêm incluídos. Por motivos de licença, o alemão é baixado uma única vez de suvantra.eu no primeiro uso e depois fica no seu computador.
 
 Esta versão do PureQuill Writer é gratuita e continuará gratuita. Sem período de teste, sem data de expiração, sem recursos atrás de um pagamento.
 
@@ -487,20 +487,20 @@ Se ela te ajuda, duas coisas nos ajudam de volta: uma avaliação aqui na Store 
 
 --- Descrição curta ------------------------------------------
 
-Editor de texto gratuito que funciona totalmente offline. Abre e salva arquivos do Word do jeito que o Word os mostra, com ferramentas para autores (palavras repetidas, meta de escrita, limpeza do texto) e verificação ortográfica em sete idiomas. Sem conta, sem assinatura.
+Editor de texto gratuito que funciona totalmente offline. Abre e salva arquivos do Word com alta compatibilidade, com ferramentas para autores (palavras repetidas, meta de escrita, limpeza do texto) e verificação ortográfica em sete idiomas. Sem conta, sem assinatura.
 
 
 --- Recursos -------------------------------------------------
 
 Gratuito e totalmente offline: sem conta, sem assinatura, sem nuvem. Seus textos ficam no seu computador.
-Abre e salva arquivos do Word (DOCX, DOC) e os mostra como o Word: páginas, tabelas, notas de rodapé, cabeçalhos e rodapés.
+Abre e salva arquivos do Word (DOCX, DOC) com alta compatibilidade: páginas, tabelas, notas de rodapé, cabeçalhos e rodapés preservados.
 Ferramentas para autores: encontrar palavras repetidas, meta de escrita com contagem de palavras, limpar o texto.
 Verificação ortográfica em sete idiomas, com seu próprio dicionário.
 Prenda notas em trechos do texto. Comentários do Word chegam como notas, e há um glossário ao lado do texto.
 17 esquemas de cores, modo foco e modo de leitura: monte seu espaço de escrita.
 Salvamento automático com versões intermediárias e histórico.
 Salvar em PDF ou em EPUB para leitores digitais, com assistente de e-book.
-Tabelas com estilos como no Word, sumário e cabeçalhos e rodapés próprios.
+Tabelas com estilos, sumário e cabeçalhos e rodapés próprios.
 Também OpenDocument (ODT) e RTF; interface e ajuda em sete idiomas.
 
 
@@ -516,7 +516,7 @@ manuscrito
 
 --- Legendas das capturas -------------------------------------
 
-Escreva como no Word, sem assinatura: tabelas com estilos, cabeçalhos e notas presas ao texto.
+Tudo para textos longos, sem assinatura: tabelas com estilos, cabeçalhos e notas presas ao texto.
 Encontre palavras repetidas num relance, com a menor distância, para saber onde cortar.
 17 esquemas de cores, claros ou escuros: monte seu espaço de escrita do seu jeito.
 Verificação ortográfica em sete idiomas, direto no seu computador, sem nuvem.
