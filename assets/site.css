@@ -40,6 +40,7 @@
   --schmal:760px;
 }
 body.p-purequill{ --akzent:#8C3B2E; }
+body.p-rewritepdf,body.p-rewrite-pdf{ --akzent:#0E7490; }   /* Rewrite PDF: Cyan wie das App-Symbol */
 
 /* Dunkelmodus. Ein Programm mit siebzehn Farbschemata sollte nicht auf einer
    Seite werben, die nur eine kennt. */
@@ -63,6 +64,7 @@ body.p-purequill{ --akzent:#8C3B2E; }
     --schatten-gross:0 2px 4px rgba(0,0,0,.35), 0 24px 60px -18px rgba(0,0,0,.7);
   }
   body.p-purequill{ --akzent:#D4705F; --akzent-ink:#16181B; }
+  body.p-rewritepdf,body.p-rewrite-pdf{ --akzent:#22D3EE; --akzent-ink:#0B0F16; }
 }
 
 *{box-sizing:border-box}

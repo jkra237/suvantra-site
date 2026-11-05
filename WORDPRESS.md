@@ -349,3 +349,34 @@ Bei jeder neuen Version:
 `https://jkra237.github.io/purequillwriter/dict/`. Sobald `suvantra.eu/dict/`
 die Wörterbücher ausliefert, gehört die Konstante dorthin — **vorher nicht**,
 sonst bricht die deutsche Rechtschreibprüfung in der Store-Fassung.
+
+---
+
+## Rewrite PDF (seit 2026-11-05)
+
+Vier neue Seiten, angelegt wie in 3b (Code-Editor, Inhalt aus `wp-bloecke/`):
+
+| Titel | Adresse | Uebergeordnet | Vorlage | Inhalt aus |
+|---|---|---|---|---|
+| Rewrite PDF | `rewrite-pdf` | — | Standard | `10-en-rewrite-pdf.txt` |
+| Privacy | `privacy` | Rewrite PDF | **Rechtstext** | `11-en-rewrite-privacy.txt` |
+| Rewrite PDF (DE) | `rewrite-pdf` | Suvantra (DE) | Standard | `12-de-rewrite-pdf.txt` |
+| Datenschutz | `datenschutz` | Rewrite PDF (DE) | **Rechtstext** | `13-de-rewrite-datenschutz.txt` |
+
+Vorher per FTP hochladen: `assets/site.css` (neue Akzentfarbe `.p-rewritepdf`),
+`assets/rp-icon-512.png`, `assets/rp-icon-256.png`.
+
+**Nachtrag 2026-11-05 – Bildschirmfotos:** zusätzlich per FTP nach `assets/` hochladen:
+`rp-text.png/.webp`, `rp-sicherheit.png/.webp` (Deutsch) und `rp-en-text.png/.webp`,
+`rp-en-sicherheit.png/.webp` (Englisch). Danach bei beiden Rewrite-PDF-Seiten den Inhalt
+im Code-Editor komplett durch die neue Fassung aus `wp-bloecke/10-en-rewrite-pdf.txt` bzw.
+`12-de-rewrite-pdf.txt` ersetzen und aktualisieren. Neu erzeugen lassen sich die Bilder mit
+`node pdf-editor/scripts/store-shots/web-bilder.mjs` (Entwicklungs-App muss laufen).
+
+Danach in **Design → Menüs** in beiden Menüs (DE und EN) den Eintrag „Rewrite PDF“
+neben „PureQuill Writer“ ergänzen. Die Akzentfarbe kommt von selbst: Das Theme setzt
+aus der Adresse die Klasse `p-rewrite-pdf`, und site.css färbt sie cyan.
+
+Der Store-Knopf verweist fest auf `https://apps.microsoft.com/detail/9PDC2PR394B0`
+(nicht auf `%STORE_URL%`, der gehört PureQuill). Bei den Datenschutzseiten die
+Anschrift wie bei PureQuill eintragen.
