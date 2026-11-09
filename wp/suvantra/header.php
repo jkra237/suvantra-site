@@ -40,7 +40,9 @@ $suvantra_dark = suvantra_dark_mode_enabled();
 <?php endif; ?>
 <?php /* Only while no site icon is set in the Customizer — otherwise there would be two. */ ?>
 <?php if ( ! has_site_icon() ) : ?>
+<link rel="icon" href="<?php echo esc_url( suvantra_asset_url( 'favicon.svg' ) ); ?>" type="image/svg+xml">
 <link rel="icon" href="<?php echo esc_url( suvantra_asset_url( 'favicon-32.png' ) ); ?>" sizes="32x32">
+<link rel="apple-touch-icon" href="<?php echo esc_url( suvantra_asset_url( 'favicon-180.png' ) ); ?>">
 <?php endif; ?>
 <?php wp_head(); ?>
 <?php $suvantra_schema = suvantra_structured_data(); if ( $suvantra_schema ) : ?>
@@ -72,7 +74,8 @@ $suvantra_dark = suvantra_dark_mode_enabled();
       );
       ?><a class="marke" href="<?php echo $suvantra_home; ?>"><?php echo $suvantra_logo; ?></a><?php
     else :
-      ?><a class="marke" href="<?php echo $suvantra_home; ?>"><span class="m-punkt"></span>Suvantra</a><?php
+      /* Without a logo in the Customizer: the lettering from /assets/ (Dancing Script as paths, so no font is loaded). */
+      ?><a class="marke" href="<?php echo $suvantra_home; ?>"><img class="marke-logo" src="<?php echo esc_url( suvantra_asset_url( 'suvantra-logo.svg' ) ); ?>" alt="Suvantra" width="136" height="34"></a><?php
     endif;
     ?>
     <?php
@@ -87,10 +90,24 @@ $suvantra_dark = suvantra_dark_mode_enabled();
     <?php
     /* With two languages a single button, from three on a row — so nothing
        has to change here when a language is added. */
-    foreach ( $suvantra_links as $suvantra_link ) :
-      ?><a class="lang" href="<?php echo esc_url( $suvantra_link['url'] ); ?>"
-       hreflang="<?php echo esc_attr( $suvantra_link['lang'] ); ?>"><?php echo esc_html( $suvantra_link['text'] ); ?></a><?php
+    /* Flags instead of language names: all languages in table order, the
+       current one marked, the others link to the counterpart of this page.
+       SVG files in /assets/flagge-<code>.svg — Windows shows flag emoji only
+       as letters. */
+    $suvantra_targets = array();
+    foreach ( $suvantra_links as $suvantra_link ) {
+      $suvantra_targets[ $suvantra_link['code'] ] = $suvantra_link;
+    }
+    ?><span class="sprachen"><?php
+    foreach ( suvantra_languages() as $suvantra_code => $suvantra_language ) :
+      $suvantra_img = '<img src="' . esc_url( suvantra_asset_url( 'flagge-' . $suvantra_code . '.svg' ) ) . '" alt="' . esc_attr( $suvantra_language['name'] ) . '" width="24" height="16">';
+      if ( isset( $suvantra_targets[ $suvantra_code ] ) ) :
+        ?><a class="flagge" href="<?php echo esc_url( $suvantra_targets[ $suvantra_code ]['url'] ); ?>" hreflang="<?php echo esc_attr( $suvantra_language['hreflang'] ); ?>" title="<?php echo esc_attr( $suvantra_language['name'] ); ?>"><?php echo $suvantra_img; // phpcs:ignore WordPress.Security.EscapeOutput -- built from escaped parts above. ?></a><?php
+      else :
+        ?><span class="flagge aktiv" aria-current="true" title="<?php echo esc_attr( $suvantra_language['name'] ); ?>"><?php echo $suvantra_img; // phpcs:ignore WordPress.Security.EscapeOutput ?></span><?php
+      endif;
     endforeach;
+    ?></span><?php
     ?>
   </div>
 </header>

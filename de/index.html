@@ -11,7 +11,9 @@
 <link rel="alternate" hreflang="de" href="https://suvantra.eu/de/">
 <link rel="alternate" hreflang="en" href="https://suvantra.eu/">
 <link rel="alternate" hreflang="x-default" href="https://suvantra.eu/">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/assets/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/favicon-180.png">
 <link rel="stylesheet" href="/assets/site.css">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="de_DE">
@@ -47,12 +49,13 @@
 
 <header class="top">
   <div class="wrap">
-    <a class="marke" href="/de/"><span class="m-punkt"></span>Suvantra</a>
+    <a class="marke" href="/de/"><img class="marke-logo" src="/assets/suvantra-logo.svg" alt="Suvantra" width="136" height="34"></a>
     <nav>
       <a href="/de/purequill/">PureQuill Writer</a>
+      <a href="/de/rewrite-pdf/">Rewrite PDF</a>
       <a href="/de/impressum.html">Impressum</a>
     </nav>
-    <a class="lang" href="/" hreflang="en">English</a>
+    <span class="sprachen"><a class="flagge" href="/" hreflang="en" lang="en" title="English"><img src="/assets/flagge-en.svg" alt="English" width="24" height="16"></a><span class="flagge aktiv" aria-current="true" title="Deutsch"><img src="/assets/flagge-de.svg" alt="Deutsch" width="24" height="16"></span></span>
   </div>
 </header>
 
@@ -72,15 +75,16 @@
       <rect x="50" y="252" width="330" height="16" rx="2"/>
     </svg>
     <p class="augbraue">Suvantra</p>
-    <h1>Werkzeuge, die offline arbeiten.</h1>
+    <h1>Werkzeuge, die <em>offline</em> arbeiten.</h1>
     <p class="lead">
       Wir bauen Programme für Windows und Linux, die ohne Konto auskommen, ohne Server
       und ohne Abo. Was du schreibst, bleibt auf deinem Rechner — nicht, weil wir es
-      versprechen, sondern weil die Programme deine Texte nirgendwohin schicken.
+      versprechen, sondern weil die Programme deine Dateien nirgendwohin schicken.
     </p>
     <div class="knopfreihe">
       <a class="btn pri" href="/de/purequill/">PureQuill Writer ansehen</a>
-      <a class="btn" href="/app/">Ohne Installation ausprobieren</a>
+      <a class="btn" href="/de/rewrite-pdf/">Rewrite PDF ansehen</a>
+<a class="btn" href="/app/">PureQuill ohne Installation ausprobieren</a>
     </div>
   </section>
 
@@ -89,20 +93,24 @@
       <p class="augbraue">Programme</p>
       <h2>Ein Werkzeug für eine Aufgabe.</h2>
       <div class="karten">
-        <a class="karte" href="/de/purequill/">
+        <a class="karte k-pq" href="/de/purequill/">
           <img class="kicon" src="/assets/pq-icon-256.png" alt="" width="56" height="56" decoding="async">
           <h3>PureQuill Writer</h3>
           <p>Kostenloses Schreibprogramm, das komplett offline arbeitet. Öffnet
              und speichert Word-Dateien mit hoher Kompatibilität, mit Zeitmaschine für
              frühere Fassungen, Notizen an Textstellen, Wortwiederholungen und
              Rechtschreibprüfung in sieben Sprachen.</p>
-        </a>
-        <div class="karte">
-          <span class="bald">in Arbeit</span>
-          <h3>PDF-Werkzeug</h3>
-          <p>Seiten ordnen, zusammenfügen, aufteilen und beschriften — nach denselben
-             Regeln: lokal, ohne Hochladen. Kein Datum, keine Warteliste.</p>
-        </div>
+        <span class="mehr">PureQuill Writer ansehen →</span>
+</a>
+        <a class="karte k-rp" href="/de/rewrite-pdf/">
+<img class="kicon" src="/assets/rp-icon-256.png" alt="" width="56" height="56" decoding="async">
+<h3>Rewrite PDF</h3>
+<p>Der PDF-Editor, der Text wirklich ändert, statt ihn zu übermalen, in der
+Originalschrift. Kostenlos unterschreiben, kommentieren und Seiten verwalten;
+Pro kann wirklich schwärzen, versteckte Daten finden und Scans bearbeiten.
+Komplett offline.</p>
+<span class="mehr">Rewrite PDF ansehen →</span>
+</a>
       </div>
       <figure class="schaubild">
         <picture>

@@ -1,0 +1,113 @@
+<title>Suvantra Logo-Entwürfe</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@600;700&family=Satisfy&family=Yellowtail&family=Kaushan+Script&family=Pacifico&family=Amita:wght@700&family=Kalam:wght@400;700&family=Yatra+One&family=Rozha+One&display=swap">
+<style>
+/* Layout: je Entwurf eine Karte – groß auf dem Glow-Grund, darunter in Kopfzeilengröße und auf Hell */
+:root{
+  --grund:#07090D; --glas:rgba(255,255,255,.035); --rand:rgba(255,255,255,.08);
+  --ink:#EEF2F5; --soft:#9AA6B2; --pq:#E07A62; --rp:#22D3EE;
+  --ui:"Segoe UI Variable Text","Segoe UI",system-ui,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--grund);color:var(--ink);font:16px/1.6 var(--ui);padding-block:36px 72px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:1100px;margin:0 auto;display:grid;gap:28px}
+h1{font:700 30px/1.15 "Segoe UI Variable Display","Segoe UI",sans-serif;margin:0;letter-spacing:-.02em}
+.einl{color:var(--soft);margin:6px 0 0;max-width:70ch}
+.raster{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:22px}
+.karte{border-radius:22px;background:var(--glas);border:1px solid var(--rand);overflow:hidden;display:grid;min-width:0}
+.buehne{position:relative;display:grid;place-items:center;min-height:220px;padding:28px;overflow:hidden}
+.buehne::before{content:"";position:absolute;inset:0;background:radial-gradient(45% 60% at 35% 50%,rgba(224,122,98,.20),transparent 70%),radial-gradient(45% 60% at 68% 50%,rgba(34,211,238,.20),transparent 70%)}
+.wort{position:relative;font-size:clamp(56px,9vw,88px);line-height:1.15;white-space:nowrap;
+  background:linear-gradient(95deg,#F2B3A3 0%,#FFFFFF 45%,#A5F3FC 100%);-webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 0 18px rgba(165,243,252,.25)) drop-shadow(0 0 30px rgba(242,179,163,.18))}
+.fuss{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--rand)}
+.kopf{display:flex;align-items:center;gap:10px;padding:14px 18px;min-width:0}
+.kopf .klein{font-size:28px;line-height:1;white-space:nowrap}
+.dunkel .klein{color:var(--ink)}
+.hell{background:#F6F7F9}
+.hell .klein{color:#111418}
+.info{grid-column:1/-1;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:12px 18px;border-top:1px solid var(--rand);font-size:14px;color:var(--soft)}
+.info b{color:var(--ink);font-weight:600}
+.empf{color:var(--rp);font-weight:600}
+.f1{font-family:"Courgette",cursive}
+.f2{font-family:"Dancing Script",cursive;font-weight:700}
+.f3{font-family:"Satisfy",cursive}
+.f4{font-family:"Yellowtail",cursive}
+.f5{font-family:"Kaushan Script",cursive}
+.f6{font-family:"Pacifico",cursive}
+.f7{font-family:"Amita",cursive;font-weight:700}
+.f8{font-family:"Kalam",cursive;font-weight:700}
+.f9{font-family:"Yatra One",cursive}
+.f10{font-family:"Rozha One",serif}
+/* Shirorekha: die durchgehende Kopflinie der Devanagari-Schrift, über den lateinischen Buchstaben */
+.rekha{position:relative;display:inline-block;padding-top:.08em}
+.rekha::before{content:"";position:absolute;left:-.04em;right:-.04em;top:.30em;height:.075em;border-radius:.04em;background:inherit;
+  background:linear-gradient(95deg,#F2B3A3,#FFFFFF 45%,#A5F3FC)}
+.kopf .rekha::before{background:currentColor}
+.abschnitt{font:700 20px/1.2 "Segoe UI Variable Display","Segoe UI",sans-serif;margin:18px 0 -6px}
+/* Druckprobe: Visitenkarte 85 × 55 mm, einfarbig */
+.karten-druck{display:flex;flex-wrap:wrap;gap:18px}
+.vk{width:min(100%,340px);aspect-ratio:85/55;border-radius:10px;display:flex;flex-direction:column;justify-content:space-between;padding:22px 24px;box-shadow:0 10px 30px -12px #000}
+.vk .name{font-size:40px;line-height:1.1}
+.vk small{font:12px/1.5 var(--ui);letter-spacing:.02em}
+.vk.weiss{background:#FBFAF7;color:#14171B}
+.vk.weiss small{color:#5A6068}
+.vk.schwarz{background:#0B0E13;color:#EEF2F5}
+.vk.schwarz small{color:#9AA6B2}
+.vk.schwarz .name{color:#A5F3FC}
+</style>
+
+<main>
+  <header>
+    <h1>Suvantra – Schriftzug-Entwürfe</h1>
+    <p class="einl">Sechs gut lesbare Schreibschriften, alle unter offener Lizenz (SIL Open Font License, auch für Logos frei nutzbar). Oben groß im Glow-Stil der Website, unten in Kopfzeilengröße auf dunkel und auf hell.</p>
+  </header>
+  <div class="raster">
+    <section class="karte"><div class="buehne"><span class="wort f1">Suvantra</span></div>
+      <div class="fuss"><div class="kopf dunkel"><span class="klein f1">Suvantra</span></div><div class="kopf hell"><span class="klein f1">Suvantra</span></div>
+      <div class="info"><span><b>1 · Courgette</b> – ruhig, sehr gut lesbar</span><span class="empf">Empfehlung</span></div></div></section>
+    <section class="karte"><div class="buehne"><span class="wort f2">Suvantra</span></div>
+      <div class="fuss"><div class="kopf dunkel"><span class="klein f2">Suvantra</span></div><div class="kopf hell"><span class="klein f2">Suvantra</span></div>
+      <div class="info"><span><b>2 · Dancing Script</b> – leicht, elegant</span></div></div></section>
+    <section class="karte"><div class="buehne"><span class="wort f3">Suvantra</span></div>
+      <div class="fuss"><div class="kopf dunkel"><span class="klein f3">Suvantra</span></div><div class="kopf hell"><span class="klein f3">Suvantra</span></div>
+      <div class="info"><span><b>3 · Satisfy</b> – Pinselstrich, persönlich</span></div></div></section>
+    <section class="karte"><div class="buehne"><span class="wort f4">Suvantra</span></div>
+      <div class="fuss"><div class="kopf dunkel"><span class="klein f4">Suvantra</span></div><div class="kopf hell"><span class="klein f4">Suvantra</span></div>
+      <div class="info"><span><b>4 · Yellowtail</b> – Retro, schwungvoll</span></div></div></section>
+    <section class="karte"><div class="buehne"><span class="wort f5">Suvantra</span></div>
+      <div class="fuss"><div class="kopf dunkel"><span class="klein f5">Suvantra</span></div><div class="kopf hell"><span class="klein f5">Suvantra</span></div>
+      <div class="info"><span><b>5 · Kaushan Script</b> – kräftig, dynamisch</span></div></div></section>
+    <section class="karte"><div class="buehne"><span class="wort f6">Suvantra</span></div>
+      <div class="fuss"><div class="kopf dunkel"><span class="klein f6">Suvantra</span></div><div class="kopf hell"><span class="klein f6">Suvantra</span></div>
+      <div class="info"><span><b>6 · Pacifico</b> – rund, freundlich</span></div></div></section>
+  </div>
+
+  <h2 class="abschnitt">Indisch angehaucht</h2>
+  <p class="einl">„Suvantra“ klingt nach Sanskrit. Diese Schriften stammen von indischen Schriftgestaltern und sind für Lateinisch und Devanagari gezeichnet, ebenfalls unter offener Lizenz. Bei 10 liegt über dem Wort die durchgehende Kopflinie (Shirorekha), wie sie Hindi und Sanskrit prägt.</p>
+  <div class="raster">
+    <section class="karte"><div class="buehne"><span class="wort f7">Suvantra</span></div>
+      <div class="fuss"><div class="kopf dunkel"><span class="klein f7">Suvantra</span></div><div class="kopf hell"><span class="klein f7">Suvantra</span></div>
+      <div class="info"><span><b>7 · Amita</b> – indische Kalligrafie mit Breitfeder</span><span class="empf">Empfehlung</span></div></div></section>
+    <section class="karte"><div class="buehne"><span class="wort f8">Suvantra</span></div>
+      <div class="fuss"><div class="kopf dunkel"><span class="klein f8">Suvantra</span></div><div class="kopf hell"><span class="klein f8">Suvantra</span></div>
+      <div class="info"><span><b>8 · Kalam</b> – Handschrift, locker und klar</span></div></div></section>
+    <section class="karte"><div class="buehne"><span class="wort f9">Suvantra</span></div>
+      <div class="fuss"><div class="kopf dunkel"><span class="klein f9">Suvantra</span></div><div class="kopf hell"><span class="klein f9">Suvantra</span></div>
+      <div class="info"><span><b>9 · Yatra One</b> – Pinsel, wie bemalte Schilder in Indien</span></div></div></section>
+    <section class="karte"><div class="buehne"><span class="wort f10 rekha">Suvantra</span></div>
+      <div class="fuss"><div class="kopf dunkel"><span class="klein f10 rekha">Suvantra</span></div><div class="kopf hell"><span class="klein f10 rekha">Suvantra</span></div>
+      <div class="info"><span><b>10 · Rozha One mit Kopflinie</b> – edel, eher Schriftzug als Schreibschrift</span></div></div></section>
+  </div>
+
+  <h2 class="abschnitt">Druckprobe: Visitenkarte</h2>
+  <p class="einl">Auf Papier gibt es kein Leuchten. Das Logo braucht deshalb eine einfarbige Fassung: schwarz auf Weiß, oder hell auf dunklem Karton. So sehen Courgette (1) und Amita (7) auf einer Karte im Format 85 × 55 mm aus.</p>
+  <div class="karten-druck">
+    <div class="vk weiss"><span class="name f1">Suvantra</span><small>Werkzeuge, die offline arbeiten<br>suvantra.eu</small></div>
+    <div class="vk schwarz"><span class="name f1">Suvantra</span><small>Werkzeuge, die offline arbeiten<br>suvantra.eu</small></div>
+    <div class="vk weiss"><span class="name f7">Suvantra</span><small>Werkzeuge, die offline arbeiten<br>suvantra.eu</small></div>
+    <div class="vk schwarz"><span class="name f7">Suvantra</span><small>Werkzeuge, die offline arbeiten<br>suvantra.eu</small></div>
+  </div>
+</main>

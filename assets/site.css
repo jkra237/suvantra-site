@@ -328,3 +328,113 @@ footer .grow{flex:1}
     transition:background-color .16s ease, color .16s ease,
                transform .16s ease, box-shadow .16s ease, border-color .16s ease}
 }
+
+/* ==== Glow-Ebene (seit 2026-11-09) ==========================================
+   Die Seite ist jetzt immer dunkel, mit Glas-Flaechen und einem weichen
+   Leuchten in der Farbe des jeweiligen Produkts – wie die App-Symbole von
+   PureQuill (Terrakotta) und Rewrite PDF (Cyan). Die Firmenebene leuchtet in
+   beiden Farben. Damit faellt die alte Brandkit-Regel „keine Verlaeufe“.
+
+   Diese Ebene steht am Ende von site.css und style.css und wird von
+   entwurf/glow-einbauen.cjs dort eingesetzt. Sie ueberschreibt nur, sie
+   loescht nichts: Wer sie entfernt, hat die alte Seite zurueck.
+   :root:root hebt die Spezifitaet ueber die Farben aus dem Customizer, damit
+   die dunkle Fassung auch dann gilt, wenn dort Hellwerte gespeichert sind. */
+:root:root{
+  --paper:#0B0E13; --grund:#090C11; --chrome:#161B22; --chrome-2:#11161D;
+  --ink:#EEF2F5; --ink-soft:#A3AFBA; --ink-faint:#6F7B87; --rule:rgba(255,255,255,.09);
+  --akzent:#C9D4DE; --akzent-ink:#07090D;
+  --dunkel:#07090D; --dunkel-ink:#EEF2F5; --dunkel-soft:#A3AFBA; --dunkel-rule:rgba(255,255,255,.08);
+  --glas:rgba(255,255,255,.035); --glas-rand:rgba(255,255,255,.085);
+  --glow-a:rgba(224,122,98,.17); --glow-b:rgba(34,211,238,.17);   /* Firmenebene: beide Produkte */
+  --glow:rgba(201,212,222,.22);
+  --schatten:0 1px 2px rgba(0,0,0,.45), 0 10px 30px -10px rgba(0,0,0,.7);
+  --schatten-gross:0 2px 4px rgba(0,0,0,.4), 0 30px 70px -24px rgba(0,0,0,.85);
+  --serif:"Segoe UI Variable Display","Segoe UI",system-ui,sans-serif;
+  color-scheme:dark;
+}
+body.p-purequill{ --akzent:#E07A62; --akzent-ink:#1A0B07; --glow:rgba(224,122,98,.30); --glow-a:rgba(224,122,98,.20); --glow-b:rgba(224,122,98,.10); }
+body.p-rewritepdf,body.p-rewrite-pdf{ --akzent:#22D3EE; --akzent-ink:#032B36; --glow:rgba(34,211,238,.30); --glow-a:rgba(34,211,238,.18); --glow-b:rgba(34,211,238,.10); }
+
+body{background:var(--grund);color:var(--ink)}
+h1,h2,h3{font-weight:700;letter-spacing:-.022em}
+.saeule h3,.paket h3{font-weight:600}
+
+/* Kopf: Glasleiste mit Logo */
+.top{background:rgba(7,9,13,.72);border-bottom-color:var(--glas-rand)}
+.marke .m-punkt{display:none}
+.marke-logo,.marke img{height:34px;width:auto;display:block}
+.lang{border-color:var(--glas-rand)}
+.lang:hover{background:var(--glas)}
+
+/* Kopfbereich: weiches Leuchten hinter dem Text */
+.held{position:relative;isolation:isolate}
+.held::before{content:"";position:absolute;z-index:-1;inset:-120px 0 auto;height:calc(100% + 200px);pointer-events:none;
+  background:radial-gradient(38% 55% at 28% 34%,var(--glow-a),transparent 70%),
+             radial-gradient(38% 55% at 70% 28%,var(--glow-b),transparent 70%)}
+.held-start h1 em,.held h1 em{font-style:normal;background:linear-gradient(90deg,#E07A62,#22D3EE);
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.held-icon{border-radius:22px;box-shadow:none;filter:drop-shadow(0 0 22px var(--glow))}
+.held-deko *{stroke:var(--ink);opacity:.10}
+.held-deko .ak{stroke:var(--akzent);opacity:.45}
+.augbraue{color:var(--akzent)}
+body:not(.p-purequill):not(.p-rewritepdf):not(.p-rewrite-pdf) .augbraue{color:var(--ink-faint)}
+
+/* Flaechen: statt hell/dunkel jetzt Glas auf dunklem Grund */
+.flaeche{background:linear-gradient(180deg,rgba(255,255,255,.018),rgba(255,255,255,0))}
+.dunkelband{background:var(--dunkel);border-top:1px solid var(--glas-rand);border-bottom:1px solid var(--glas-rand)}
+.dunkelband .augbraue{opacity:1}
+
+/* Knoepfe */
+.btn{background:var(--glas);border-color:var(--glas-rand);color:var(--ink)}
+.btn:hover{background:rgba(255,255,255,.07)}
+.btn.pri{background:var(--akzent);border-color:var(--akzent);color:var(--akzent-ink);box-shadow:0 0 26px -2px var(--glow)}
+.btn.pri:hover{box-shadow:0 0 34px 0 var(--glow)}
+
+/* Karten: Glas, das in der Produktfarbe leuchtet */
+.karte{position:relative;overflow:hidden;background:var(--glas);border-color:var(--glas-rand);box-shadow:none;border-radius:22px}
+.karte::before{content:"";position:absolute;width:320px;height:320px;right:-120px;top:-150px;border-radius:50%;pointer-events:none;
+  background:radial-gradient(closest-side,var(--karten-glow,var(--glow)),transparent)}
+.karte>*{position:relative}
+.karte.k-pq{--akzent:#E07A62;--karten-glow:rgba(224,122,98,.30)}
+.karte.k-rp{--akzent:#22D3EE;--karten-glow:rgba(34,211,238,.30)}
+a.karte:hover{border-color:color-mix(in srgb,var(--akzent) 50%,transparent);box-shadow:0 0 0 1px color-mix(in srgb,var(--akzent) 22%,transparent),0 20px 50px -22px var(--karten-glow,var(--glow))}
+.karte .kicon{box-shadow:none;filter:drop-shadow(0 0 16px var(--karten-glow,var(--glow)))}
+.karte .mehr{display:block;margin-top:16px;font-weight:600;font-size:15px;color:var(--akzent)}
+
+/* Bildschirmfotos mit leuchtendem Rand */
+.schaubild img{border-color:color-mix(in srgb,var(--akzent) 45%,transparent);background:var(--chrome);
+  box-shadow:0 0 0 1px color-mix(in srgb,var(--akzent) 14%,transparent),0 0 70px -12px var(--glow),0 40px 80px -30px #000}
+body:not(.p-purequill):not(.p-rewritepdf):not(.p-rewrite-pdf) .schaubild img{border-color:var(--glas-rand)}
+
+/* Saeulen als Glaskacheln */
+.saeule{background:var(--glas);border:1px solid var(--glas-rand);border-radius:18px;padding:22px}
+.saeulen{gap:18px}
+
+/* Listen, Pakete, Hinweise, Rechtstexte */
+.merkmale li{border-top-color:var(--glas-rand)}
+.merkmale li::before{box-shadow:0 0 10px var(--glow)}
+.pakete,.fw-dok{background:var(--glas);border-color:var(--glas-rand);box-shadow:none}
+.paket{border-top-color:var(--glas-rand)}
+.paket .chips li{background:var(--glas);border-color:var(--glas-rand)}
+.tipp{background:var(--glas);border-color:var(--glas-rand);border-left-color:var(--akzent)}
+code{background:var(--chrome-2);border-color:var(--glas-rand)}
+.pille{background:color-mix(in srgb,var(--akzent) 8%,transparent)}
+.weg-badge{background:var(--glas);border-color:var(--glas-rand)}
+.wb-rand{stroke:var(--ink);stroke-width:1.1}
+
+/* Store-Badge: immer die helle Fassung, die Seite ist ja immer dunkel */
+.store-badge .sb-hell{display:none}
+.store-badge .sb-dunkel{display:block}
+
+footer{background:var(--dunkel);border-top-color:var(--glas-rand)}
+
+/* Sprachumschalter als Flaggen: die aktuelle Sprache hell umrandet, die andere gedimmt */
+.sprachen{display:flex;align-items:center;gap:6px;margin-left:4px}
+.flagge{display:block;line-height:0;border-radius:5px;padding:3px;border:1px solid transparent}
+.flagge img{width:24px;height:16px;object-fit:cover;border-radius:3px;display:block;box-shadow:0 0 0 1px rgba(255,255,255,.12)}
+a.flagge{opacity:.55}
+a.flagge:hover,a.flagge:focus-visible{opacity:1;background:var(--glas)}
+.flagge.aktiv{border-color:var(--glas-rand);background:var(--glas)}
+@media (max-width:560px){.sprachen{margin-left:auto}}
+/* ==== Ende Glow-Ebene ===================================================== */

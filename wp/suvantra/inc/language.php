@@ -79,6 +79,13 @@ function suvantra_page_groups() {
 			'paths'  => array( 'en' => 'purequill/privacy', 'de' => 'de/purequill/datenschutz' ),
 			'footer' => array( 'en' => 'Privacy', 'de' => 'Datenschutz' ),
 		),
+		'rewrite-pdf' => array(
+			'paths' => array( 'en' => 'rewrite-pdf', 'de' => 'de/rewrite-pdf' ),
+		),
+		/* Linked from the Microsoft Store listing of Rewrite PDF — must never move. */
+		'privacy-rewrite' => array(
+			'paths' => array( 'en' => 'rewrite-pdf/privacy', 'de' => 'de/rewrite-pdf/datenschutz' ),
+		),
 		'imprint' => array(
 			'paths'  => array( 'en' => 'imprint', 'de' => 'de/impressum' ),
 			'footer' => array( 'en' => 'Imprint', 'de' => 'Impressum' ),
@@ -550,6 +557,24 @@ function suvantra_structured_data() {
 			'description'            => $german
 				? 'Ein Schreibprogramm, das offline arbeitet. Der Text bleibt auf dem Rechner, gesichert wird laufend und mit Versionsverlauf. Schreibziel, Wortwiederholungen, Rechtschreibprüfung in sieben Sprachen, siebzehn Farbschemata.'
 				: 'A word processor that works offline. Your text stays on your machine, saved continuously and with a version history. Word goal, repeated words, spell check in seven languages, seventeen colour schemes.',
+			'publisher'              => array( '@type' => 'Organization', 'name' => 'Suvantra', 'url' => home_url( '/' ) ),
+		);
+	}
+	if ( 'rewrite-pdf' === $group ) {
+		return array(
+			'@context'               => 'https://schema.org',
+			'@type'                  => 'SoftwareApplication',
+			'name'                   => 'Rewrite PDF',
+			'applicationCategory'    => 'https://schema.org/BusinessApplication',
+			'applicationSubCategory' => $german ? 'PDF-Editor' : 'PDF editor',
+			'operatingSystem'        => 'Windows 10, Windows 11',
+			'url'                    => suvantra_group_url( 'rewrite-pdf', $code ),
+			'image'                  => suvantra_asset_url( $german ? 'rp-text.png' : 'rp-en-text.png' ),
+			'inLanguage'             => array( 'de', 'en', 'fr', 'es', 'it', 'pl', 'pt' ),
+			'offers'                 => array( '@type' => 'Offer', 'price' => '0', 'priceCurrency' => 'EUR' ),
+			'description'            => $german
+				? 'Ein PDF-Editor, der Text wirklich ändert, statt ihn zu übermalen. Komplett offline. Pro: wirklich schwärzen, versteckte Daten entfernen, Scans bearbeiten.'
+				: 'A PDF editor that really changes text instead of painting over it. Completely offline. Pro: true redaction, remove hidden data, edit scans.',
 			'publisher'              => array( '@type' => 'Organization', 'name' => 'Suvantra', 'url' => home_url( '/' ) ),
 		);
 	}

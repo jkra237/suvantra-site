@@ -11,7 +11,9 @@
 <link rel="alternate" hreflang="de" href="https://suvantra.eu/de/">
 <link rel="alternate" hreflang="en" href="https://suvantra.eu/">
 <link rel="alternate" hreflang="x-default" href="https://suvantra.eu/">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/assets/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/favicon-180.png">
 <link rel="stylesheet" href="/assets/site.css">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -47,12 +49,13 @@
 
 <header class="top">
   <div class="wrap">
-    <a class="marke" href="/"><span class="m-punkt"></span>Suvantra</a>
+    <a class="marke" href="/"><img class="marke-logo" src="/assets/suvantra-logo.svg" alt="Suvantra" width="136" height="34"></a>
     <nav>
       <a href="/purequill/">PureQuill Writer</a>
+      <a href="/rewrite-pdf/">Rewrite PDF</a>
       <a href="/imprint.html">Imprint</a>
     </nav>
-    <a class="lang" href="/de/" hreflang="de">Deutsch</a>
+    <span class="sprachen"><span class="flagge aktiv" aria-current="true" title="English"><img src="/assets/flagge-en.svg" alt="English" width="24" height="16"></span><a class="flagge" href="/de/" hreflang="de" lang="de" title="Deutsch"><img src="/assets/flagge-de.svg" alt="Deutsch" width="24" height="16"></a></span>
   </div>
 </header>
 
@@ -72,15 +75,16 @@
       <rect x="50" y="252" width="330" height="16" rx="2"/>
     </svg>
     <p class="augbraue">Suvantra</p>
-    <h1>Tools that work offline.</h1>
+    <h1>Tools that work <em>offline</em>.</h1>
     <p class="lead">
       We build programs for Windows and Linux that need no account, no server and no
       subscription. What you write stays on your machine — not because we promise it,
-      but because the programs never send your texts anywhere.
+      but because the programs never send your files anywhere.
     </p>
     <div class="knopfreihe">
       <a class="btn pri" href="/purequill/">See PureQuill Writer</a>
-      <a class="btn" href="/app/">Try it without installing</a>
+      <a class="btn" href="/rewrite-pdf/">See Rewrite PDF</a>
+<a class="btn" href="/app/">Try PureQuill without installing</a>
     </div>
   </section>
 
@@ -89,19 +93,22 @@
       <p class="augbraue">Programs</p>
       <h2>One tool for one job.</h2>
       <div class="karten">
-        <a class="karte" href="/purequill/">
+        <a class="karte k-pq" href="/purequill/">
           <img class="kicon" src="/assets/pq-icon-256.png" alt="" width="56" height="56" decoding="async">
           <h3>PureQuill Writer</h3>
           <p>Free word processor that works completely offline. Opens and saves Word
              files with high compatibility, with a time machine for earlier versions,
              notes pinned to the text, repeated words and spell checking in seven languages.</p>
-        </a>
-        <div class="karte">
-          <span class="bald">in progress</span>
-          <h3>PDF tool</h3>
-          <p>Reorder, merge, split and annotate pages — under the same rules: locally,
-             without uploading. No date, no waiting list.</p>
-        </div>
+        <span class="mehr">See PureQuill Writer →</span>
+</a>
+        <a class="karte k-rp" href="/rewrite-pdf/">
+<img class="kicon" src="/assets/rp-icon-256.png" alt="" width="56" height="56" decoding="async">
+<h3>Rewrite PDF</h3>
+<p>The PDF editor that really changes text instead of painting over it, in the
+original font. Free to sign, comment and manage pages; Pro adds true redaction,
+a security check for hidden data and editable scans. Completely offline.</p>
+<span class="mehr">See Rewrite PDF →</span>
+</a>
       </div>
       <figure class="schaubild">
         <picture>

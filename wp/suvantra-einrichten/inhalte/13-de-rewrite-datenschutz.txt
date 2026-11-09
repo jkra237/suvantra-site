@@ -1,0 +1,75 @@
+<!-- wp:paragraph {"className":"klein"} -->
+<p class="klein">Rewrite PDF · Stand: 5. November 2026</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Kurz gesagt</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Rewrite PDF erhebt keine personenbezogenen Daten. Es gibt kein Konto, keine Anmeldung, keine Nutzungsstatistik und keine Werbung. Deine PDF-Dateien werden ausschließlich auf deinem Gerät verarbeitet. Wir bekommen sie nie zu sehen, weil sie nirgendwohin gesendet werden.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Verantwortlicher</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><!-- TODO: vollstaendige Anschrift eintragen, gleiche Angaben wie im Impressum --> Suvantra<br> &lt;Straße und Hausnummer&gt;<br> &lt;PLZ und Ort&gt;<br> <a href="mailto:support@suvantra.eu">support@suvantra.eu</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Was das Programm auf deinem Gerät verarbeitet</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Rewrite PDF öffnet die PDF-Dateien, die du auswählst, und bearbeitet sie im Arbeitsspeicher deines Geräts. Gespeichert wird immer als neue Datei an dem Ort, den du selbst wählst; dein Original bleibt unverändert. Auch die Texterkennung für gescannte Seiten läuft vollständig auf deinem Gerät.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Zusätzlich merkt sich das Programm auf deinem Gerät einige Einstellungen: die gewählte Sprache, ob der Willkommenshinweis schon angezeigt wurde, wie oft du eine Pro-Funktion ausprobiert hast und — falls du das möchtest — deine gespeicherte Unterschrift. Diese Angaben verlassen dein Gerät nicht. Wenn du das Programm deinstallierst, werden sie gelöscht.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Wann das Programm ins Netz geht</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Genau ein Fall: Rewrite PDF fragt beim Microsoft Store nach, ob du Rewrite PDF Pro gekauft hast, und startet auf deinen Wunsch den Kauf. Diese Abfrage läuft über Windows und den Microsoft Store; wir erhalten dabei keine Daten über dich.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Darüber hinaus baut das Programm keine Verbindungen auf. Es gibt keine Aktualisierungsabfrage über unsere Server, keine Absturzberichte und keine Nutzungsauswertung. Die Links im Fenster „Über Rewrite PDF“ öffnen sich nur, wenn du sie anklickst, in deinem Browser.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Kauf über den Microsoft Store</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Rewrite PDF und Rewrite PDF Pro werden über den Microsoft Store bezogen; Microsoft ist der Verkäufer. Kauf, Bezahlung, Rechnung und Lizenz laufen über Microsoft. Wir erhalten weder deinen Namen noch deine Zahlungsdaten, sondern nur zusammengefasste Verkaufszahlen ohne Personenbezug. Für den Kauf gilt die Datenschutzerklärung von Microsoft.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Diese Website</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Beim Aufruf dieser Seiten verarbeitet unser Hoster technisch notwendige Zugriffsdaten (IP-Adresse, Zeitpunkt, aufgerufene Datei, übermittelnder Browser). Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO — unser berechtigtes Interesse am sicheren und störungsfreien Betrieb. Diese Seiten setzen keine Cookies, binden keine Schriftarten von fremden Servern ein und verwenden keine Analyse- oder Werbedienste.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Deine Rechte</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Dir stehen die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch zu (Art. 15 bis 21 DSGVO). Da wir keine personenbezogenen Daten über dich speichern, läuft eine Auskunft in aller Regel darauf hinaus, dass zu dir nichts vorliegt. Du kannst dich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Änderungen</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Ändert sich am Verhalten des Programms etwas, das hier steht, ändern wir diese Seite und setzen das Datum oben neu. Eine Fassung, die im Store verlinkt ist, bleibt unter dieser Adresse erreichbar.</p>
+<!-- /wp:paragraph -->

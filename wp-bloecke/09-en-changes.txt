@@ -3,6 +3,50 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
+<h2 class="wp-block-heading">Version 1.6.1</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"klein"} -->
+<p class="klein">5 November 2026</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">New</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Quick tour: six short cards right on the interface show where everything is, from saving and Word files to the time machine, notes and glossary. Offered in the start window and at the bottom of the Help window; it never starts on its own.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>New colour scheme Deep Sea: dark petrol bars with a turquoise accent, while the page stays white.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Language and colour scheme in the start window open a list with flags and colour previews.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Changed</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Ink now has a white page with dark text; the interface stays dark.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Fixed</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Table text was light on the white page in the print preview of dark colour schemes.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
 <h2 class="wp-block-heading">Version 1.6.0</h2>
 <!-- /wp:heading -->
 
