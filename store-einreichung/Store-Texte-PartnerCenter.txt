@@ -68,7 +68,7 @@ Gemacht für alle, die lange Texte schreiben: Roman, Abschlussarbeit, Bericht. D
 
 Notizen heftest du direkt an Textstellen, Kommentare aus Word kommen als Notizen mit. Ein Glossar hält Namen und Begriffe neben dem Text bereit.
 
-Richte dir deinen Schreibplatz ein: 17 Farbschemata, Fokusmodus und Leseansicht.
+Richte dir deinen Schreibplatz ein: 18 Farbschemata, Fokusmodus und Leseansicht.
 
 Fertige Texte speicherst du als Word-Datei, als PDF oder als EPUB für E-Reader. Gesichert wird laufend, mit Zwischenständen und Versionsverlauf.
 
@@ -91,7 +91,7 @@ Kostenlos und komplett offline: kein Konto, kein Abo, keine Cloud. Deine Texte b
 Werkzeuge für Autoren: Wortwiederholungen finden, Schreibziel mit Wortzählung, Text bereinigen.
 Rechtschreibprüfung in sieben Sprachen, mit eigenem Wörterbuch.
 Notizen direkt an Textstellen heften. Kommentare aus Word kommen als Notizen mit, dazu ein Glossar neben dem Text.
-17 Farbschemata, Fokusmodus und Leseansicht: Richte dir deinen Schreibplatz ein.
+18 Farbschemata, Fokusmodus und Leseansicht: Richte dir deinen Schreibplatz ein.
 Automatisches Sichern mit Zwischenständen und Versionsverlauf.
 Als PDF speichern oder als EPUB für E-Reader, mit E-Book-Assistent.
 Tabellen mit Vorlagen, Inhaltsverzeichnis und eigene Kopf- und Fußzeilen.
@@ -110,10 +110,10 @@ Manuskript
 
 --- Bildunterschriften ----------------------------------------
 
-Alles für lange Texte, ganz ohne Abo: Tabellen mit Vorlagen, Kopfzeilen und Notizen direkt an der Textstelle.
+Vom Brief bis zum Roman: Gliederung, Notizen direkt am Text und ein Glossar für Figuren und Orte.
+Die Zeitmaschine zeigt jede frühere Fassung deines Textes und holt sie mit einem Klick zurück.
 Wortwiederholungen auf einen Blick – mit dem engsten Abstand, damit du weißt, wo du kürzen solltest.
-17 Farbschemata, hell oder dunkel: Richte dir deinen Schreibplatz so ein, wie du am besten schreibst.
-Rechtschreibprüfung in sieben Sprachen – direkt auf deinem Rechner, ohne Cloud.
+18 Farbschemata, hell oder dunkel: Richte dir deinen Schreibplatz so ein, wie du am besten schreibst.
 
 
 --- Neuigkeiten in dieser Version (1.0.0) ---------------------
@@ -122,11 +122,11 @@ Erste Veröffentlichung im Microsoft Store. Schreibziel und Wortwiederholungen i
 
 --- Bildschirmfotos -------------------------------------------
 
-de-DE/1-kapitelplan.png
-de-DE/2-wortwiederholungen.png
-de-DE/3-farbschemata.png
-de-DE/4-rechtschreibpruefung.png
-(1366×768, deutsche Oberfläche; neu aufgenommen 2026-10-28, Startbild Kapitelplan mit Tabelle und Notizen)
+bilder/screenshots/de-DE/1-brief-bis-roman.png
+bilder/screenshots/de-DE/2-zeitmaschine.png
+bilder/screenshots/de-DE/3-wortwiederholungen.png
+bilder/screenshots/de-DE/4-farbschemata.png
+(1920×1080, Werbebilder mit Überschrift und App-Fenster, Stand 1.6.1; neu 2026-11-05)
 
 
 ################################################################
@@ -141,7 +141,7 @@ Made for anyone who writes at length: a novel, a thesis, a report. For that, Pur
 
 You pin notes directly to passages of text, and comments from Word come in as notes. A glossary keeps names and terms beside the text.
 
-Make your writing space your own: 17 colour schemes, focus mode and reading view.
+Make your writing space your own: 18 colour schemes, focus mode and reading view.
 
 Save finished work as a Word file, as PDF or as EPUB for e-readers. Your work is saved continuously, with snapshots and a version history.
 
@@ -164,7 +164,7 @@ Opens and saves Word files (DOCX, DOC) with high compatibility: pages, tables, f
 Tools for writers: find repeated words, word goal with word count, text clean-up.
 Spell checking in seven languages, with your own dictionary.
 Pin notes directly to passages of text. Comments from Word come in as notes, plus a glossary beside the text.
-17 colour schemes, focus mode and reading view: make your writing space your own.
+18 colour schemes, focus mode and reading view: make your writing space your own.
 Automatic saving with snapshots and version history.
 Save as PDF or as EPUB for e-readers, with an e-book assistant.
 Tables with styles, table of contents and custom headers and footers.
@@ -183,10 +183,10 @@ manuscript
 
 --- Screenshot captions ---------------------------------------
 
-Everything for long-form writing, without a subscription: tables with styles, headers and notes pinned right to the text.
+From letter to novel: an outline, notes right on the text and a glossary for characters and places.
+The time machine shows every earlier version of your text and brings it back in one click.
 Spot repeated words at a glance – with the closest distance, so you know where to trim.
-17 colour schemes, light or dark: set up your writing space the way you write best.
-Spell checking in seven languages – right on your computer, no cloud.
+18 colour schemes, light or dark: set up your writing space the way you write best.
 
 
 --- What's new in this version (1.0.0) ------------------------
@@ -195,10 +195,10 @@ First release on the Microsoft Store. Word goal and repeated words in one panel,
 
 --- Screenshots -----------------------------------------------
 
-en-US/ — dieselben vier Motive, englische Oberfläche, 1366×768.
+bilder/screenshots/en-US/ — dieselben vier Motive, englische Oberfläche und Überschrift, 1920×1080.
 Ebenso je ein eigener Ordner fr-FR/, es-ES/, it-IT/, pt-BR/, pl-PL/ mit
-Oberfläche und Text in der jeweiligen Sprache (alle neu aufgenommen am
-2026-10-03, mit den Buchstaben der Werkzeugleiste je Sprache). Jedes
+Oberfläche und Überschrift in der jeweiligen Sprache (alle neu am
+2026-11-05, Stand 1.6.1). Jedes
 Listing bekommt seine eigenen, nicht mehr die englischen.
 
 
@@ -214,7 +214,7 @@ Conçu pour tous ceux qui écrivent des textes longs : roman, mémoire, rapport.
 
 Vous attachez des notes directement à des passages du texte, et les commentaires de Word arrivent sous forme de notes. Un glossaire garde les noms et les termes à côté du texte.
 
-Aménagez votre espace d’écriture : 17 jeux de couleurs, mode concentration et vue lecture.
+Aménagez votre espace d’écriture : 18 jeux de couleurs, mode concentration et vue lecture.
 
 Enregistrez vos textes terminés en fichier Word, en PDF ou en EPUB pour liseuses. L’enregistrement est continu, avec des versions intermédiaires et un historique.
 
@@ -237,7 +237,7 @@ Ouvre et enregistre les fichiers Word (DOCX, DOC) avec une grande compatibilité
 Outils pour auteurs : trouver les répétitions de mots, objectif d’écriture avec décompte, nettoyage du texte.
 Correcteur orthographique en sept langues, avec votre propre dictionnaire.
 Attachez des notes à des passages du texte. Les commentaires de Word arrivent en notes, avec un glossaire à côté du texte.
-17 jeux de couleurs, mode concentration et vue lecture : aménagez votre espace d’écriture.
+18 jeux de couleurs, mode concentration et vue lecture : aménagez votre espace d’écriture.
 Enregistrement automatique avec versions intermédiaires et historique.
 Enregistrer en PDF ou en EPUB pour liseuses, avec un assistant e-book.
 Tableaux avec styles, table des matières, en-têtes et pieds de page personnalisés.
@@ -256,10 +256,10 @@ manuscrit
 
 --- Légendes des captures -------------------------------------
 
-Tout pour les textes longs, sans abonnement : tableaux avec styles, en-têtes et notes attachées au texte.
+De la lettre au roman : un plan, des notes directement sur le texte et un glossaire pour les personnages et les lieux.
+La machine à remonter le temps montre chaque version antérieure de votre texte et la restaure en un clic.
 Repérez les répétitions d’un coup d’œil – avec l’écart le plus court, pour savoir où couper.
-17 jeux de couleurs, clairs ou sombres : aménagez votre espace d’écriture comme il vous convient.
-Correcteur orthographique en sept langues – directement sur votre ordinateur, sans cloud.
+18 jeux de couleurs, clairs ou sombres : aménagez votre espace d’écriture comme il vous convient.
 
 
 --- Nouveautés de cette version (1.0.0) -----------------------
@@ -279,7 +279,7 @@ Pensado para quien escribe textos largos: novela, trabajo de fin de grado, infor
 
 Fijas notas directamente en pasajes del texto, y los comentarios de Word llegan como notas. Un glosario mantiene nombres y términos junto al texto.
 
-Prepara tu espacio de escritura: 17 combinaciones de colores, modo concentración y vista de lectura.
+Prepara tu espacio de escritura: 18 combinaciones de colores, modo concentración y vista de lectura.
 
 Guarda tus textos terminados como archivo de Word, en PDF o en EPUB para lectores electrónicos. Todo se guarda de forma continua, con versiones intermedias e historial.
 
@@ -302,7 +302,7 @@ Abre y guarda archivos de Word (DOCX, DOC) con alta compatibilidad: páginas, ta
 Herramientas para autores: encontrar palabras repetidas, objetivo de escritura con recuento de palabras, limpiar el texto.
 Corrección ortográfica en siete idiomas, con tu propio diccionario.
 Fija notas en pasajes del texto. Los comentarios de Word llegan como notas, y hay un glosario junto al texto.
-17 combinaciones de colores, modo concentración y vista de lectura: prepara tu espacio de escritura.
+18 combinaciones de colores, modo concentración y vista de lectura: prepara tu espacio de escritura.
 Guardado automático con versiones intermedias e historial.
 Guardar en PDF o en EPUB para lectores electrónicos, con asistente de e-book.
 Tablas con estilos, índice de contenido y encabezados y pies de página propios.
@@ -321,10 +321,10 @@ manuscrito
 
 --- Textos de las capturas ------------------------------------
 
-Todo para textos largos, sin suscripción: tablas con estilos, encabezados y notas fijadas en el texto.
+De la carta a la novela: un esquema, notas directamente en el texto y un glosario para personajes y lugares.
+La máquina del tiempo muestra cada versión anterior de tu texto y la recupera con un clic.
 Detecta las palabras repetidas de un vistazo, con la distancia más corta, para saber dónde recortar.
-17 combinaciones de colores, claras u oscuras: prepara tu espacio de escritura a tu manera.
-Corrección ortográfica en siete idiomas, directamente en tu ordenador, sin nube.
+18 combinaciones de colores, claras u oscuras: prepara tu espacio de escritura a tu manera.
 
 
 --- Novedades de esta versión (1.0.0) -------------------------
@@ -344,7 +344,7 @@ Pensato per chi scrive testi lunghi: romanzo, tesi, relazione. Per questo PureQu
 
 Attacchi le note direttamente ai passaggi del testo, e i commenti di Word arrivano come note. Un glossario tiene nomi e termini accanto al testo.
 
-Crea il tuo spazio di scrittura: 17 combinazioni di colori, modalità concentrazione e vista lettura.
+Crea il tuo spazio di scrittura: 18 combinazioni di colori, modalità concentrazione e vista lettura.
 
 Salva i testi finiti come file Word, in PDF o in EPUB per e-reader. Il salvataggio è continuo, con versioni intermedie e cronologia.
 
@@ -367,7 +367,7 @@ Apre e salva i file Word (DOCX, DOC) con alta compatibilità: pagine, tabelle, n
 Strumenti per autori: trovare le parole ripetute, obiettivo di scrittura con conteggio, pulizia del testo.
 Controllo ortografico in sette lingue, con il tuo dizionario personale.
 Attacca note ai passaggi del testo. I commenti di Word arrivano come note, e c’è un glossario accanto al testo.
-17 combinazioni di colori, modalità concentrazione e vista lettura: crea il tuo spazio di scrittura.
+18 combinazioni di colori, modalità concentrazione e vista lettura: crea il tuo spazio di scrittura.
 Salvataggio automatico con versioni intermedie e cronologia.
 Salva in PDF o in EPUB per e-reader, con assistente e-book.
 Tabelle con stili, sommario e intestazioni e piè di pagina personalizzati.
@@ -386,10 +386,10 @@ manoscritto
 
 --- Didascalie delle schermate --------------------------------
 
-Tutto per i testi lunghi, senza abbonamento: tabelle con stili, intestazioni e note attaccate al testo.
+Dalla lettera al romanzo: una struttura, note direttamente sul testo e un glossario per personaggi e luoghi.
+La macchina del tempo mostra ogni versione precedente del tuo testo e la ripristina con un clic.
 Trova le parole ripetute a colpo d’occhio, con la distanza più breve, per sapere dove tagliare.
-17 combinazioni di colori, chiare o scure: crea lo spazio di scrittura che fa per te.
-Controllo ortografico in sette lingue, direttamente sul tuo computer, senza cloud.
+18 combinazioni di colori, chiare o scure: crea lo spazio di scrittura che fa per te.
 
 
 --- Novità di questa versione (1.0.0) -------------------------
@@ -409,7 +409,7 @@ Stworzony dla wszystkich, którzy piszą długie teksty: powieść, pracę dyplo
 
 Notatki przypinasz bezpośrednio do fragmentów tekstu, a komentarze z Worda trafiają do notatek. Glosariusz trzyma nazwy i pojęcia obok tekstu.
 
-Urządź swoje miejsce do pisania: 17 schematów kolorów, tryb skupienia i widok czytania.
+Urządź swoje miejsce do pisania: 18 schematów kolorów, tryb skupienia i widok czytania.
 
 Gotowe teksty zapiszesz jako plik Word, PDF lub EPUB na czytniki. Zapis odbywa się na bieżąco, z wersjami pośrednimi i historią.
 
@@ -432,7 +432,7 @@ Otwiera i zapisuje pliki Word (DOCX, DOC) z wysoką zgodnością: strony, tabele
 Narzędzia dla autorów: wyszukiwanie powtórzeń słów, cel pisania z licznikiem słów, czyszczenie tekstu.
 Sprawdzanie pisowni w siedmiu językach, z własnym słownikiem.
 Przypinaj notatki do fragmentów tekstu. Komentarze z Worda trafiają do notatek, a obok tekstu jest glosariusz.
-17 schematów kolorów, tryb skupienia i widok czytania: urządź swoje miejsce do pisania.
+18 schematów kolorów, tryb skupienia i widok czytania: urządź swoje miejsce do pisania.
 Automatyczny zapis z wersjami pośrednimi i historią.
 Zapis jako PDF lub EPUB na czytniki, z asystentem e-booka.
 Tabele ze stylami, spis treści oraz własne nagłówki i stopki.
@@ -451,10 +451,10 @@ manuskrypt
 
 --- Podpisy zrzutów ekranu ------------------------------------
 
-Wszystko do długich tekstów, bez subskrypcji: tabele ze stylami, nagłówki i notatki przypięte do tekstu.
+Od listu po powieść: konspekt, notatki bezpośrednio przy tekście i słowniczek postaci i miejsc.
+Wehikuł czasu pokazuje każdą wcześniejszą wersję tekstu i przywraca ją jednym kliknięciem.
 Powtórzenia słów na pierwszy rzut oka – z najmniejszym odstępem, żebyś wiedział, gdzie skrócić.
-17 schematów kolorów, jasnych lub ciemnych: urządź miejsce do pisania tak, jak lubisz.
-Sprawdzanie pisowni w siedmiu językach – prosto na twoim komputerze, bez chmury.
+18 schematów kolorów, jasnych lub ciemnych: urządź miejsce do pisania tak, jak lubisz.
 
 
 --- Nowości w tej wersji (1.0.0) ------------------------------
@@ -474,7 +474,7 @@ Feito para quem escreve textos longos: romance, TCC, relatório. Para isso, o Pu
 
 Você prende notas diretamente em trechos do texto, e os comentários do Word chegam como notas. Um glossário mantém nomes e termos ao lado do texto.
 
-Monte seu espaço de escrita: 17 esquemas de cores, modo foco e modo de leitura.
+Monte seu espaço de escrita: 18 esquemas de cores, modo foco e modo de leitura.
 
 Salve os textos prontos como arquivo do Word, em PDF ou em EPUB para leitores digitais. Tudo é salvo continuamente, com versões intermediárias e histórico.
 
@@ -497,7 +497,7 @@ Abre e salva arquivos do Word (DOCX, DOC) com alta compatibilidade: páginas, ta
 Ferramentas para autores: encontrar palavras repetidas, meta de escrita com contagem de palavras, limpar o texto.
 Verificação ortográfica em sete idiomas, com seu próprio dicionário.
 Prenda notas em trechos do texto. Comentários do Word chegam como notas, e há um glossário ao lado do texto.
-17 esquemas de cores, modo foco e modo de leitura: monte seu espaço de escrita.
+18 esquemas de cores, modo foco e modo de leitura: monte seu espaço de escrita.
 Salvamento automático com versões intermediárias e histórico.
 Salvar em PDF ou em EPUB para leitores digitais, com assistente de e-book.
 Tabelas com estilos, sumário e cabeçalhos e rodapés próprios.
@@ -516,10 +516,10 @@ manuscrito
 
 --- Legendas das capturas -------------------------------------
 
-Tudo para textos longos, sem assinatura: tabelas com estilos, cabeçalhos e notas presas ao texto.
+Da carta ao romance: estrutura de tópicos, notas direto no texto e um glossário para personagens e lugares.
+A máquina do tempo mostra cada versão anterior do seu texto e a restaura com um clique.
 Encontre palavras repetidas num relance, com a menor distância, para saber onde cortar.
-17 esquemas de cores, claros ou escuros: monte seu espaço de escrita do seu jeito.
-Verificação ortográfica em sete idiomas, direto no seu computador, sem nuvem.
+18 esquemas de cores, claros ou escuros: monte seu espaço de escrita do seu jeito.
 
 
 --- Novidades desta versão (1.0.0) ----------------------------

@@ -1,0 +1,81 @@
+================================================================
+PureQuill Writer 1.6.1 — „Neuigkeiten in dieser Version“
+Partner Center: Store-Angebot › <Sprache> › Neuigkeiten in dieser Version
+Je Sprache den Block zwischen den Linien einfügen.
+================================================================
+
+DEUTSCH  (de-DE)
+----------------------------------------------------------------
+Version 1.6.1
+• Kurze Führung: In einer Minute zeigt PureQuill die wichtigsten Stellen, direkt an der Oberfläche. Zu finden im Startfenster und unten in der Hilfe.
+• Neues Farbschema Tiefsee: dunkle Leisten in Petrol mit türkisem Akzent, das Blatt bleibt weiß.
+• Neues App-Symbol: eine Seite, auf der die Feder schreibt.
+• Tinte hat jetzt ebenfalls ein weißes Blatt mit dunkler Schrift, die Oberfläche bleibt dunkel.
+• Sprache und Farbschema im Startfenster mit Flaggen und Farbvorschau zur Auswahl.
+• Behoben: Tabellentext war in der Druckvorschau dunkler Farbschemata schlecht lesbar.
+
+
+ENGLISH  (en-US)
+----------------------------------------------------------------
+Version 1.6.1
+• Quick tour: in one minute PureQuill shows you the most important places, right on the interface. Find it in the start window and at the bottom of Help.
+• New colour scheme Deep Sea: dark petrol bars with a turquoise accent, the page stays white.
+• New app icon: a page with the quill writing on it.
+• Ink now has a white page with dark text too, the interface stays dark.
+• Language and colour scheme in the start window now show flags and colour previews.
+• Fixed: table text was hard to read in the print preview of dark colour schemes.
+
+
+FRANÇAIS  (fr-FR)
+----------------------------------------------------------------
+Version 1.6.1
+• Visite rapide : en une minute, PureQuill vous montre les endroits essentiels, directement sur l’interface. Accessible depuis la fenêtre de démarrage et en bas de l’aide.
+• Nouveau thème de couleurs Abysses : barres pétrole foncé avec accent turquoise, la page reste blanche.
+• Nouvelle icône : une page sur laquelle écrit la plume.
+• Encre a maintenant aussi une page blanche avec un texte foncé, l’interface reste sombre.
+• Langue et thème de couleurs dans la fenêtre de démarrage, avec drapeaux et aperçu des couleurs.
+• Corrigé : le texte des tableaux était peu lisible dans l’aperçu avant impression des thèmes sombres.
+
+
+ESPAÑOL  (es-ES)
+----------------------------------------------------------------
+Versión 1.6.1
+• Recorrido rápido: en un minuto PureQuill te muestra los lugares más importantes, directamente en la interfaz. Está en la ventana de inicio y al pie de la ayuda.
+• Nuevo esquema de color Mar profundo: barras de color petróleo oscuro con acento turquesa; la página sigue blanca.
+• Nuevo icono: una página en la que escribe la pluma.
+• Tinta ahora también tiene una página blanca con texto oscuro; la interfaz sigue oscura.
+• Idioma y esquema de color en la ventana de inicio, con banderas y vista previa de los colores.
+• Corregido: el texto de las tablas se leía mal en la vista previa de impresión de los esquemas oscuros.
+
+
+ITALIANO  (it-IT)
+----------------------------------------------------------------
+Versione 1.6.1
+• Tour rapido: in un minuto PureQuill ti mostra i punti più importanti, direttamente sull’interfaccia. Lo trovi nella finestra iniziale e in fondo all’aiuto.
+• Nuovo tema colori Abissi: barre color petrolio scuro con accento turchese, la pagina resta bianca.
+• Nuova icona: una pagina su cui scrive la piuma.
+• Anche Inchiostro ora ha una pagina bianca con testo scuro, l’interfaccia resta scura.
+• Lingua e tema colori nella finestra iniziale, con bandiere e anteprima dei colori.
+• Corretto: il testo delle tabelle era poco leggibile nell’anteprima di stampa dei temi scuri.
+
+
+POLSKI  (pl-PL)
+----------------------------------------------------------------
+Wersja 1.6.1
+• Krótki przewodnik: w minutę PureQuill pokazuje najważniejsze miejsca, bezpośrednio w interfejsie. Znajdziesz go w oknie startowym i na dole pomocy.
+• Nowy schemat kolorów Głębia morska: ciemne paski w kolorze petrolu z turkusowym akcentem, strona pozostaje biała.
+• Nowa ikona: strona, na której pisze pióro.
+• Atrament ma teraz również białą stronę z ciemnym tekstem, interfejs pozostaje ciemny.
+• Język i schemat kolorów w oknie startowym z flagami i podglądem kolorów.
+• Poprawione: tekst w tabelach był słabo czytelny w podglądzie wydruku ciemnych schematów.
+
+
+PORTUGUÊS (BRASIL)  (pt-BR)
+----------------------------------------------------------------
+Versão 1.6.1
+• Tour rápido: em um minuto o PureQuill mostra os pontos mais importantes, direto na interface. Fica na janela inicial e no rodapé da ajuda.
+• Novo esquema de cores Mar profundo: barras em azul-petróleo escuro com destaque turquesa; a página continua branca.
+• Novo ícone: uma página onde a pena escreve.
+• Tinta agora também tem página branca com texto escuro; a interface continua escura.
+• Idioma e esquema de cores na janela inicial, com bandeiras e prévia das cores.
+• Corrigido: o texto das tabelas ficava difícil de ler na visualização de impressão dos esquemas escuros.
