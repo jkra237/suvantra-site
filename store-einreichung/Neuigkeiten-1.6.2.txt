@@ -1,0 +1,81 @@
+================================================================
+PureQuill Writer 1.6.2 — „Neuigkeiten in dieser Version“
+Partner Center: Store-Angebot › <Sprache> › Neuigkeiten in dieser Version
+Je Sprache den Block zwischen den Linien einfügen.
+================================================================
+
+DEUTSCH  (de-DE)
+----------------------------------------------------------------
+Version 1.6.2
+• Tabellen sortieren, Text in eine Tabelle umwandeln und zurück, neues Fenster „Tabelleneigenschaften“ (Zeilenhöhe, Zeile nicht über Seiten trennen).
+• Zeile, Spalte oder ganze Tabelle per Klick markieren; die Rücktaste löscht das Markierte, Entf leert nur den Inhalt.
+• Spaltenbreiten ziehen mit Hilfslinie und Maßangabe, Spaltenmarken im Lineal.
+• Fett, Kursiv und Unterstrichen gelten mitten im Wort für das ganze Wort; „Wort - Wort“ wird zu „Wort – Wort“.
+• Mehr Platz für Bilder: Dokumente mit vielen Fotos werden vollständig gespeichert.
+• Behoben: Zeilen einfügen und löschen neben verbundenen Zellen, Text an eine Überschrift angehängt blieb klein, Listen in Tabellenzellen, Scrollleisten in dunklen Farbschemata und weitere Kleinigkeiten.
+
+
+ENGLISH  (en-US)
+----------------------------------------------------------------
+Version 1.6.2
+• Sort tables, convert text to a table and back, new Table Properties window (row height, don't split a row across pages).
+• Select a row, column or whole table with one click; Backspace deletes the selection, Delete only clears its content.
+• Drag column widths with a guide line and measurement, column markers in the ruler.
+• Bold, italic and underline apply to the whole word when the cursor is inside it; "word - word" becomes "word – word".
+• More room for pictures: documents with many photos are now saved completely.
+• Fixed: inserting and deleting rows next to merged cells, text joined to a heading staying small, lists in table cells, scroll bars in dark colour schemes and other small things.
+
+
+FRANÇAIS  (fr-FR)
+----------------------------------------------------------------
+Version 1.6.2
+• Trier les tableaux, convertir du texte en tableau et inversement, nouvelle fenêtre « Propriétés du tableau » (hauteur de ligne, ne pas couper une ligne entre deux pages).
+• Sélectionner une ligne, une colonne ou tout le tableau d’un clic ; Retour arrière supprime la sélection, Suppr n’efface que le contenu.
+• Largeur des colonnes à la souris avec ligne de repère et mesure, repères de colonnes dans la règle.
+• Gras, italique et souligné s’appliquent au mot entier quand le curseur est dans le mot ; « mot - mot » devient « mot – mot ».
+• Plus de place pour les images : les documents contenant beaucoup de photos sont désormais enregistrés entièrement.
+• Corrigé : insertion et suppression de lignes à côté de cellules fusionnées, texte rattaché à un titre resté petit, listes dans les cellules, barres de défilement des thèmes sombres et autres détails.
+
+
+ESPAÑOL  (es-ES)
+----------------------------------------------------------------
+Versión 1.6.2
+• Ordenar tablas, convertir texto en tabla y al revés, nueva ventana «Propiedades de tabla» (alto de fila, no dividir una fila entre páginas).
+• Selecciona una fila, una columna o toda la tabla con un clic; Retroceso elimina la selección y Supr solo borra el contenido.
+• Arrastra el ancho de las columnas con línea guía y medida, marcas de columna en la regla.
+• Negrita, cursiva y subrayado se aplican a toda la palabra si el cursor está dentro; «palabra - palabra» pasa a «palabra – palabra».
+• Más espacio para imágenes: los documentos con muchas fotos ahora se guardan por completo.
+• Corregido: insertar y eliminar filas junto a celdas combinadas, texto unido a un título que quedaba pequeño, listas en celdas, barras de desplazamiento en esquemas oscuros y otros detalles.
+
+
+ITALIANO  (it-IT)
+----------------------------------------------------------------
+Versione 1.6.2
+• Ordinare le tabelle, convertire il testo in tabella e viceversa, nuova finestra «Proprietà tabella» (altezza riga, non dividere una riga tra le pagine).
+• Seleziona una riga, una colonna o l’intera tabella con un clic; Backspace elimina la selezione, Canc ne svuota solo il contenuto.
+• Larghezza delle colonne trascinabile con linea guida e misura, indicatori di colonna nel righello.
+• Grassetto, corsivo e sottolineato valgono per tutta la parola se il cursore è al suo interno; «parola - parola» diventa «parola – parola».
+• Più spazio per le immagini: i documenti con molte foto ora vengono salvati per intero.
+• Corretto: inserire ed eliminare righe accanto a celle unite, testo unito a un titolo che restava piccolo, elenchi nelle celle, barre di scorrimento nei temi scuri e altri dettagli.
+
+
+POLSKI  (pl-PL)
+----------------------------------------------------------------
+Wersja 1.6.2
+• Sortowanie tabel, zamiana tekstu na tabelę i z powrotem, nowe okno „Właściwości tabeli” (wysokość wiersza, nie dziel wiersza między stronami).
+• Zaznacz wiersz, kolumnę lub całą tabelę jednym kliknięciem; Backspace usuwa zaznaczenie, Delete czyści tylko zawartość.
+• Przeciąganie szerokości kolumn z linią pomocniczą i wymiarem, znaczniki kolumn na linijce.
+• Pogrubienie, kursywa i podkreślenie obejmują całe słowo, gdy kursor jest w jego środku; „słowo - słowo” zmienia się w „słowo – słowo”.
+• Więcej miejsca na obrazy: dokumenty z wieloma zdjęciami są teraz zapisywane w całości.
+• Poprawione: wstawianie i usuwanie wierszy obok scalonych komórek, tekst dołączony do nagłówka pozostawał mały, listy w komórkach, paski przewijania w ciemnych schematach i inne drobiazgi.
+
+
+PORTUGUÊS (BRASIL)  (pt-BR)
+----------------------------------------------------------------
+Versão 1.6.2
+• Classificar tabelas, converter texto em tabela e vice-versa, nova janela “Propriedades da tabela” (altura da linha, não dividir uma linha entre páginas).
+• Selecione uma linha, uma coluna ou a tabela inteira com um clique; Backspace exclui a seleção, Delete apenas limpa o conteúdo.
+• Arraste a largura das colunas com linha-guia e medida, marcadores de coluna na régua.
+• Negrito, itálico e sublinhado valem para a palavra inteira quando o cursor está dentro dela; “palavra - palavra” vira “palavra – palavra”.
+• Mais espaço para imagens: documentos com muitas fotos agora são salvos por completo.
+• Corrigido: inserir e excluir linhas ao lado de células mescladas, texto unido a um título que ficava pequeno, listas em células, barras de rolagem em esquemas escuros e outros detalhes.
